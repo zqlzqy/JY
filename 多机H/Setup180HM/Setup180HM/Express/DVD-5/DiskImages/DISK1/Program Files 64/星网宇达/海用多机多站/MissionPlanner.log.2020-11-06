@@ -1,0 +1,68 @@
+2020-11-06 11:51:51,919  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3857) [1]
+2020-11-06 11:51:52,049  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6230) [1]
+2020-11-06 11:51:52,050  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6243) [1]
+2020-11-06 11:51:52,050  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6259) [1]
+2020-11-06 11:51:52,356 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-06 11:51:52,360 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-06 11:52:28,413  INFO FBGroundControl.MainForm - Saving config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:5396) [1]
+2020-11-06 11:54:03,110  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3857) [1]
+2020-11-06 11:54:03,224  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6230) [1]
+2020-11-06 11:54:03,225  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6243) [1]
+2020-11-06 11:54:03,225  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6259) [1]
+2020-11-06 11:54:03,477 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-06 11:54:03,482 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-06 12:01:56,298  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3857) [1]
+2020-11-06 12:01:56,359  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6230) [1]
+2020-11-06 12:01:56,360  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6243) [1]
+2020-11-06 12:01:56,360  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6259) [1]
+2020-11-06 12:01:56,644 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-06 12:01:56,648 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-06 12:22:25,163  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [9]
+2020-11-06 12:22:25,174  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2020-11-06 12:22:25,175  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2020-11-06 12:22:25,439  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2020-11-06 12:22:25,492 ERROR FBGroundControl.MainForm - System.Exception: Please connect first!
+   在 FBGroundControl.MainForm.saveWPs(Object sender, ProgressWorkerEventArgs e, Object passdata) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 5570 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:5788) [ProgressReporterDialogue Background thread]
+2020-11-06 12:22:40,950  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [10]
+2020-11-06 12:22:41,218  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2020-11-06 12:22:41,219  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2020-11-06 12:22:41,423  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2020-11-06 12:22:53,842  INFO FBGroundControl.MainForm - Saving config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:5396) [1]
+2020-11-06 12:22:53,902 ERROR FBGroundControl.MainForm - System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]
+2020-11-06 12:29:59,260  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3855) [1]
+2020-11-06 12:29:59,329  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6228) [1]
+2020-11-06 12:29:59,330  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6241) [1]
+2020-11-06 12:29:59,330  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2020-11-06 12:29:59,662 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-06 12:29:59,666 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-06 14:17:50,055  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3855) [1]
+2020-11-06 14:17:50,124  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6228) [1]
+2020-11-06 14:17:50,125  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6241) [1]
+2020-11-06 14:17:50,125  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2020-11-06 14:17:50,472 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-06 14:17:50,477 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-06 14:23:44,037  INFO FBGroundControl.MainForm - Saving config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:5394) [1]

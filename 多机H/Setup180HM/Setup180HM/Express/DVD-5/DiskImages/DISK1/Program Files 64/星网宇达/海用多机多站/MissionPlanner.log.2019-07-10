@@ -1,0 +1,292 @@
+2019-07-10 14:56:04,758  INFO FBGroundControl.MainForm - Loading config (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:4081) [1]
+2019-07-10 14:56:04,831  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6397) [1]
+2019-07-10 14:56:04,831  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6410) [1]
+2019-07-10 14:56:04,832  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6426) [1]
+2019-07-10 14:56:05,137 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 14:56:05,141 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 14:57:51,378  INFO FBGroundControl.MainForm - Saving config (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:5546) [1]
+2019-07-10 14:59:34,143  INFO FBGroundControl.MainForm - Loading config (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:4081) [1]
+2019-07-10 14:59:34,195  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6397) [1]
+2019-07-10 14:59:34,196  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6410) [1]
+2019-07-10 14:59:34,196  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6426) [1]
+2019-07-10 14:59:34,574 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 14:59:34,580 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 14:59:52,383  INFO FBGroundControl.MainForm - Saving config (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:5546) [1]
+2019-07-10 15:29:10,215  INFO FBGroundControl.MainForm - Loading config (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:4081) [1]
+2019-07-10 15:29:10,288  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6397) [1]
+2019-07-10 15:29:10,289  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6410) [1]
+2019-07-10 15:29:10,289  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6426) [1]
+2019-07-10 15:29:10,599 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 15:29:10,604 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 15:31:06,669  INFO FBGroundControl.MainForm - Loading config (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:4081) [1]
+2019-07-10 15:31:06,773  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6397) [1]
+2019-07-10 15:31:06,774  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6410) [1]
+2019-07-10 15:31:06,774  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6426) [1]
+2019-07-10 15:31:07,015 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 15:31:07,019 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 15:36:49,886  INFO FBGroundControl.MainForm - Loading config (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:4081) [1]
+2019-07-10 15:36:49,950  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6397) [1]
+2019-07-10 15:36:49,951  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6410) [1]
+2019-07-10 15:36:49,951  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6426) [1]
+2019-07-10 15:36:50,419 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 15:36:50,424 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 15:36:55,814 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:55,844 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:56,519 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:56,529 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:56,570 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:56,580 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:57,009 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:57,020 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:57,075 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:57,140 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:57,236 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:57,288 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:57,806 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:57,837 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:57,910 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:57,921 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:57,986 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:57,997 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:58,007 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:36:58,024 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:37:10,035 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:37:10,086 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:37:10,096 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:37:10,108 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 15:37:11,886  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:行号 5396
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:行号 2492 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2525) [1]
+2019-07-10 15:46:38,713  INFO FBGroundControl.MainForm - Loading config (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:4081) [1]
+2019-07-10 15:46:38,771  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6397) [1]
+2019-07-10 15:46:38,772  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6410) [1]
+2019-07-10 15:46:38,772  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6426) [1]
+2019-07-10 15:46:39,161 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 15:46:39,164 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 15:55:44,054  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-07-10 15:57:03,072  INFO FBGroundControl.MainForm - Loading config (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:4081) [1]
+2019-07-10 15:57:03,156  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6397) [1]
+2019-07-10 15:57:03,157  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6410) [1]
+2019-07-10 15:57:03,157  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6426) [1]
+2019-07-10 15:57:03,468 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 15:57:03,473 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 16:02:15,631  INFO FBGroundControl.MainForm - Saving config (:0) [1]
+2019-07-10 16:06:13,991  INFO FBGroundControl.MainForm - Loading config (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:4081) [1]
+2019-07-10 16:06:14,053  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6397) [1]
+2019-07-10 16:06:14,054  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6410) [1]
+2019-07-10 16:06:14,054  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6426) [1]
+2019-07-10 16:06:14,434 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 16:06:14,439 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 16:18:23,891  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-07-10 16:20:14,739  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-07-10 16:20:17,569 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 16:20:17,638 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 16:21:43,589  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-07-10 16:25:44,577  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-07-10 16:35:39,597  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-07-10 16:37:31,120  INFO FBGroundControl.MainForm - Saving config (:0) [1]
+2019-07-10 16:46:21,328  INFO FBGroundControl.MainForm - Loading config (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:4081) [1]
+2019-07-10 16:46:21,377  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6397) [1]
+2019-07-10 16:46:21,378  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6410) [1]
+2019-07-10 16:46:21,379  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6426) [1]
+2019-07-10 16:46:21,684 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 16:46:21,689 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 17:05:22,846  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-07-10 17:06:51,383  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2019-07-10 17:06:51,448  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-07-10 17:06:51,448  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-07-10 17:06:51,653  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-07-10 17:06:51,850 ERROR FBGroundControl.MainForm - System.Exception: Please connect first!
+   在 FBGroundControl.MainForm.saveWPs(Object sender, ProgressWorkerEventArgs e, Object passdata) (:0) [ProgressReporterDialogue Background thread]
+2019-07-10 17:07:02,706 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:02,717 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:02,748 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:02,758 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:02,769 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:02,780 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:04,540  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-07-10 17:07:08,048  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2019-07-10 17:07:08,049  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2019-07-10 17:07:08,049  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2019-07-10 17:07:08,077 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:08,131 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:08,165 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:08,178 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:08,189 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:08,266 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:08,290 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:08,328 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:08,341 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:08,465 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:08,486 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:08,501 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:07:39,434  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-07-10 17:12:28,804 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:28,815 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:28,826 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:28,902 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:28,939 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:28,971 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:29,086 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:29,160 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:29,212 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:29,225 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:29,236 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:29,348 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:29,381 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:29,398 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:30,602 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:30,613 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:30,624 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:30,634 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:30,692 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:30,724 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:30,735 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:30,769 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:30,832 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:30,887 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:30,942 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:30,975 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:31,009 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:31,027 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:31,053 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:12:31,110 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (:0) [1]
+2019-07-10 17:17:43,161  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-07-10 17:23:28,959  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-07-10 17:26:18,050  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-07-10 17:27:06,292  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-07-10 17:33:29,765  INFO FBGroundControl.MainForm - Loading config (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:4081) [1]
+2019-07-10 17:33:29,808  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6397) [1]
+2019-07-10 17:33:29,809  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6410) [1]
+2019-07-10 17:33:29,809  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:6426) [1]
+2019-07-10 17:33:30,138 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 17:33:30,142 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\FBGroundContro150H611l\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-07-10 17:34:39,018 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:39,052 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:39,086 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:39,112 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:39,193 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:39,228 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:39,369 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:39,451 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:39,474 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:39,487 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:39,502 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:39,519 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:39,553 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:39,628 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:40,539 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:40,552 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:40,562 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:40,575 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:40,611 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:40,646 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:40,704 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:40,746 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:40,828 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:40,839 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:41,013 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:41,024 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:41,059 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:41,090 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:41,101 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 17:34:41,109 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\FBGroundContro150H611l\FBGroundControl\FBGroundControl\MainForm.cs:2640) [1]
+2019-07-10 18:26:23,196  INFO FBGroundControl.MainForm - Saving config (:0) [1]

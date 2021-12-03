@@ -1,0 +1,17 @@
+2020-11-18 10:31:55,094  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3842) [1]
+2020-11-18 10:31:55,178  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6331) [1]
+2020-11-18 10:31:55,178  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6344) [1]
+2020-11-18 10:31:55,179  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6360) [1]
+2020-11-18 10:31:55,468 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-18 10:31:55,472 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-18 10:32:58,955  INFO FBGroundControl.MainForm - Saving config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:5393) [1]
+2020-11-18 10:32:59,153 ERROR FBGroundControl.MainForm - System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 0 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4302) [FD Mainloop]

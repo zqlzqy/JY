@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <serialName>COM11</serialName>
+    <baudRate>115200</baudRate>
+  </Table1>
+</NewDataSet>

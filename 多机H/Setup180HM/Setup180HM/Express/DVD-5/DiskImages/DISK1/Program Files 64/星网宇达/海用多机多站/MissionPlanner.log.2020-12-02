@@ -1,0 +1,184 @@
+2020-12-02 10:24:25,628 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:25,638  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 242553 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,639  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 5 pos 242554 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,639  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 177 pos 242555 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,640  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 236 pos 242556 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,640  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 71 pos 242557 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,641  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 98 pos 242558 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,641  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 113 pos 242559 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,641  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 29 pos 242560 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,895 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:25,897  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 242643 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,897  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 5 pos 242644 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,898  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 177 pos 242645 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,898  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 236 pos 242646 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,899  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 71 pos 242647 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,899  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 99 pos 242648 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,899  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 222 pos 242649 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:25,900  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 190 pos 242650 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5383) [FD Mainloop]
+2020-12-02 10:24:26,142 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,192 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,242 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,292 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,343 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,393 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,401 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,443 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,451 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,493 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,501 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,543 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,551 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,593 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,601 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,643 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,651 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,693 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,701 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,743 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,751 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,795 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,801 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,845 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,851 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,895 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,901 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,945 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,951 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:26,995 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,017 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,045 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,067 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,095 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,117 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,145 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,167 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,195 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,217 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,245 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,267 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,295 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,317 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,345 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,367 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,395 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,417 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,445 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,467 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,496 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,524 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,547 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,575 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 4242 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2020-12-02 10:24:27,597 ERROR FBGroundControl.MainForm - System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]

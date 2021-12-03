@@ -1,0 +1,1156 @@
+2021-06-28 10:39:24,065  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3841) [1]
+2021-06-28 10:39:24,140  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6215) [1]
+2021-06-28 10:39:24,141  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6228) [1]
+2021-06-28 10:39:24,141  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6244) [1]
+2021-06-28 10:39:24,452 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:39:24,458 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:40:53,990 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:40:53,991 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:40:54,051 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:40:54,051 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:40:54,090 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:40:54,091 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:40:54,242 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:40:54,242 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:40:54,442 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:40:54,442 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:40:55,161 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:40:55,161 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:41:20,873 ERROR FBGroundControl.MainForm - System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:行号 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:4314) [FD Mainloop]
+2021-06-28 10:41:20,931 ERROR FBGroundControl.MainForm - System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]
+2021-06-28 10:48:27,601  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3841) [1]
+2021-06-28 10:48:27,668  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6215) [1]
+2021-06-28 10:48:27,669  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6228) [1]
+2021-06-28 10:48:27,669  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6244) [1]
+2021-06-28 10:48:27,887 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:48:27,893 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 10:50:23,720  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:23,959  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM4 = 通信端口 (COM4) (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2021-06-28 10:50:23,960  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:24,052  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM2 =  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2021-06-28 10:50:24,054  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:24,147  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM3 =  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2021-06-28 10:50:24,148  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:24,148  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:24,149  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:24,241  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM5 =  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2021-06-28 10:50:24,242  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM6 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:24,335  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM6 =  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2021-06-28 10:50:24,336  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM8 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:24,429  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM8 =  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2021-06-28 10:50:25,024  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,024  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,025  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,025  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,025  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,026  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,026  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,026  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,027  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,027  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM5 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,027  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM6 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,027  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM6 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,028  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM8 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,028  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM8 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,541  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,541  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,565  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,565  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,567  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,567  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,589  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,589  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,590  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,590  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,629  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,629  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,630  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,630  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,671  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,672  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,672  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,672  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM5 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,743  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,743  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM5 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,744  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM6 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,744  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM6 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,773  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM6 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,773  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM6 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:25,774  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM8 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:25,774  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM8 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:26,493  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM8 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:26,493  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM8 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:26,494  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM6 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:26,494  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM6 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:26,509  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM6 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:26,509  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM6 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:26,510  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:26,510  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM5 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:26,533  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:26,533  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM5 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:26,534  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:26,534  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:26,550  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:26,550  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:26,550  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:26,551  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:26,573  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:26,573  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:26,574  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:26,574  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:26,703  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:26,703  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:26,704  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:26,704  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:29,202  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:29,202  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:29,203  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM11 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:29,294  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM11 =  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2021-06-28 10:50:29,294  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM12 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:29,386  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM12 =  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2021-06-28 10:50:29,554  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:29,554  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:29,555  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:29,555  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:29,853  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:29,853  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:29,854  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM11 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:29,854  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM11 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:29,893  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM11 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:29,893  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM11 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:29,894  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM12 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2021-06-28 10:50:29,894  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM12 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2021-06-28 10:50:33,024  INFO FBGroundControl.MainForm - MenuConnect Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7361) [1]
+2021-06-28 10:50:33,025  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7375) [1]
+2021-06-28 10:50:33,025  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7398) [1]
+2021-06-28 10:50:33,025  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7412) [1]
+2021-06-28 10:50:34,350  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:1508) [1]
+2021-06-28 10:50:34,389  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [8]
+2021-06-28 10:50:34,402  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 10:50:34,403  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 10:50:34,608  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 10:50:35,610  INFO MissionPlanner.JYLinkInterface - Open port with COM12 115200 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2021-06-28 10:50:35,611  INFO MissionPlanner.Comms.SerialPort - COM12 RtsEnable True (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2021-06-28 10:50:36,613  INFO MissionPlanner.JYLinkInterface - 613 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 10:50:41,342  INFO MissionPlanner.JYLinkInterface - 342 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 10:50:46,352  INFO MissionPlanner.JYLinkInterface - 352 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 10:50:51,362  INFO MissionPlanner.JYLinkInterface - 362 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 10:50:56,372  INFO MissionPlanner.JYLinkInterface - 372 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 10:51:01,382  INFO MissionPlanner.JYLinkInterface - 382 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 10:51:06,392  INFO MissionPlanner.JYLinkInterface - 392 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 10:51:11,402  INFO MissionPlanner.JYLinkInterface - 402 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 10:51:11,424 ERROR MissionPlanner.JYLinkInterface - System.Exception: Can not establish a connection
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:行号 445 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:545) [ProgressReporterDialogue Background thread]
+2021-06-28 10:51:22,254  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:1534) [1]
+2021-06-28 10:51:25,847  INFO FBGroundControl.MainForm - MenuConnect Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7361) [1]
+2021-06-28 10:51:25,847  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7375) [1]
+2021-06-28 10:51:25,847  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7398) [1]
+2021-06-28 10:51:25,847  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7412) [1]
+2021-06-28 10:51:27,214  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:1508) [1]
+2021-06-28 10:51:27,238  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2021-06-28 10:51:27,441  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 10:51:27,441  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 10:51:27,644  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 10:51:28,644  INFO MissionPlanner.JYLinkInterface - Open port with COM12 115200 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2021-06-28 10:51:28,644  INFO MissionPlanner.Comms.SerialPort - COM12 RtsEnable True (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2021-06-28 10:51:29,645  INFO MissionPlanner.JYLinkInterface - 645 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 10:52:17,092  INFO MissionPlanner.JYLinkInterface - 92 Start connect loop  (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 10:52:17,106 ERROR MissionPlanner.JYLinkInterface - System.Exception: Can not establish a connection
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 10:52:18,998  INFO FBGroundControl.MainForm - comport is closed. existing connect (:0) [1]
+2021-06-28 10:52:22,256  INFO FBGroundControl.MainForm - MenuConnect Start (:0) [1]
+2021-06-28 10:52:22,257  INFO FBGroundControl.MainForm - Cleanup last logfiles (:0) [1]
+2021-06-28 10:52:22,257  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (:0) [1]
+2021-06-28 10:52:22,257  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (:0) [1]
+2021-06-28 10:52:23,321  INFO FBGroundControl.MainForm - About to do dtr if needed (:0) [1]
+2021-06-28 10:52:23,344  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [20]
+2021-06-28 10:52:23,357  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 10:52:23,357  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 10:52:23,560  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 10:52:24,560  INFO MissionPlanner.JYLinkInterface - Open port with COM12 115200 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 10:52:24,560  INFO MissionPlanner.Comms.SerialPort - COM12 RtsEnable True (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2021-06-28 10:52:25,562  INFO MissionPlanner.JYLinkInterface - 562 Start connect loop  (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 10:52:25,775  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 10:52:26,836 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() (:0) [1]
+2021-06-28 10:53:09,720 ERROR FBGroundControl.MainForm - System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]
+2021-06-28 11:09:25,906  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3841) [1]
+2021-06-28 11:09:26,037  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6218) [1]
+2021-06-28 11:09:26,038  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6231) [1]
+2021-06-28 11:09:26,038  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6247) [1]
+2021-06-28 11:09:26,356 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 11:09:26,360 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 11:11:31,904  INFO FBGroundControl.MainForm - MenuConnect Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7363) [1]
+2021-06-28 11:11:31,905  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7377) [1]
+2021-06-28 11:11:31,905  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7400) [1]
+2021-06-28 11:11:31,906  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7414) [1]
+2021-06-28 11:11:33,140  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:1508) [1]
+2021-06-28 11:11:33,179  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2021-06-28 11:11:33,192  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 11:11:33,193  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 11:11:33,398  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 11:11:34,400  INFO MissionPlanner.JYLinkInterface - Open port with COM12 115200 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2021-06-28 11:11:34,401  INFO MissionPlanner.Comms.SerialPort - COM12 RtsEnable True (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2021-06-28 11:11:35,405  INFO MissionPlanner.JYLinkInterface - 405 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 11:11:35,633  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 11:11:36,689 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:行号 387 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2021-06-28 11:14:16,089 ERROR FBGroundControl.MainForm - System.ComponentModel.Win32Exception (0x80004005): 创建窗口句柄时出错。
+   在 System.Windows.Forms.NativeWindow.CreateHandle(CreateParams cp)
+   在 System.Windows.Forms.Control.CreateHandle()
+   在 System.Windows.Forms.TextBoxBase.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.get_WindowText()
+   在 System.Windows.Forms.TextBoxBase.get_WindowText()
+   在 System.Windows.Forms.Control.get_Text()
+   在 System.Windows.Forms.TextBox.get_Text()
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:行号 4298 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:4317) [FD Mainloop]
+2021-06-28 11:21:18,300  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3841) [1]
+2021-06-28 11:21:18,370  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6218) [1]
+2021-06-28 11:21:18,371  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6231) [1]
+2021-06-28 11:21:18,371  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6247) [1]
+2021-06-28 11:21:18,649 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 11:21:18,655 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 11:24:14,731  INFO FBGroundControl.MainForm - MenuConnect Start (:0) [1]
+2021-06-28 11:24:14,731  INFO FBGroundControl.MainForm - Cleanup last logfiles (:0) [1]
+2021-06-28 11:24:14,731  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (:0) [1]
+2021-06-28 11:24:14,731  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (:0) [1]
+2021-06-28 11:24:15,819  INFO FBGroundControl.MainForm - About to do dtr if needed (:0) [1]
+2021-06-28 11:24:15,867  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2021-06-28 11:24:15,881  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 11:24:15,882  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 11:24:16,115  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 11:24:17,116  INFO MissionPlanner.JYLinkInterface - Open port with COM12 115200 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:24:17,117  INFO MissionPlanner.Comms.SerialPort - COM12 RtsEnable True (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2021-06-28 11:24:18,121  INFO MissionPlanner.JYLinkInterface - 121 Start connect loop  (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:24:18,340  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 11:24:19,391 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() (:0) [1]
+2021-06-28 11:26:30,729  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [18]
+2021-06-28 11:26:30,741  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:30,741  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 11:26:30,945  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:30,983  INFO FBGroundControl.MainForm - wps values 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:30,983  INFO FBGroundControl.MainForm - cmd rows 11 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:31,206  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,065  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [22]
+2021-06-28 11:26:38,073  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,098  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 11:26:38,331  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,332  INFO FBGroundControl.MainForm - Getting Home (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,332  INFO FBGroundControl.MainForm - Getting WP # (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,334  INFO FBGroundControl.MainForm - Getting WP0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,341  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 1400 11600 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,342  INFO FBGroundControl.MainForm - Getting WP1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,348  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 -7800 -11100 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,348  INFO FBGroundControl.MainForm - Getting WP2 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,354  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -14000 6400 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,354  INFO FBGroundControl.MainForm - Getting WP3 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,360  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -22800 -6600 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,361  INFO FBGroundControl.MainForm - Getting WP0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,367  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 -17500 22200 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,367  INFO FBGroundControl.MainForm - Getting WP1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,373  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 -25000 34600 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,373  INFO FBGroundControl.MainForm - Getting WP2 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,379  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 -12600 34500 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,379  INFO FBGroundControl.MainForm - Getting WP3 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,480  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 -5700 29000 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,480  INFO FBGroundControl.MainForm - Getting WP4 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,486  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 6500 33500 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,486  INFO FBGroundControl.MainForm - Getting WP5 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,512  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -2000 39200 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,514  INFO FBGroundControl.MainForm - Getting WP0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,520  INFO MissionPlanner.JYLinkInterface - getWP 1 150 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,520  INFO FBGroundControl.MainForm - Getting WP1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,526  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,526  INFO FBGroundControl.MainForm - Getting WP2 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,532  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,532  INFO FBGroundControl.MainForm - Getting WP3 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,538  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,538  INFO FBGroundControl.MainForm - Getting WP4 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,544  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,544  INFO FBGroundControl.MainForm - Getting WP5 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,550  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,550  INFO FBGroundControl.MainForm - Getting WP6 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,680  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,680  INFO FBGroundControl.MainForm - Getting WP7 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,687  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,687  INFO FBGroundControl.MainForm - Getting WP8 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,693  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,693  INFO FBGroundControl.MainForm - Getting WP9 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,699  INFO MissionPlanner.JYLinkInterface - getWP 1 165 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,699  INFO FBGroundControl.MainForm - Getting WP10 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,705  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,705  INFO FBGroundControl.MainForm - Getting WP11 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,711  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,711  INFO FBGroundControl.MainForm - Getting WP12 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,717  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,717  INFO FBGroundControl.MainForm - Getting WP13 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,723  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,723  INFO FBGroundControl.MainForm - Getting WP14 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,729  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,729  INFO FBGroundControl.MainForm - Getting WP15 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,735  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,874  INFO FBGroundControl.MainForm - Getting WP16 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,880  INFO MissionPlanner.JYLinkInterface - getWP 1 160 370 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,880  INFO FBGroundControl.MainForm - Getting WP17 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,886  INFO MissionPlanner.JYLinkInterface - getWP 1 209 370 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,886  INFO FBGroundControl.MainForm - Getting WP18 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,892  INFO MissionPlanner.JYLinkInterface - getWP 3 136 390 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,892  INFO FBGroundControl.MainForm - Getting WP19 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,898  INFO MissionPlanner.JYLinkInterface - getWP 3 110 390 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,900  INFO FBGroundControl.MainForm - Done (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 11:26:38,949  INFO FBGroundControl.MainForm - Process 30 (:0) [1]
+2021-06-28 11:26:39,138  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-06-28 11:26:39,139  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-06-28 11:26:39,139  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-06-28 11:26:39,140  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 11:29:42,566  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3840) [1]
+2021-06-28 11:29:42,639  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6217) [1]
+2021-06-28 11:29:42,640  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6230) [1]
+2021-06-28 11:29:42,640  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6246) [1]
+2021-06-28 11:29:42,922 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 11:29:42,926 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 11:30:52,378  INFO FBGroundControl.MainForm - MenuConnect Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7362) [1]
+2021-06-28 11:30:52,379  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7376) [1]
+2021-06-28 11:30:52,379  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7399) [1]
+2021-06-28 11:30:52,379  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7413) [1]
+2021-06-28 11:30:53,348  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:1508) [1]
+2021-06-28 11:30:53,386  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2021-06-28 11:30:53,398  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 11:30:53,399  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 11:30:53,603  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 11:30:54,605  INFO MissionPlanner.JYLinkInterface - Open port with COM12 115200 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2021-06-28 11:30:54,606  INFO MissionPlanner.Comms.SerialPort - COM12 RtsEnable True (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2021-06-28 11:30:55,634  INFO MissionPlanner.JYLinkInterface - 634 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 11:30:55,863  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 11:30:56,910 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:行号 387 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2021-06-28 11:31:11,907  INFO FBGroundControl.MainForm - MenuConnect Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7362) [1]
+2021-06-28 11:31:11,907  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7376) [1]
+2021-06-28 11:31:11,907  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7399) [1]
+2021-06-28 11:31:11,907  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7413) [1]
+2021-06-28 11:31:13,001  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:1508) [1]
+2021-06-28 11:31:13,024  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [12]
+2021-06-28 11:31:13,035  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 11:31:13,063  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 11:31:13,267  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 11:31:14,267  INFO MissionPlanner.JYLinkInterface - Open port with COM12 115200 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2021-06-28 11:31:14,267  INFO MissionPlanner.Comms.SerialPort - COM12 RtsEnable True (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2021-06-28 11:31:15,268  INFO MissionPlanner.JYLinkInterface - 268 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 11:31:15,670  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 11:31:16,704 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:行号 387 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2021-06-28 11:32:23,461  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [13]
+2021-06-28 11:32:23,474  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:23,474  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 11:32:23,678  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:23,679  INFO FBGroundControl.MainForm - Getting Home (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9852) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:23,679  INFO FBGroundControl.MainForm - Getting WP # (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9857) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:23,681  INFO FBGroundControl.MainForm - Getting WP0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:23,683  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 1400 11600 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:23,684  INFO FBGroundControl.MainForm - Getting WP1 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:23,686  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 -7800 -11100 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:23,686  INFO FBGroundControl.MainForm - Getting WP2 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:23,687  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -14000 6400 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:23,687  INFO FBGroundControl.MainForm - Getting WP3 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:23,688  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -22800 -6600 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:23,688  INFO FBGroundControl.MainForm - Done (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9897) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:23,689  INFO FBGroundControl.MainForm - Process 4 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:2081) [1]
+2021-06-28 11:32:23,693  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6217) [1]
+2021-06-28 11:32:23,693  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6230) [1]
+2021-06-28 11:32:23,694  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6246) [1]
+2021-06-28 11:32:23,697  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,477  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2021-06-28 11:32:30,487  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,487  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 11:32:30,714  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,714  INFO FBGroundControl.MainForm - Getting Home (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9852) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,714  INFO FBGroundControl.MainForm - Getting WP # (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9857) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,715  INFO FBGroundControl.MainForm - Getting WP0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,716  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 1400 11600 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,716  INFO FBGroundControl.MainForm - Getting WP1 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,718  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 -7800 -11100 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,718  INFO FBGroundControl.MainForm - Getting WP2 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,719  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -14000 6400 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,719  INFO FBGroundControl.MainForm - Getting WP3 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,720  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -22800 -6600 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,720  INFO FBGroundControl.MainForm - Done (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9897) [ProgressReporterDialogue Background thread]
+2021-06-28 11:32:30,720  INFO FBGroundControl.MainForm - Process 4 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:2081) [1]
+2021-06-28 11:32:30,722  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6217) [1]
+2021-06-28 11:32:30,722  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6230) [1]
+2021-06-28 11:32:30,722  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6246) [1]
+2021-06-28 11:32:30,723  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,538  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2021-06-28 11:36:27,548  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,549  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 11:36:27,754  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,754  INFO FBGroundControl.MainForm - Getting Home (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9852) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,754  INFO FBGroundControl.MainForm - Getting WP # (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9857) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,756  INFO FBGroundControl.MainForm - Getting WP0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,757  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 1400 11600 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,757  INFO FBGroundControl.MainForm - Getting WP1 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,758  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 -7800 -11100 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,758  INFO FBGroundControl.MainForm - Getting WP2 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,759  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -14000 6400 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,759  INFO FBGroundControl.MainForm - Getting WP3 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,760  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -22800 -6600 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,760  INFO FBGroundControl.MainForm - Done (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9897) [ProgressReporterDialogue Background thread]
+2021-06-28 11:36:27,760  INFO FBGroundControl.MainForm - Process 4 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:2081) [1]
+2021-06-28 11:36:27,817  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6217) [1]
+2021-06-28 11:36:27,817  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6230) [1]
+2021-06-28 11:36:27,817  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6246) [1]
+2021-06-28 11:36:27,818  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 11:40:10,216  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3840) [1]
+2021-06-28 11:40:10,308  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6217) [1]
+2021-06-28 11:40:10,309  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6230) [1]
+2021-06-28 11:40:10,309  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6246) [1]
+2021-06-28 11:40:10,644 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 11:40:10,649 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 12:56:27,990  INFO FBGroundControl.MainForm - MenuConnect Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7362) [1]
+2021-06-28 12:56:27,991  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7376) [1]
+2021-06-28 12:56:27,991  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7399) [1]
+2021-06-28 12:56:27,991  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7413) [1]
+2021-06-28 12:56:29,236  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:1508) [1]
+2021-06-28 12:56:29,272  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2021-06-28 12:56:29,305  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 12:56:29,306  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 12:56:29,622  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 12:56:30,623  INFO MissionPlanner.JYLinkInterface - Open port with COM12 115200 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2021-06-28 12:56:30,624  INFO MissionPlanner.Comms.SerialPort - COM12 RtsEnable True (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2021-06-28 12:56:31,626  INFO MissionPlanner.JYLinkInterface - 626 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 12:56:31,832  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 12:56:32,881 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:行号 387 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2021-06-28 12:57:00,350  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [15]
+2021-06-28 12:57:00,470  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 12:57:00,471  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 12:57:00,791  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 12:57:00,792  INFO FBGroundControl.MainForm - Getting Home (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9852) [ProgressReporterDialogue Background thread]
+2021-06-28 12:57:00,793  INFO FBGroundControl.MainForm - Getting WP # (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9857) [ProgressReporterDialogue Background thread]
+2021-06-28 12:57:00,795  INFO FBGroundControl.MainForm - Getting WP0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 12:57:00,798  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 1400 11600 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 12:57:00,799  INFO FBGroundControl.MainForm - Getting WP1 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 12:57:00,801  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 -7800 -11100 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 12:57:00,801  INFO FBGroundControl.MainForm - Getting WP2 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 12:57:00,802  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -14000 6400 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 12:57:00,802  INFO FBGroundControl.MainForm - Getting WP3 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9878) [ProgressReporterDialogue Background thread]
+2021-06-28 12:57:00,804  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -22800 -6600 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 12:57:00,804  INFO FBGroundControl.MainForm - Done (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9897) [ProgressReporterDialogue Background thread]
+2021-06-28 12:57:00,805  INFO FBGroundControl.MainForm - Process 4 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:2081) [1]
+2021-06-28 12:57:00,886  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6217) [1]
+2021-06-28 12:57:00,887  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6230) [1]
+2021-06-28 12:57:00,887  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6246) [1]
+2021-06-28 12:57:00,891  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:52,912  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [27]
+2021-06-28 13:02:52,919  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:52,919  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:02:53,146  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:53,152  INFO FBGroundControl.MainForm - wps values 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:53,152  INFO FBGroundControl.MainForm - cmd rows 9 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:53,188  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:57,626  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [19]
+2021-06-28 13:02:57,635  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:57,793  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:02:58,109  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:58,109  INFO FBGroundControl.MainForm - Getting Home (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:58,110  INFO FBGroundControl.MainForm - Getting WP # (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:58,111  INFO FBGroundControl.MainForm - Getting WP0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:58,117  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 1400 -400 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:58,118  INFO FBGroundControl.MainForm - Getting WP1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:58,124  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 6900 -13100 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:58,124  INFO FBGroundControl.MainForm - Getting WP2 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:58,130  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -11100 -1300 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:58,130  INFO FBGroundControl.MainForm - Getting WP3 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:02:59,638  INFO MissionPlanner.JYLinkInterface - getWP Retry 1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,620  INFO FBGroundControl.MainForm - Getting WP0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,627  INFO MissionPlanner.JYLinkInterface - getWP 1 150 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,627  INFO FBGroundControl.MainForm - Getting WP1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,633  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,633  INFO FBGroundControl.MainForm - Getting WP2 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,639  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,639  INFO FBGroundControl.MainForm - Getting WP3 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,646  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,646  INFO FBGroundControl.MainForm - Getting WP4 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,653  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,653  INFO FBGroundControl.MainForm - Getting WP5 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,659  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,659  INFO FBGroundControl.MainForm - Getting WP6 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,665  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,665  INFO FBGroundControl.MainForm - Getting WP7 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,671  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,671  INFO FBGroundControl.MainForm - Getting WP8 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,677  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,677  INFO FBGroundControl.MainForm - Getting WP9 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,683  INFO MissionPlanner.JYLinkInterface - getWP 1 165 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,683  INFO FBGroundControl.MainForm - Getting WP10 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,689  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,689  INFO FBGroundControl.MainForm - Getting WP11 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,695  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,695  INFO FBGroundControl.MainForm - Getting WP12 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,702  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,842  INFO FBGroundControl.MainForm - Getting WP13 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,848  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,848  INFO FBGroundControl.MainForm - Getting WP14 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,855  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,855  INFO FBGroundControl.MainForm - Getting WP15 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,861  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,861  INFO FBGroundControl.MainForm - Getting WP16 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,867  INFO MissionPlanner.JYLinkInterface - getWP 1 160 370 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,867  INFO FBGroundControl.MainForm - Getting WP17 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,873  INFO MissionPlanner.JYLinkInterface - getWP 1 209 370 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,873  INFO FBGroundControl.MainForm - Getting WP18 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,879  INFO MissionPlanner.JYLinkInterface - getWP 3 136 390 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,879  INFO FBGroundControl.MainForm - Getting WP19 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,885  INFO MissionPlanner.JYLinkInterface - getWP 3 110 390 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,887  INFO FBGroundControl.MainForm - Done (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:02,944  INFO FBGroundControl.MainForm - Process 23 (:0) [1]
+2021-06-28 13:03:03,109  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-06-28 13:03:03,110  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-06-28 13:03:03,110  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-06-28 13:03:03,111  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:06,177  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [28]
+2021-06-28 13:03:06,296  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:06,321  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:03:06,525  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:06,525  INFO FBGroundControl.MainForm - Getting Home (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:06,526  INFO FBGroundControl.MainForm - Getting WP # (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:06,527  INFO FBGroundControl.MainForm - Getting WP0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:06,533  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 1400 -400 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:06,533  INFO FBGroundControl.MainForm - Getting WP1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:06,539  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 6900 -13100 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:06,539  INFO FBGroundControl.MainForm - Getting WP2 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:06,545  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -11100 -1300 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:06,545  INFO FBGroundControl.MainForm - Getting WP3 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:08,050  INFO MissionPlanner.JYLinkInterface - getWP Retry 1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,659  INFO FBGroundControl.MainForm - Getting WP0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,665  INFO MissionPlanner.JYLinkInterface - getWP 1 150 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,665  INFO FBGroundControl.MainForm - Getting WP1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,671  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,671  INFO FBGroundControl.MainForm - Getting WP2 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,677  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,677  INFO FBGroundControl.MainForm - Getting WP3 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,683  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,683  INFO FBGroundControl.MainForm - Getting WP4 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,690  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,690  INFO FBGroundControl.MainForm - Getting WP5 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,696  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,696  INFO FBGroundControl.MainForm - Getting WP6 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,702  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,702  INFO FBGroundControl.MainForm - Getting WP7 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,708  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,708  INFO FBGroundControl.MainForm - Getting WP8 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,714  INFO MissionPlanner.JYLinkInterface - getWP 1 170 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,714  INFO FBGroundControl.MainForm - Getting WP9 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,720  INFO MissionPlanner.JYLinkInterface - getWP 1 165 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,720  INFO FBGroundControl.MainForm - Getting WP10 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,726  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,726  INFO FBGroundControl.MainForm - Getting WP11 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,732  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,732  INFO FBGroundControl.MainForm - Getting WP12 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,740  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,740  INFO FBGroundControl.MainForm - Getting WP13 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,746  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,889  INFO FBGroundControl.MainForm - Getting WP14 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,896  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,896  INFO FBGroundControl.MainForm - Getting WP15 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,902  INFO MissionPlanner.JYLinkInterface - getWP 1 160 2900 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,902  INFO FBGroundControl.MainForm - Getting WP16 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,909  INFO MissionPlanner.JYLinkInterface - getWP 1 160 370 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,909  INFO FBGroundControl.MainForm - Getting WP17 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,915  INFO MissionPlanner.JYLinkInterface - getWP 1 209 370 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,915  INFO FBGroundControl.MainForm - Getting WP18 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,921  INFO MissionPlanner.JYLinkInterface - getWP 3 136 390 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,921  INFO FBGroundControl.MainForm - Getting WP19 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,927  INFO MissionPlanner.JYLinkInterface - getWP 3 110 390 0 0 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,930  INFO FBGroundControl.MainForm - Done (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:03:10,981  INFO FBGroundControl.MainForm - Process 23 (:0) [1]
+2021-06-28 13:03:11,149  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-06-28 13:03:11,149  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-06-28 13:03:11,149  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-06-28 13:03:11,150  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:24,167  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [15]
+2021-06-28 13:04:24,299  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:24,328  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:04:24,656  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:24,656  INFO FBGroundControl.MainForm - wps values 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:24,657  INFO FBGroundControl.MainForm - cmd rows 9 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:24,690  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:27,291  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [19]
+2021-06-28 13:04:27,301  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:27,458  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:04:27,785  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:27,785  INFO FBGroundControl.MainForm - Getting Home (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:27,785  INFO FBGroundControl.MainForm - Getting WP # (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:27,787  INFO FBGroundControl.MainForm - Getting WP0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:27,793  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 1400 -400 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:27,793  INFO FBGroundControl.MainForm - Getting WP1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:27,800  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 6900 -13100 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:27,800  INFO FBGroundControl.MainForm - Getting WP2 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:27,806  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -11100 -1300 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:27,806  INFO FBGroundControl.MainForm - Getting WP3 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:29,311  INFO MissionPlanner.JYLinkInterface - getWP Retry 1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:32,367  INFO FBGroundControl.MainForm - Done (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:32,413  INFO FBGroundControl.MainForm - Process 3 (:0) [1]
+2021-06-28 13:04:32,478  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-06-28 13:04:32,478  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-06-28 13:04:32,479  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-06-28 13:04:32,479  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:41,031  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [26]
+2021-06-28 13:04:41,041  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:41,041  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:04:41,271  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:41,271  INFO FBGroundControl.MainForm - Getting Home (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:41,271  INFO FBGroundControl.MainForm - Getting WP # (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:41,273  INFO FBGroundControl.MainForm - Getting WP0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:41,274  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 1400 -400 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:41,274  INFO FBGroundControl.MainForm - Getting WP1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:41,276  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 6900 -13100 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:41,276  INFO FBGroundControl.MainForm - Getting WP2 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:41,277  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -11100 -1300 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:41,277  INFO FBGroundControl.MainForm - Getting WP3 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:42,777  INFO MissionPlanner.JYLinkInterface - getWP Retry 1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:45,808  INFO FBGroundControl.MainForm - Done (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:45,808  INFO FBGroundControl.MainForm - Process 3 (:0) [1]
+2021-06-28 13:04:45,869  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-06-28 13:04:45,869  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-06-28 13:04:45,870  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-06-28 13:04:45,871  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:58,234  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2021-06-28 13:04:58,345  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:58,348  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:04:58,670  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:58,670  INFO FBGroundControl.MainForm - Getting Home (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:58,670  INFO FBGroundControl.MainForm - Getting WP # (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:58,673  INFO FBGroundControl.MainForm - Done (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:04:58,673  INFO FBGroundControl.MainForm - Process 0 (:0) [1]
+2021-06-28 13:04:58,675  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:14,071  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [19]
+2021-06-28 13:05:14,081  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:14,204  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:05:14,526  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:14,527  INFO FBGroundControl.MainForm - Getting Home (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:14,527  INFO FBGroundControl.MainForm - Getting WP # (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:14,528  INFO FBGroundControl.MainForm - Getting WP0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:14,529  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 1400 -400 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:14,529  INFO FBGroundControl.MainForm - Getting WP1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:14,530  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 6900 -13100 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:14,530  INFO FBGroundControl.MainForm - Getting WP2 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:14,531  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -11100 -1300 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:14,531  INFO FBGroundControl.MainForm - Getting WP3 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:16,031  INFO MissionPlanner.JYLinkInterface - getWP Retry 1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:19,231  INFO FBGroundControl.MainForm - Done (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:19,233  INFO FBGroundControl.MainForm - Process 3 (:0) [1]
+2021-06-28 13:05:19,296  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-06-28 13:05:19,297  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-06-28 13:05:19,297  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-06-28 13:05:19,300  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:42,494  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [15]
+2021-06-28 13:05:42,605  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:42,637  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:05:42,959  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:42,959  INFO FBGroundControl.MainForm - wps values 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:42,959  INFO FBGroundControl.MainForm - cmd rows 6 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:42,968  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:47,903  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2021-06-28 13:05:47,923  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:48,042  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:05:48,366  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:48,366  INFO FBGroundControl.MainForm - wps values 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:48,366  INFO FBGroundControl.MainForm - cmd rows 6 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:48,383  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:55,606  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [25]
+2021-06-28 13:05:55,738  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:55,739  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:05:56,058  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,058  INFO FBGroundControl.MainForm - Getting Home (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,059  INFO FBGroundControl.MainForm - Getting WP # (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,060  INFO FBGroundControl.MainForm - Getting WP0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,061  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 1400 -400 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,061  INFO FBGroundControl.MainForm - Getting WP1 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,062  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 6900 -13100 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,062  INFO FBGroundControl.MainForm - Getting WP2 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,063  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 -7700 8700 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,063  INFO FBGroundControl.MainForm - Getting WP3 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,064  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -15000 -2200 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,064  INFO FBGroundControl.MainForm - Getting WP4 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,065  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -12500 -10300 opt 0 (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,065  INFO FBGroundControl.MainForm - Done (:0) [ProgressReporterDialogue Background thread]
+2021-06-28 13:05:56,065  INFO FBGroundControl.MainForm - Process 5 (:0) [1]
+2021-06-28 13:05:56,148  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-06-28 13:05:56,149  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-06-28 13:05:56,149  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-06-28 13:05:56,150  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:06:06,565 ERROR FBGroundControl.MainForm - System.ComponentModel.Win32Exception (0x80004005): 创建窗口句柄时出错。
+   在 System.Windows.Forms.NativeWindow.CreateHandle(CreateParams cp)
+   在 System.Windows.Forms.Control.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.get_WindowText()
+   在 System.Windows.Forms.Control.get_Text()
+   在 System.Windows.Forms.Label.get_Text()
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]
+2021-06-28 13:36:16,343  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3864) [1]
+2021-06-28 13:36:16,425  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6241) [1]
+2021-06-28 13:36:16,425  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6254) [1]
+2021-06-28 13:36:16,426  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6270) [1]
+2021-06-28 13:36:16,793 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 13:36:16,797 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 13:36:59,548  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2021-06-28 13:36:59,557  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:36:59,557  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:36:59,853  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:36:59,872 ERROR FBGroundControl.MainForm - System.Exception: Please connect first!
+   在 FBGroundControl.MainForm.saveWPs(Object sender, ProgressWorkerEventArgs e, Object passdata) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:行号 5554 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:5690) [ProgressReporterDialogue Background thread]
+2021-06-28 13:37:54,084  INFO FBGroundControl.MainForm - MenuConnect Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7386) [1]
+2021-06-28 13:37:54,085  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7400) [1]
+2021-06-28 13:37:54,085  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7423) [1]
+2021-06-28 13:37:54,085  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7437) [1]
+2021-06-28 13:37:55,308  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:1532) [1]
+2021-06-28 13:37:55,335  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2021-06-28 13:37:55,476  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:37:55,477  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:37:55,788  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:37:56,790  INFO MissionPlanner.JYLinkInterface - Open port with COM12 115200 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2021-06-28 13:37:56,791  INFO MissionPlanner.Comms.SerialPort - COM12 RtsEnable True (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2021-06-28 13:37:57,794  INFO MissionPlanner.JYLinkInterface - 794 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 13:37:58,017  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:37:59,133 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:行号 387 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2021-06-28 13:38:06,932  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [13]
+2021-06-28 13:38:07,050  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:07,078  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:38:07,401  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:07,402  INFO FBGroundControl.MainForm - wps values 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:5575) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:07,402  INFO FBGroundControl.MainForm - cmd rows 7 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:5576) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:07,423  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,384  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [16]
+2021-06-28 13:38:16,510  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,513  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 13:38:16,837  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,838  INFO FBGroundControl.MainForm - Getting Home (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9876) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,838  INFO FBGroundControl.MainForm - Getting WP # (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9881) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,840  INFO FBGroundControl.MainForm - Getting WP0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9902) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,842  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 -7400 21400 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,843  INFO FBGroundControl.MainForm - Getting WP1 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9902) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,844  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 -8400 -12500 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,844  INFO FBGroundControl.MainForm - Getting WP2 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9902) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,845  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 6700 -10300 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,845  INFO FBGroundControl.MainForm - Getting WP3 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9902) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,846  INFO MissionPlanner.JYLinkInterface - getWP 1 85 1000 10400 7800 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,846  INFO FBGroundControl.MainForm - Getting WP4 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9902) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,847  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -22400 2500 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,847  INFO FBGroundControl.MainForm - Getting WP5 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9902) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,848  INFO MissionPlanner.JYLinkInterface - getWP 3 85 1000 -21500 -7000 opt 0 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:2101) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,848  INFO FBGroundControl.MainForm - Done (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:9921) [ProgressReporterDialogue Background thread]
+2021-06-28 13:38:16,848  INFO FBGroundControl.MainForm - Process 6 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:2105) [1]
+2021-06-28 13:38:16,949  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6241) [1]
+2021-06-28 13:38:16,950  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6254) [1]
+2021-06-28 13:38:16,950  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6270) [1]
+2021-06-28 13:38:16,951  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 13:39:40,900 ERROR FBGroundControl.MainForm - System.ComponentModel.Win32Exception (0x80004005): 创建窗口句柄时出错。
+   在 System.Windows.Forms.NativeWindow.CreateHandle(CreateParams cp)
+   在 System.Windows.Forms.Control.CreateHandle()
+   在 System.Windows.Forms.TextBoxBase.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.get_WindowText()
+   在 System.Windows.Forms.TextBoxBase.get_WindowText()
+   在 System.Windows.Forms.Control.get_Text()
+   在 System.Windows.Forms.TextBox.get_Text()
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:行号 4321 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:4340) [FD Mainloop]
+2021-06-28 13:41:45,708  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3864) [1]
+2021-06-28 13:41:45,779  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6241) [1]
+2021-06-28 13:41:45,779  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6254) [1]
+2021-06-28 13:41:45,779  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6270) [1]
+2021-06-28 13:41:46,066 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 13:41:46,072 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 14:22:39,721  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3866) [1]
+2021-06-28 14:22:39,811  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6243) [1]
+2021-06-28 14:22:39,813  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6256) [1]
+2021-06-28 14:22:39,813  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6272) [1]
+2021-06-28 14:22:40,055 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 14:22:40,061 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 14:22:58,881  INFO FBGroundControl.MainForm - MenuConnect Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7388) [1]
+2021-06-28 14:22:58,882  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7402) [1]
+2021-06-28 14:22:58,882  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7425) [1]
+2021-06-28 14:22:58,882  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7439) [1]
+2021-06-28 14:23:00,046  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:1534) [1]
+2021-06-28 14:23:00,088  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2021-06-28 14:23:00,208  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 14:23:00,236  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 14:23:00,531  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 14:23:01,533  INFO MissionPlanner.JYLinkInterface - Open port with COM12 115200 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2021-06-28 14:23:01,534  INFO MissionPlanner.Comms.SerialPort - COM12 RtsEnable True (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2021-06-28 14:23:02,538  INFO MissionPlanner.JYLinkInterface - 538 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 14:23:02,767  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 14:23:03,889 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:行号 387 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2021-06-28 14:28:06,663  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 14:28:06,713  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6244) [1]
+2021-06-28 14:28:06,714  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2021-06-28 14:28:06,714  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6273) [1]
+2021-06-28 14:28:06,959 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 14:28:06,963 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 14:28:44,962  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 14:28:45,040  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6244) [1]
+2021-06-28 14:28:45,041  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2021-06-28 14:28:45,041  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6273) [1]
+2021-06-28 14:28:45,277 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 14:28:45,281 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 14:30:00,931  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 14:30:00,986  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6244) [1]
+2021-06-28 14:30:00,986  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2021-06-28 14:30:00,987  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6273) [1]
+2021-06-28 14:30:01,218 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 14:30:01,223 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 14:49:40,407  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 14:49:40,520  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6244) [1]
+2021-06-28 14:49:40,521  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2021-06-28 14:49:40,521  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6273) [1]
+2021-06-28 14:49:40,880 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 14:49:40,884 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 16:52:52,681  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 16:52:52,758  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6244) [1]
+2021-06-28 16:52:52,759  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2021-06-28 16:52:52,759  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6273) [1]
+2021-06-28 16:52:53,019 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 16:52:53,023 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 17:06:02,374  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 17:06:02,463  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6244) [1]
+2021-06-28 17:06:02,464  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2021-06-28 17:06:02,464  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6273) [1]
+2021-06-28 17:06:02,782 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 17:06:02,788 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 17:19:34,231  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 17:19:34,327  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6244) [1]
+2021-06-28 17:19:34,328  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2021-06-28 17:19:34,328  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6273) [1]
+2021-06-28 17:19:34,667 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 17:19:34,673 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 17:26:28,149  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 17:26:28,216  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6244) [1]
+2021-06-28 17:26:28,217  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2021-06-28 17:26:28,217  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6273) [1]
+2021-06-28 17:26:28,438 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 17:26:28,443 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 17:28:14,432  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 17:28:14,499  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6244) [1]
+2021-06-28 17:28:14,500  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2021-06-28 17:28:14,500  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6273) [1]
+2021-06-28 17:28:14,733 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 17:28:14,738 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 17:31:01,094  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 17:31:01,163  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6244) [1]
+2021-06-28 17:31:01,164  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2021-06-28 17:31:01,164  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6273) [1]
+2021-06-28 17:31:01,535 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 17:31:01,540 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 18:08:42,499  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 18:08:42,588  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6256) [1]
+2021-06-28 18:08:42,589  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6269) [1]
+2021-06-28 18:08:42,589  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6285) [1]
+2021-06-28 18:08:42,839 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 18:08:42,844 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 18:30:39,156  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 18:30:39,251  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2021-06-28 18:30:39,252  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6270) [1]
+2021-06-28 18:30:39,252  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6286) [1]
+2021-06-28 18:30:39,497 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 18:30:39,503 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 18:48:12,970  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3868) [1]
+2021-06-28 18:48:13,059  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6258) [1]
+2021-06-28 18:48:13,060  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6271) [1]
+2021-06-28 18:48:13,060  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6287) [1]
+2021-06-28 18:48:13,303 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 18:48:13,309 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 18:48:36,553  INFO FBGroundControl.MainForm - MenuConnect Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7403) [1]
+2021-06-28 18:48:36,553  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7417) [1]
+2021-06-28 18:48:36,554  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7440) [1]
+2021-06-28 18:48:36,554  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7454) [1]
+2021-06-28 18:48:37,546  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:1536) [1]
+2021-06-28 18:48:37,591  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2021-06-28 18:48:37,703  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 18:48:37,704  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 18:48:38,001  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 18:48:39,003  INFO MissionPlanner.JYLinkInterface - Open port with COM12 115200 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2021-06-28 18:48:39,004  INFO MissionPlanner.Comms.SerialPort - COM12 RtsEnable True (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2021-06-28 18:48:40,007  INFO MissionPlanner.JYLinkInterface - 7 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 18:48:40,416  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 18:48:41,473 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:行号 387 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2021-06-28 18:57:40,707  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3868) [1]
+2021-06-28 18:57:40,821  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6258) [1]
+2021-06-28 18:57:40,822  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6271) [1]
+2021-06-28 18:57:40,822  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6287) [1]
+2021-06-28 18:57:41,065 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 18:57:41,069 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 18:57:48,417  INFO FBGroundControl.MainForm - MenuConnect Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7403) [1]
+2021-06-28 18:57:48,417  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7417) [1]
+2021-06-28 18:57:48,418  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7440) [1]
+2021-06-28 18:57:48,418  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:7454) [1]
+2021-06-28 18:57:49,491  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:1536) [1]
+2021-06-28 18:57:49,528  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2021-06-28 18:57:49,665  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2021-06-28 18:57:49,666  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2021-06-28 18:57:49,979  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2021-06-28 18:57:50,980  INFO MissionPlanner.JYLinkInterface - Open port with COM12 115200 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2021-06-28 18:57:50,981  INFO MissionPlanner.Comms.SerialPort - COM12 RtsEnable True (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2021-06-28 18:57:51,985  INFO MissionPlanner.JYLinkInterface - 985 Start connect loop  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2021-06-28 18:57:52,393  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2021-06-28 18:57:53,515 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:行号 387 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2021-06-28 19:03:10,193  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 19:03:10,336  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2021-06-28 19:03:10,336  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6270) [1]
+2021-06-28 19:03:10,337  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6286) [1]
+2021-06-28 19:03:10,648 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:03:10,655 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:06:32,566  INFO FBGroundControl.MainForm - Loading config (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:3867) [1]
+2021-06-28 19:06:32,614  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2021-06-28 19:06:32,615  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6270) [1]
+2021-06-28 19:06:32,615  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:6286) [1]
+2021-06-28 19:06:32,845 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:06:32,850 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:08:47,253 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:08:47,256 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:08:47,316 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:08:47,316 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:08:47,354 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:08:47,354 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:08:47,525 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:08:47,526 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:08:47,717 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:08:47,718 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:08:48,478 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:08:48,479 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版本湛江\180多机H1023_20210524\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-06-28 19:10:20,440 ERROR FBGroundControl.MainForm - System.ComponentModel.Win32Exception (0x80004005): 创建窗口句柄时出错。
+   在 System.Windows.Forms.NativeWindow.CreateHandle(CreateParams cp)
+   在 System.Windows.Forms.Control.CreateHandle()
+   在 System.Windows.Forms.TextBoxBase.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.get_WindowText()
+   在 System.Windows.Forms.TextBoxBase.get_WindowText()
+   在 System.Windows.Forms.Control.get_Text()
+   在 System.Windows.Forms.TextBox.get_Text()
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:行号 4317 (f:\交付版本湛江\180多机H1023_20210524\多机H\FBGroundControl\MainForm.cs:4343) [FD Mainloop]

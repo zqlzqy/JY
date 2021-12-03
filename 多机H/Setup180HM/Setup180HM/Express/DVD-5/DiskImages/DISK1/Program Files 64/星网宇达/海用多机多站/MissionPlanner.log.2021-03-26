@@ -1,0 +1,135 @@
+2021-03-26 14:31:43,648  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3869) [1]
+2021-03-26 14:31:43,702  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6357) [1]
+2021-03-26 14:31:43,703  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6370) [1]
+2021-03-26 14:31:43,703  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6386) [1]
+2021-03-26 14:31:43,975 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-03-26 14:31:43,979 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-03-26 14:49:29,087  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3869) [1]
+2021-03-26 14:49:29,163  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6357) [1]
+2021-03-26 14:49:29,164  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6370) [1]
+2021-03-26 14:49:29,164  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6386) [1]
+2021-03-26 14:49:29,391 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-03-26 14:49:29,397 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-03-26 15:03:16,846 ERROR FBGroundControl.MainForm - System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]
+2021-03-26 15:03:59,604  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3869) [1]
+2021-03-26 15:03:59,674  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6357) [1]
+2021-03-26 15:03:59,675  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6370) [1]
+2021-03-26 15:03:59,675  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6386) [1]
+2021-03-26 15:03:59,893 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-03-26 15:03:59,899 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-03-26 15:12:17,415  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:12:17,416  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:12:17,416  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:12:26,460  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:12:26,460  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:12:26,460  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:13:24,251  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:13:24,252  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:13:24,252  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:14:57,253  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:14:57,254  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:14:57,254  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:15:21,170  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:15:21,171  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:15:21,171  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:15:26,156  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:15:26,156  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:15:26,157  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:15:30,663  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:15:30,663  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:15:30,664  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:15:37,875  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:15:37,876  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:15:37,876  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:20:46,848  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:20:46,848  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:20:46,848  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:21:01,998  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:21:01,999  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:21:01,999  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:21:07,497  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:21:07,497  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:21:07,497  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:21:12,242  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:21:12,243  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:21:12,243  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:21:17,140  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:21:17,140  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:21:17,140  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:21:22,002  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:21:22,003  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:21:22,003  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:21:26,506  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:21:26,506  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:21:26,506  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:21:31,099  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:21:31,099  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:21:31,099  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:21:35,811  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:21:35,811  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:21:35,811  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:21:39,831  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:21:39,831  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:21:39,832  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:25:53,588  INFO FBGroundControl.MainForm - Loading wp params (:0) [1]
+2021-03-26 15:25:53,589  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (:0) [1]
+2021-03-26 15:25:53,589  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (:0) [1]
+2021-03-26 15:33:25,243  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3869) [1]
+2021-03-26 15:33:25,330  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6363) [1]
+2021-03-26 15:33:25,331  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6376) [1]
+2021-03-26 15:33:25,331  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6392) [1]
+2021-03-26 15:33:25,566 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-03-26 15:33:25,571 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-03-26 15:53:19,693  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3869) [1]
+2021-03-26 15:53:19,777  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6363) [1]
+2021-03-26 15:53:19,777  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6376) [1]
+2021-03-26 15:53:19,777  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6392) [1]
+2021-03-26 15:53:19,988 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-03-26 15:53:19,993 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-03-26 15:55:17,122 ERROR FBGroundControl.MainForm - System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 0 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4328) [FD Mainloop]
+2021-03-26 15:56:02,668  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3869) [1]
+2021-03-26 15:56:02,733  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6363) [1]
+2021-03-26 15:56:02,734  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6376) [1]
+2021-03-26 15:56:02,734  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6392) [1]
+2021-03-26 15:56:02,947 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-03-26 15:56:02,951 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2021-03-26 16:32:15,802 ERROR FBGroundControl.MainForm - System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]

@@ -1,0 +1,676 @@
+2019-12-10 12:19:39,940  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-10 12:19:40,039  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-10 12:19:40,039  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-10 12:19:40,040  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-10 12:19:40,385 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-10 12:19:40,390 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-10 12:20:36,985  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:37,170  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM1 = 通信端口 (COM1) (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-12-10 12:20:37,172  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:37,282  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM2 =  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-12-10 12:20:37,283  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:37,382  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM3 =  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-12-10 12:20:37,383  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:37,474  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM4 =  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-12-10 12:20:37,475  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:37,564  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM5 =  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-12-10 12:20:37,826  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:37,826  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:37,826  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:37,827  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:38,097  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:38,097  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:38,097  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:38,097  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:38,124  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:38,124  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:38,125  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:38,125  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:38,182  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:38,183  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:38,183  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:38,183  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:38,356  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:38,357  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:38,357  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:38,357  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:38,414  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:38,415  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:38,415  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:38,415  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:39,014  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:39,014  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:39,014  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:39,015  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:39,205  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:39,205  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:39,206  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:39,206  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:39,511  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:39,512  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:39,512  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:39,512  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:39,730  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:39,731  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:39,731  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:39,731  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:40,122  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:40,122  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:40,123  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:40,123  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:41,508  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:41,508  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:41,508  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:41,508  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:41,509  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:41,509  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:41,509  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:41,509  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:41,510  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:41,510  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:41,510  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:41,655  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM21 =  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-12-10 12:20:41,840  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:41,841  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:41,841  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:41,841  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:42,156  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:42,157  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:42,157  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:42,157  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:42,292  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:42,292  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:42,293  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:42,293  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:42,380  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:42,381  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:42,381  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:42,381  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:42,430  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:42,431  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:42,431  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:42,431  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:42,528  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:42,529  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:42,529  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:42,529  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:42,612  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:42,613  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:42,613  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:42,613  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,401  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,401  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,402  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,402  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,402  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,402  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,403  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,403  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,403  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,403  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,403  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,404  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,567  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,567  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,568  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,568  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,653  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,653  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,654  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,654  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,675  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,675  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,675  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,676  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,732  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,733  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,733  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,733  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,810  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,810  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:44,811  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-10 12:20:44,811  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-10 12:20:47,487  INFO FBGroundControl.MainForm - MenuConnect Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7362) [1]
+2019-12-10 12:20:47,487  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7376) [1]
+2019-12-10 12:20:47,488  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7399) [1]
+2019-12-10 12:20:47,488  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7413) [1]
+2019-12-10 12:20:47,551  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1590) [1]
+2019-12-10 12:20:47,587  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-12-10 12:20:47,597  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-10 12:20:47,598  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-10 12:20:48,263  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-10 12:20:49,265  INFO MissionPlanner.JYLinkInterface - Open port with COM4 115200 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2019-12-10 12:20:50,273  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-10 12:20:50,285  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1616) [1]
+2019-12-10 12:20:50,289  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1892) [1]
+2019-12-10 12:20:50,326  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-12-10 12:20:50,572  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-10 12:20:50,573  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-10 12:20:51,165  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-10 12:20:52,166  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-12-10 12:20:53,186  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-10 12:20:53,362  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1917) [1]
+2019-12-10 12:25:14,337  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-10 12:25:14,427  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-10 12:25:14,427  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-10 12:25:14,428  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-10 12:25:14,859 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-10 12:25:14,863 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-10 12:25:20,107  INFO FBGroundControl.MainForm - MenuConnect Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7362) [1]
+2019-12-10 12:25:20,108  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7376) [1]
+2019-12-10 12:25:20,109  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7399) [1]
+2019-12-10 12:25:20,109  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7413) [1]
+2019-12-10 12:25:20,152  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1590) [1]
+2019-12-10 12:25:20,191  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2019-12-10 12:25:20,202  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-10 12:25:20,224  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-10 12:25:20,749  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:20,811  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:20,888  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-10 12:25:21,890  INFO MissionPlanner.JYLinkInterface - Open port with COM4 115200 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2019-12-10 12:25:22,895  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-10 12:25:22,916  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1616) [1]
+2019-12-10 12:25:22,922  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1892) [1]
+2019-12-10 12:25:22,978  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-12-10 12:25:23,195  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-10 12:25:23,197  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-10 12:25:23,754  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-10 12:25:24,755  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-12-10 12:25:25,771  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-10 12:25:25,808  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1917) [1]
+2019-12-10 12:25:40,587  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:41,547  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:42,532  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:43,517  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:44,574  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:45,556  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:46,591  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:47,527  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:48,525  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:49,529  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:50,539  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:51,536  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:52,578  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:53,545  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:54,545  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:55,564  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:55,597  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:56,534  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:56,564  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:57,541  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:57,589  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:58,527  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:58,556  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:59,551  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:25:59,586  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:00,519  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:00,550  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:01,523  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:01,554  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:02,540  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:02,568  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:03,612  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:03,656  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:04,577  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:04,632  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:05,554  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:05,600  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:06,544  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:06,575  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:07,578  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:07,633  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:08,527  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:08,556  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:09,525  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:09,554  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:10,566  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:10,593  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:11,522  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:11,552  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:12,523  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:12,552  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:13,544  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:13,582  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:14,599  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:14,646  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:15,559  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:15,589  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:16,521  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:16,548  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:17,541  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:17,570  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:18,547  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:18,585  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:19,571  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:19,602  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:20,531  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:20,562  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:21,521  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:21,553  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:22,576  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:22,621  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:23,523  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:23,551  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:24,611  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:26:24,640  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 5419
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:行号 2515 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:2548) [1]
+2019-12-10 12:32:56,795  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-10 12:32:56,869  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-10 12:32:56,870  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-10 12:32:56,870  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-10 12:32:57,355 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-10 12:32:57,359 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-10 12:34:44,710  INFO FBGroundControl.MainForm - Saving config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:5569) [1]
+2019-12-10 12:36:14,224  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-10 12:36:14,290  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-10 12:36:14,291  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-10 12:36:14,291  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-10 12:36:14,624 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-10 12:36:14,629 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-10 12:37:04,763  INFO FBGroundControl.MainForm - Saving config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:5569) [1]
+2019-12-10 13:31:49,751  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-10 13:31:49,816  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-10 13:31:49,816  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-10 13:31:49,816  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-10 13:31:49,893 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-10 13:31:49,900 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-10 13:32:01,517  INFO FBGroundControl.MainForm - Saving config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:5569) [1]

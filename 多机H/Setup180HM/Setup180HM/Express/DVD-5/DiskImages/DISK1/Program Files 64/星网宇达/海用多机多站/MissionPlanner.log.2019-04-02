@@ -1,0 +1,1031 @@
+2019-04-02 16:29:19,713 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:19,744 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:19,760 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:19,791 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:19,791  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 16:29:23,504 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:23,519 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:23,535 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:23,551 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:23,566 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:23,566 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:23,582 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:23,597 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:29,370 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:29,385 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:29:29,401 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:31:24,545 ERROR FBGroundControl.MainForm - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 16:31:27,072 ERROR FBGroundControl.MainForm - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 16:37:57,725  INFO FBGroundControl.MainForm - Loading config (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:4025) [1]
+2019-04-02 16:37:57,833  INFO FBGroundControl.MainForm - Loading wp params (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6295) [1]
+2019-04-02 16:37:57,834  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6308) [1]
+2019-04-02 16:37:57,834  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6324) [1]
+2019-04-02 16:37:58,589 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (d:\海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-04-02 16:37:58,589 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 d:\海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (d:\海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-04-02 16:38:15,203  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:38:15,234  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:38:16,108  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:38:16,139  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:38:16,560  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:38:16,607  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:38:17,044  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:38:17,059  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:38:21,973  INFO FBGroundControl.MainForm - MenuConnect Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7267) [1]
+2019-04-02 16:38:21,973  INFO FBGroundControl.MainForm - Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7281) [1]
+2019-04-02 16:38:21,973  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7304) [1]
+2019-04-02 16:38:21,973  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7318) [1]
+2019-04-02 16:38:21,973  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-04-02 16:38:22,020  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [9]
+2019-04-02 16:38:22,051  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:22,051  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 16:38:22,285  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:23,299  INFO MissionPlanner.JYLinkInterface - Open port with COM4 115200 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:24,360  INFO MissionPlanner.JYLinkInterface - 360 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:424) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:24,391  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:25,436 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-04-02 16:38:25,483  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1828) [1]
+2019-04-02 16:38:25,530  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [10]
+2019-04-02 16:38:25,561 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3494&utl=&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=811626857 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [9]
+2019-04-02 16:38:25,561 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=811626857 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [14]
+2019-04-02 16:38:25,561 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=811626857 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [17]
+2019-04-02 16:38:25,733  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:25,733  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 16:38:26,014  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:27,043  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 9600 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:28,073  INFO MissionPlanner.JYLinkMainCtrl - 73 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:28,135  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:29,180 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-04-02 16:38:29,212 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1616551197 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [17]
+2019-04-02 16:38:29,212 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3728&utl=&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1616551197 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [9]
+2019-04-02 16:38:29,212 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=9600&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1616551197 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [13]
+2019-04-02 16:38:37,090 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:37,105 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:38,977 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:38,993 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:39,008 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:39,024 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:40,412 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:40,428 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:40,444 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:40,444 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:40,459 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:40,475 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:42,425 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:42,550 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:42,565 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:42,581 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:42,581 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:42,596 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:42,612 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:42,628 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:46,777  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2019-04-02 16:38:46,793  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:46,808  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 16:38:47,089  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:47,105  INFO FBGroundControl.MainForm - wps values 0 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:5643) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:47,105  INFO FBGroundControl.MainForm - cmd rows 5 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:5644) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:47,994  INFO MissionPlanner.JYLinkInterface - setWP Retry 4 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2405) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:48,150  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:51,691  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:38:53,048  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2019-04-02 16:38:53,251  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:53,251  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 16:38:53,485  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:53,485  INFO FBGroundControl.MainForm - Getting Home (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3889) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:53,485  INFO FBGroundControl.MainForm - Getting WP # (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3906) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:53,501  INFO FBGroundControl.MainForm - Getting WP0 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:53,532  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 200 -5000 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:53,532  INFO FBGroundControl.MainForm - Getting WP1 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:53,563  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -5100 -100 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:53,563  INFO FBGroundControl.MainForm - Getting WP2 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:53,594  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -300 4900 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:53,594  INFO FBGroundControl.MainForm - Getting WP3 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:53,626  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 5100 200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:53,626  INFO FBGroundControl.MainForm - Done (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3945) [ProgressReporterDialogue Background thread]
+2019-04-02 16:38:53,704  INFO FBGroundControl.MainForm - Process 4 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2262) [1]
+2019-04-02 16:38:53,782  INFO FBGroundControl.MainForm - Loading wp params (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6295) [1]
+2019-04-02 16:38:53,782  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6308) [1]
+2019-04-02 16:38:53,782  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6324) [1]
+2019-04-02 16:38:53,797 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:53,828 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:53,860 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:53,875 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:53,891 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:53,922 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:53,938 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:53,953 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:38:53,953  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:12,080  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:39:13,141  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [13]
+2019-04-02 16:39:13,172  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:13,188  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 16:39:13,406  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:13,406  INFO FBGroundControl.MainForm - Getting Home (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3889) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:13,406  INFO FBGroundControl.MainForm - Getting WP # (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3906) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:13,438  INFO FBGroundControl.MainForm - Getting WP0 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:13,500  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 200 -5000 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:13,500  INFO FBGroundControl.MainForm - Getting WP1 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:13,531  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -5100 -100 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:13,531  INFO FBGroundControl.MainForm - Getting WP2 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:13,562  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -300 4900 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:13,562  INFO FBGroundControl.MainForm - Getting WP3 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:13,609  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 5100 200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:13,609  INFO FBGroundControl.MainForm - Done (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3945) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:13,656  INFO FBGroundControl.MainForm - Process 4 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2262) [1]
+2019-04-02 16:39:13,734  INFO FBGroundControl.MainForm - Loading wp params (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6295) [1]
+2019-04-02 16:39:13,734  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6308) [1]
+2019-04-02 16:39:13,734  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6324) [1]
+2019-04-02 16:39:13,750 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:13,765 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:13,796 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:13,812 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:13,843 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:13,859 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:13,890 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:13,906 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:13,906  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:36,463 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:36,479 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:36,479 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:36,495 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:36,510 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:36,526 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:36,541 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:36,541 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:36,557 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:36,573 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:39,552 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:39,568 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:39,568 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:39,583 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:39,599 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:39,615 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:39,630 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:39,630 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:39,646 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:39,661 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:39,677 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:39,693 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,705 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,721 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,736 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,752 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,767 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,783 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,783 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,799 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,814 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,830 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,845 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,861 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,861 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:41,877 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,354 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,369 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,385 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,401 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,401 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,416 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,432 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,447 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,463 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,463 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,479 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,494 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,494 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,510 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,525 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:46,541 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:49,614  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [22]
+2019-04-02 16:39:49,833  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:49,833  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 16:39:50,067  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:50,067  INFO FBGroundControl.MainForm - wps values 0 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:5643) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:50,067  INFO FBGroundControl.MainForm - cmd rows 9 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:5644) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:50,332  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:52,984  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:39:53,951  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [22]
+2019-04-02 16:39:54,154  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,154  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 16:39:54,372  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,372  INFO FBGroundControl.MainForm - Getting Home (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3889) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,372  INFO FBGroundControl.MainForm - Getting WP # (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3906) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,403  INFO FBGroundControl.MainForm - Getting WP0 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,450  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 200 -5000 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,450  INFO FBGroundControl.MainForm - Getting WP1 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,513  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -5100 -100 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,513  INFO FBGroundControl.MainForm - Getting WP2 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,544  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -300 4900 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,544  INFO FBGroundControl.MainForm - Getting WP3 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,591  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 5100 200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,591  INFO FBGroundControl.MainForm - Getting WP4 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,637  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -300 10200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,637  INFO FBGroundControl.MainForm - Getting WP5 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,700  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -15000 -200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,700  INFO FBGroundControl.MainForm - Getting WP6 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,731  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 100 -15000 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,731  INFO FBGroundControl.MainForm - Getting WP7 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,778  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 14900 -200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,778  INFO FBGroundControl.MainForm - Done (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3945) [ProgressReporterDialogue Background thread]
+2019-04-02 16:39:54,825  INFO FBGroundControl.MainForm - Process 8 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2262) [1]
+2019-04-02 16:39:54,934  INFO FBGroundControl.MainForm - Loading wp params (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6295) [1]
+2019-04-02 16:39:54,934  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6308) [1]
+2019-04-02 16:39:54,934  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6324) [1]
+2019-04-02 16:39:54,949 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:54,981 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:54,996 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,027 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,043 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,074 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,090 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,121 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,152 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,168 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,183 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,215 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,230 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,246 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,277 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,293 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:39:55,293  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:19,129  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2019-04-02 16:40:19,129  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:19,161  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 16:40:19,395  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:19,395  INFO FBGroundControl.MainForm - wps values 0 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:5643) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:19,395  INFO FBGroundControl.MainForm - cmd rows 9 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:5644) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:20,284  INFO MissionPlanner.JYLinkInterface - setWP Retry 4 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2405) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:20,549  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:22,655  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:40:23,747  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2019-04-02 16:40:23,763  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:23,763  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 16:40:23,981  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:23,981  INFO FBGroundControl.MainForm - Getting Home (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3889) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:23,981  INFO FBGroundControl.MainForm - Getting WP # (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3906) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,012  INFO FBGroundControl.MainForm - Getting WP0 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,043  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 200 -5000 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,043  INFO FBGroundControl.MainForm - Getting WP1 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,075  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -5100 -100 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,075  INFO FBGroundControl.MainForm - Getting WP2 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,106  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -300 4900 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,106  INFO FBGroundControl.MainForm - Getting WP3 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,153  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 5100 200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,153  INFO FBGroundControl.MainForm - Getting WP4 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,184  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -300 10200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,184  INFO FBGroundControl.MainForm - Getting WP5 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,215  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -15000 -200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,215  INFO FBGroundControl.MainForm - Getting WP6 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,246  INFO MissionPlanner.JYLinkInterface - getWP 3 0 1000 100 -15000 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,246  INFO FBGroundControl.MainForm - Getting WP7 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,293  INFO MissionPlanner.JYLinkInterface - getWP 3 0 1000 14900 -200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,293  INFO FBGroundControl.MainForm - Done (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3945) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:24,355  INFO FBGroundControl.MainForm - Process 8 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2262) [1]
+2019-04-02 16:40:24,465  INFO FBGroundControl.MainForm - Loading wp params (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6295) [1]
+2019-04-02 16:40:24,465  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6308) [1]
+2019-04-02 16:40:24,465  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6324) [1]
+2019-04-02 16:40:24,480 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,511 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,527 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,558 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,574 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,589 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,621 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,636 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,667 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,683 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,699 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,714 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,745 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,761 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,792 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,808 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:24,808  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:40,205  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:40:41,235  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [22]
+2019-04-02 16:40:41,250  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,281  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 16:40:41,500  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,500  INFO FBGroundControl.MainForm - Getting Home (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3889) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,500  INFO FBGroundControl.MainForm - Getting WP # (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3906) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,531  INFO FBGroundControl.MainForm - Getting WP0 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,562  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 200 -5000 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,562  INFO FBGroundControl.MainForm - Getting WP1 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,593  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -5100 -100 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,593  INFO FBGroundControl.MainForm - Getting WP2 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,640  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -300 4900 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,640  INFO FBGroundControl.MainForm - Getting WP3 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,687  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 5100 200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,687  INFO FBGroundControl.MainForm - Getting WP4 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,718  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -300 10200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,718  INFO FBGroundControl.MainForm - Getting WP5 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,765  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -15000 -200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,765  INFO FBGroundControl.MainForm - Getting WP6 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,796  INFO MissionPlanner.JYLinkInterface - getWP 3 0 1000 100 -15000 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,796  INFO FBGroundControl.MainForm - Getting WP7 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,843  INFO MissionPlanner.JYLinkInterface - getWP 3 0 1000 14900 -200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,843  INFO FBGroundControl.MainForm - Done (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3945) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:41,890  INFO FBGroundControl.MainForm - Process 8 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2262) [1]
+2019-04-02 16:40:41,999  INFO FBGroundControl.MainForm - Loading wp params (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6295) [1]
+2019-04-02 16:40:41,999  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6308) [1]
+2019-04-02 16:40:41,999  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6324) [1]
+2019-04-02 16:40:42,030 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,046 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,077 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,093 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,124 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,139 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,155 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,186 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,202 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,233 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,249 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,264 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,295 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,311 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,327 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,358 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:42,358  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:45,010  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:40:50,470  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [22]
+2019-04-02 16:40:50,470  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,501  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 16:40:50,735  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,735  INFO FBGroundControl.MainForm - Getting Home (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3889) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,735  INFO FBGroundControl.MainForm - Getting WP # (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3906) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,751  INFO FBGroundControl.MainForm - Getting WP0 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,782  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 200 -5000 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,782  INFO FBGroundControl.MainForm - Getting WP1 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,813  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -5100 -100 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,813  INFO FBGroundControl.MainForm - Getting WP2 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,844  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -300 4900 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,844  INFO FBGroundControl.MainForm - Getting WP3 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,891  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 5100 200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,891  INFO FBGroundControl.MainForm - Getting WP4 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,922  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -300 10200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,922  INFO FBGroundControl.MainForm - Getting WP5 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,953  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -15000 -200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:50,953  INFO FBGroundControl.MainForm - Getting WP6 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:51,000  INFO MissionPlanner.JYLinkInterface - getWP 3 0 1000 100 -15000 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:51,000  INFO FBGroundControl.MainForm - Getting WP7 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:51,047  INFO MissionPlanner.JYLinkInterface - getWP 3 0 1000 14900 -200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:51,047  INFO FBGroundControl.MainForm - Done (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3945) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:51,125  INFO FBGroundControl.MainForm - Process 8 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2262) [1]
+2019-04-02 16:40:51,234  INFO FBGroundControl.MainForm - Loading wp params (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6295) [1]
+2019-04-02 16:40:51,234  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6308) [1]
+2019-04-02 16:40:51,234  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6324) [1]
+2019-04-02 16:40:51,250 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,265 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,297 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,312 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,343 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,359 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,375 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,406 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,421 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,453 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,468 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,484 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,515 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,531 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,562 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,577 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:40:51,577  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 16:40:59,861  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5298
+   在 FBGroundControl.MainForm.writeKML() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2449 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2482) [1]
+2019-04-02 16:41:01,125  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2019-04-02 16:41:01,327  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,327  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 16:41:01,561  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,561  INFO FBGroundControl.MainForm - Getting Home (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3889) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,561  INFO FBGroundControl.MainForm - Getting WP # (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3906) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,577  INFO FBGroundControl.MainForm - Getting WP0 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,608  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 200 -5000 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,608  INFO FBGroundControl.MainForm - Getting WP1 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,655  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -5100 -100 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,655  INFO FBGroundControl.MainForm - Getting WP2 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,686  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -300 4900 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,686  INFO FBGroundControl.MainForm - Getting WP3 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,733  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 5100 200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,733  INFO FBGroundControl.MainForm - Getting WP4 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,764  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -300 10200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,764  INFO FBGroundControl.MainForm - Getting WP5 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,811  INFO MissionPlanner.JYLinkInterface - getWP 1 0 1000 -15000 -200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,811  INFO FBGroundControl.MainForm - Getting WP6 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,842  INFO MissionPlanner.JYLinkInterface - getWP 3 0 1000 100 -15000 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,842  INFO FBGroundControl.MainForm - Getting WP7 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3926) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,889  INFO MissionPlanner.JYLinkInterface - getWP 3 0 1000 14900 -200 opt 0 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:2069) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:01,889  INFO FBGroundControl.MainForm - Done (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:3945) [ProgressReporterDialogue Background thread]
+2019-04-02 16:41:02,029  INFO FBGroundControl.MainForm - Process 8 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2262) [1]
+2019-04-02 16:41:02,139  INFO FBGroundControl.MainForm - Loading wp params (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6295) [1]
+2019-04-02 16:41:02,139  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6308) [1]
+2019-04-02 16:41:02,139  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6324) [1]
+2019-04-02 16:41:02,154 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,185 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,201 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,217 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,248 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,263 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,295 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,310 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,326 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,357 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,373 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,404 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,419 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,435 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,466 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,482 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:2597) [1]
+2019-04-02 16:41:02,482  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 16:52:34,218 ERROR FBGroundControl.MainForm - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 16:53:22,688 ERROR FBGroundControl.MainForm - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 16:53:26,447 ERROR FBGroundControl.MainForm - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 16:59:29,741 ERROR FBGroundControl.MainForm - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 17:01:03,622 ERROR FBGroundControl.MainForm - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 17:03:45,394 ERROR FBGroundControl.MainForm - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 17:04:34,830 ERROR FBGroundControl.MainForm - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 17:04:39,838 ERROR FBGroundControl.MainForm - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 17:20:18,164 ERROR FBGroundControl.MainForm - System.IO.IOException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream.EndRead(IAsyncResult asyncResult)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 17:36:51,968  INFO FBGroundControl.MainForm - Saving config (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:5448) [1]
+2019-04-02 18:03:29,474  INFO FBGroundControl.MainForm - Loading config (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:4025) [1]
+2019-04-02 18:03:29,552  INFO FBGroundControl.MainForm - Loading wp params (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6295) [1]
+2019-04-02 18:03:29,552  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6308) [1]
+2019-04-02 18:03:29,552  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6324) [1]
+2019-04-02 18:03:29,880 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (d:\海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-04-02 18:03:29,880 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 d:\海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (d:\海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-04-02 18:04:54,891  INFO FBGroundControl.MainForm - MenuConnect Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7267) [1]
+2019-04-02 18:04:54,891  INFO FBGroundControl.MainForm - Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7281) [1]
+2019-04-02 18:04:54,891  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7304) [1]
+2019-04-02 18:04:54,891  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7318) [1]
+2019-04-02 18:04:54,907  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-04-02 18:04:54,954  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [9]
+2019-04-02 18:04:54,969  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:04:54,969  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:04:55,203  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:04:56,217  INFO MissionPlanner.JYLinkInterface - Open port with COM4 115200 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-04-02 18:04:57,263  INFO MissionPlanner.JYLinkInterface - 263 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:424) [ProgressReporterDialogue Background thread]
+2019-04-02 18:04:57,294  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 18:04:58,339 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-04-02 18:04:58,370  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1828) [1]
+2019-04-02 18:04:58,417  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [17]
+2019-04-02 18:04:58,433  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:04:58,433  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:04:58,448 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3463&utl=&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1955854263 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [13]
+2019-04-02 18:04:58,448 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1955854263 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [10]
+2019-04-02 18:04:58,448 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1955854263 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [9]
+2019-04-02 18:04:58,651  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:04:59,665  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 9600 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-04-02 18:05:00,679  INFO MissionPlanner.JYLinkMainCtrl - 679 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2019-04-02 18:05:00,741  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 18:05:01,802 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-04-02 18:05:01,833 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3463&utl=&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1810069854 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [13]
+2019-04-02 18:05:01,833 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1810069854 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [9]
+2019-04-02 18:05:01,833 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=9600&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1810069854 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [10]
+2019-04-02 18:05:44,718  INFO FBGroundControl.MainForm - MenuConnect Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7267) [1]
+2019-04-02 18:05:44,718  INFO FBGroundControl.MainForm - Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7281) [1]
+2019-04-02 18:05:44,718  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7304) [1]
+2019-04-02 18:05:44,718  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7318) [1]
+2019-04-02 18:05:44,749 ERROR FBGroundControl.MainForm - System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4336
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 18:05:44,858  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-04-02 18:05:44,874  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [17]
+2019-04-02 18:05:45,077  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:05:45,077  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:05:45,279  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:05:46,293  INFO MissionPlanner.JYLinkInterface - Open port with COM4 115200 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-04-02 18:05:47,339  INFO MissionPlanner.JYLinkInterface - 339 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:424) [ProgressReporterDialogue Background thread]
+2019-04-02 18:05:47,370  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 18:05:48,415 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-04-02 18:05:48,431 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3572&utl=&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=634033229 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [13]
+2019-04-02 18:05:48,431 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=634033229 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [17]
+2019-04-02 18:05:48,431 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=634033229 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [20]
+2019-04-02 18:05:48,446  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1828) [1]
+2019-04-02 18:05:48,540  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [20]
+2019-04-02 18:05:48,758  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:05:48,758  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:05:49,039  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:05:50,053  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 9600 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-04-02 18:05:51,067  INFO MissionPlanner.JYLinkMainCtrl - 67 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2019-04-02 18:05:52,315 ERROR MissionPlanner.JYLinkMainCtrl - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 639
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 682
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 518
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 431 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:468) [ProgressReporterDialogue Background thread]
+2019-04-02 18:05:52,331 ERROR FBGroundControl.MainForm - Serial Reader fail :System.IO.IOException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream.EndRead(IAsyncResult asyncResult)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 639
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 701
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 518
+   在 FBGroundControl.MainForm.mainCtrlReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6211 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6238) [MainCtrl Serial reader]
+2019-04-02 18:05:52,331 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=exception&an=FBGroundControl&av=1.0.0.0&cd=&dp=&exd=%e7%94%b1%e4%ba%8e%e7%ba%bf%e7%a8%8b%e9%80%80%e5%87%ba%e6%88%96%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e8%af%b7%e6%b1%82%ef%bc%8c%e5%b7%b2%e4%b8%ad%e6%ad%a2+I%2fO+%e6%93%8d%e4%bd%9c%e3%80%82%0d%0a&exf=0&cd5=System.IO.IOException%3a+%e7%94%b1%e4%ba%8e%e7%ba%bf%e7%a8%8b%e9%80%80%e5%87%ba%e6%88%96%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e8%af%b7%e6%b1%82%ef%bc%8c%e5%b7%b2%e4%b8%ad%e6%ad%a2+I%2fO+%e6%93%8d%e4%bd%9c%e3%80%82%0d%0a%0d%0a+++%e5%9c%a8+System.IO.Ports.InternalResources.WinIOError(Int32+errorCode%2c+String+str)%0d%0a+++%e5%9c%a8+Sys&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1619138390 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [22]
+2019-04-02 18:05:52,970  INFO FBGroundControl.MainForm - comport is closed. existing connect (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1853) [1]
+2019-04-02 18:06:07,244  INFO FBGroundControl.MainForm - MenuConnect Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7267) [1]
+2019-04-02 18:06:07,244  INFO FBGroundControl.MainForm - Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7281) [1]
+2019-04-02 18:06:07,244  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7304) [1]
+2019-04-02 18:06:07,244  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7318) [1]
+2019-04-02 18:06:07,260 ERROR FBGroundControl.MainForm - System.IO.IOException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream.EndRead(IAsyncResult asyncResult)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 18:06:07,369  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-04-02 18:06:07,478  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [22]
+2019-04-02 18:06:07,681  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:06:07,681  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:06:07,884  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:06:08,898  INFO MissionPlanner.JYLinkInterface - Open port with COM4 115200 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-04-02 18:06:09,943  INFO MissionPlanner.JYLinkInterface - 943 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:424) [ProgressReporterDialogue Background thread]
+2019-04-02 18:06:09,974  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 18:06:11,020 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-04-02 18:06:11,035 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1545054301 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [17]
+2019-04-02 18:06:11,035  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1828) [1]
+2019-04-02 18:06:11,035 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3572&utl=&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1545054301 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [20]
+2019-04-02 18:06:11,035 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1545054301 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [10]
+2019-04-02 18:06:11,144  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [20]
+2019-04-02 18:06:11,347  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:06:11,347  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:06:11,628  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:06:12,642  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 9600 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-04-02 18:06:13,656  INFO MissionPlanner.JYLinkMainCtrl - 656 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2019-04-02 18:06:14,904 ERROR MissionPlanner.JYLinkMainCtrl - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 639
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 682
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 518
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 431 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:468) [ProgressReporterDialogue Background thread]
+2019-04-02 18:06:14,920 ERROR FBGroundControl.MainForm - Serial Reader fail :System.IO.IOException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream.EndRead(IAsyncResult asyncResult)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 639
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 701
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 518
+   在 FBGroundControl.MainForm.mainCtrlReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6211 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6238) [MainCtrl Serial reader]
+2019-04-02 18:06:14,920 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=exception&an=FBGroundControl&av=1.0.0.0&cd=&dp=&exd=%e7%94%b1%e4%ba%8e%e7%ba%bf%e7%a8%8b%e9%80%80%e5%87%ba%e6%88%96%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e8%af%b7%e6%b1%82%ef%bc%8c%e5%b7%b2%e4%b8%ad%e6%ad%a2+I%2fO+%e6%93%8d%e4%bd%9c%e3%80%82%0d%0a&exf=0&cd5=System.IO.IOException%3a+%e7%94%b1%e4%ba%8e%e7%ba%bf%e7%a8%8b%e9%80%80%e5%87%ba%e6%88%96%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e8%af%b7%e6%b1%82%ef%bc%8c%e5%b7%b2%e4%b8%ad%e6%ad%a2+I%2fO+%e6%93%8d%e4%bd%9c%e3%80%82%0d%0a%0d%0a+++%e5%9c%a8+System.IO.Ports.InternalResources.WinIOError(Int32+errorCode%2c+String+str)%0d%0a+++%e5%9c%a8+Sys&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1759631534 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [17]
+2019-04-02 18:06:25,621  INFO FBGroundControl.MainForm - comport is closed. existing connect (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1853) [1]
+2019-04-02 18:07:17,881  INFO FBGroundControl.MainForm - MenuConnect Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7267) [1]
+2019-04-02 18:07:17,881  INFO FBGroundControl.MainForm - Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7281) [1]
+2019-04-02 18:07:17,881  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7304) [1]
+2019-04-02 18:07:17,881  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7318) [1]
+2019-04-02 18:07:17,897  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-04-02 18:07:17,897 ERROR FBGroundControl.MainForm - System.IO.IOException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream.EndRead(IAsyncResult asyncResult)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 18:07:17,928  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [10]
+2019-04-02 18:07:18,131  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:07:18,131  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:07:18,334  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:07:19,348  INFO MissionPlanner.JYLinkInterface - Open port with COM4 115200 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-04-02 18:07:20,393  INFO MissionPlanner.JYLinkInterface - 393 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:424) [ProgressReporterDialogue Background thread]
+2019-04-02 18:07:20,424  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 18:07:21,469 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-04-02 18:07:21,485  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1828) [1]
+2019-04-02 18:07:21,485 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1251675016 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [20]
+2019-04-02 18:07:21,485 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1251675016 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [13]
+2019-04-02 18:07:21,485 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3588&utl=&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1251675016 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [17]
+2019-04-02 18:07:21,578  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2019-04-02 18:07:21,781  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:07:21,781  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:07:22,062  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:07:23,076  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 9600 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-04-02 18:07:24,090  INFO MissionPlanner.JYLinkMainCtrl - 90 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2019-04-02 18:07:25,322 ERROR MissionPlanner.JYLinkMainCtrl - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 639
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 682
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 518
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 431 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:468) [ProgressReporterDialogue Background thread]
+2019-04-02 18:07:25,338 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=exception&an=FBGroundControl&av=1.0.0.0&cd=&dp=&exd=%e7%94%b1%e4%ba%8e%e7%ba%bf%e7%a8%8b%e9%80%80%e5%87%ba%e6%88%96%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e8%af%b7%e6%b1%82%ef%bc%8c%e5%b7%b2%e4%b8%ad%e6%ad%a2+I%2fO+%e6%93%8d%e4%bd%9c%e3%80%82%0d%0a&exf=0&cd5=System.IO.IOException%3a+%e7%94%b1%e4%ba%8e%e7%ba%bf%e7%a8%8b%e9%80%80%e5%87%ba%e6%88%96%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e8%af%b7%e6%b1%82%ef%bc%8c%e5%b7%b2%e4%b8%ad%e6%ad%a2+I%2fO+%e6%93%8d%e4%bd%9c%e3%80%82%0d%0a%0d%0a+++%e5%9c%a8+System.IO.Ports.InternalResources.WinIOError(Int32+errorCode%2c+String+str)%0d%0a+++%e5%9c%a8+Sys&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1047096212 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [20]
+2019-04-02 18:07:25,338 ERROR FBGroundControl.MainForm - Serial Reader fail :System.IO.IOException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream.EndRead(IAsyncResult asyncResult)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 639
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 701
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 518
+   在 FBGroundControl.MainForm.mainCtrlReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6211 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6238) [MainCtrl Serial reader]
+2019-04-02 18:07:26,492  INFO FBGroundControl.MainForm - comport is closed. existing connect (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1853) [1]
+2019-04-02 18:07:31,578  INFO FBGroundControl.MainForm - Saving config (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:5448) [1]
+2019-04-02 18:18:14,514  INFO FBGroundControl.MainForm - Loading config (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:4025) [1]
+2019-04-02 18:18:14,580  INFO FBGroundControl.MainForm - Loading wp params (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6295) [1]
+2019-04-02 18:18:14,581  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6308) [1]
+2019-04-02 18:18:14,581  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6324) [1]
+2019-04-02 18:18:14,984 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (d:\海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-04-02 18:18:14,987 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 d:\海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (d:\海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-04-02 18:18:32,764  INFO FBGroundControl.MainForm - MenuConnect Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7267) [1]
+2019-04-02 18:18:32,765  INFO FBGroundControl.MainForm - Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7281) [1]
+2019-04-02 18:18:32,766  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7304) [1]
+2019-04-02 18:18:32,766  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7318) [1]
+2019-04-02 18:18:32,775  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-04-02 18:18:32,814  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [7]
+2019-04-02 18:18:32,836  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:32,837  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:18:33,049  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:34,051  INFO MissionPlanner.JYLinkInterface - Open port with COM4 115200 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:35,087  INFO MissionPlanner.JYLinkInterface - 87 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:424) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:35,093  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:36,148 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-04-02 18:18:36,171  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1828) [1]
+2019-04-02 18:18:36,220  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2019-04-02 18:18:36,258 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1677648093 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [13]
+2019-04-02 18:18:36,258 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3392&utl=&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1677648093 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [8]
+2019-04-02 18:18:36,259 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1677648093 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [18]
+2019-04-02 18:18:36,448  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:36,476  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:18:36,705  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:37,707  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 9600 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:38,710  INFO MissionPlanner.JYLinkMainCtrl - 710 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:38,755  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:39,791 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-04-02 18:18:39,817 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=103204503 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [18]
+2019-04-02 18:18:39,817 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3644&utl=&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=103204503 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [14]
+2019-04-02 18:18:39,817 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=9600&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=103204503 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [8]
+2019-04-02 18:18:48,553  INFO FBGroundControl.MainForm - MenuConnect Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7267) [1]
+2019-04-02 18:18:48,553  INFO FBGroundControl.MainForm - Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7281) [1]
+2019-04-02 18:18:48,554  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7304) [1]
+2019-04-02 18:18:48,554  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7318) [1]
+2019-04-02 18:18:48,573 ERROR FBGroundControl.MainForm - System.IO.IOException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream.EndRead(IAsyncResult asyncResult)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 18:18:48,661  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-04-02 18:18:48,792  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2019-04-02 18:18:48,995  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:48,996  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:18:49,290  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:50,290  INFO MissionPlanner.JYLinkInterface - Open port with COM4 115200 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:51,323  INFO MissionPlanner.JYLinkInterface - 323 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:424) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:51,325  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:52,378 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-04-02 18:18:52,401 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1847563222 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [18]
+2019-04-02 18:18:52,401 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1847563222 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [13]
+2019-04-02 18:18:52,401 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3635&utl=&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1847563222 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [14]
+2019-04-02 18:18:52,427  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1828) [1]
+2019-04-02 18:18:52,515  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [21]
+2019-04-02 18:18:52,741  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:52,764  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:18:52,994  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:53,994  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 9600 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:54,996  INFO MissionPlanner.JYLinkMainCtrl - 996 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:56,248 ERROR MissionPlanner.JYLinkMainCtrl - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 639
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 682
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 518
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 431 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:468) [ProgressReporterDialogue Background thread]
+2019-04-02 18:18:56,289 ERROR FBGroundControl.MainForm - Serial Reader fail :System.IO.IOException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream.EndRead(IAsyncResult asyncResult)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 639
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 701
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 518
+   在 FBGroundControl.MainForm.mainCtrlReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6211 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6238) [MainCtrl Serial reader]
+2019-04-02 18:18:56,290 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=exception&an=FBGroundControl&av=1.0.0.0&cd=&dp=&exd=%e7%94%b1%e4%ba%8e%e7%ba%bf%e7%a8%8b%e9%80%80%e5%87%ba%e6%88%96%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e8%af%b7%e6%b1%82%ef%bc%8c%e5%b7%b2%e4%b8%ad%e6%ad%a2+I%2fO+%e6%93%8d%e4%bd%9c%e3%80%82%0d%0a&exf=0&cd5=System.IO.IOException%3a+%e7%94%b1%e4%ba%8e%e7%ba%bf%e7%a8%8b%e9%80%80%e5%87%ba%e6%88%96%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e8%af%b7%e6%b1%82%ef%bc%8c%e5%b7%b2%e4%b8%ad%e6%ad%a2+I%2fO+%e6%93%8d%e4%bd%9c%e3%80%82%0d%0a%0d%0a+++%e5%9c%a8+System.IO.Ports.InternalResources.WinIOError(Int32+errorCode%2c+String+str)%0d%0a+++%e5%9c%a8+Sys&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1036556627 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [22]
+2019-04-02 18:18:56,912  INFO FBGroundControl.MainForm - comport is closed. existing connect (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1853) [1]
+2019-04-02 18:19:02,578  INFO FBGroundControl.MainForm - We are disconnecting (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6827) [1]
+2019-04-02 18:19:02,582  INFO MissionPlanner.Comms.SerialPort - COM4 DtrEnable False (d:\海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:23) [1]
+2019-04-02 18:19:02,584  INFO MissionPlanner.Comms.SerialPort - COM1 DtrEnable False (d:\海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:23) [1]
+2019-04-02 18:19:02,589  INFO MissionPlanner.Comms.SerialPort - COM2 DtrEnable False (d:\海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:23) [1]
+2019-04-02 18:19:02,595 ERROR FBGroundControl.MainForm - System.IO.IOException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream.EndRead(IAsyncResult asyncResult)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4233
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4321
+   在 FBGroundControl.MainForm.SerialReader() 位置 d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 6110 (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:6114) [Main Serial reader]
+2019-04-02 18:19:08,910  INFO FBGroundControl.MainForm - MenuConnect Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7267) [1]
+2019-04-02 18:19:08,911  INFO FBGroundControl.MainForm - Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7281) [1]
+2019-04-02 18:19:08,911  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7304) [1]
+2019-04-02 18:19:08,911  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:7318) [1]
+2019-04-02 18:19:08,912  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-04-02 18:19:08,943  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [22]
+2019-04-02 18:19:09,144  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:19:09,146  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:19:09,409  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:19:10,409  INFO MissionPlanner.JYLinkInterface - Open port with COM4 115200 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-04-02 18:19:11,442  INFO MissionPlanner.JYLinkInterface - 442 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:424) [ProgressReporterDialogue Background thread]
+2019-04-02 18:19:11,444  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 18:19:12,482 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-04-02 18:19:12,499  INFO FBGroundControl.MainForm - About to do dtr if needed (d:\海军\FBGroundControl\FBGroundControl\MainForm.cs:1828) [1]
+2019-04-02 18:19:12,499 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3584&utl=&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=2044783830 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [18]
+2019-04-02 18:19:12,499 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=2044783830 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [8]
+2019-04-02 18:19:12,499 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=2044783830 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [21]
+2019-04-02 18:19:12,599  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [22]
+2019-04-02 18:19:12,809  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-04-02 18:19:12,834  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-04-02 18:19:13,069  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-04-02 18:19:14,069  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 9600 (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-04-02 18:19:15,070  INFO MissionPlanner.JYLinkMainCtrl - 70 Start connect loop  (d:\海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2019-04-02 18:19:15,103  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (d:\海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-04-02 18:19:16,181 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“D:\海军\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (d:\海军\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-04-02 18:19:16,192 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=9600&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=770008669 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [21]
+2019-04-02 18:19:16,192 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=770008669 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [22]
+2019-04-02 18:19:16,192 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3693&utl=&ul=zh-CN&sd=32-bits&sr=1366x768&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=770008669 (d:\海军\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [7]

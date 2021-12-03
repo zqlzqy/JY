@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <NUM_tracklength>200</NUM_tracklength>
+  <guid>b552c31b-bd38-4da7-91dc-a81aa5ba2d26</guid>
+  <copter_guid>395bcbef-83a1-4de5-af1c-41c551f210aa</copter_guid>
+  <plane_guid>e0670fc4-29be-4324-8bbf-d84a7ea9d159</plane_guid>
+  <Tuning_Graph_Selected />
+  <TXT_homelat />
+  <TXT_homelng />
+  <TXT_homealt />
+  <TXT_WPRad>100</TXT_WPRad>
+  <TXT_loiterrad />
+  <TXT_DefaultAlt>500</TXT_DefaultAlt>
+  <CMB_altmode>Relative</CMB_altmode>
+  <fpcoordmouse>GEO</fpcoordmouse>
+  <APMFirmware>JYPlane</APMFirmware>
+  <MapType>Custom</MapType>
+  <FlightSplitter>676</FlightSplitter>
+</Config>

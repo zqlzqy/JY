@@ -1,0 +1,36 @@
+2020-10-28 16:55:15,919  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3848) [1]
+2020-10-28 16:55:16,001  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6178) [1]
+2020-10-28 16:55:16,002  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6191) [1]
+2020-10-28 16:55:16,002  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6207) [1]
+2020-10-28 16:55:16,419 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2020-10-28 16:55:16,424 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2020-10-28 16:56:03,116  INFO FBGroundControl.MainForm - Saving config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:5344) [1]
+2020-10-28 16:56:03,176 ERROR FBGroundControl.MainForm - System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:行号 0 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:4253) [FD Mainloop]
+2020-10-28 19:24:22,855  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3848) [1]
+2020-10-28 19:24:22,917  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6178) [1]
+2020-10-28 19:24:22,918  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6191) [1]
+2020-10-28 19:24:22,918  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6207) [1]
+2020-10-28 19:24:23,279 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2020-10-28 19:24:23,284 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2020-10-28 19:24:50,592  INFO FBGroundControl.MainForm - Saving config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:5344) [1]
+2020-10-28 19:26:44,611  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3848) [1]
+2020-10-28 19:26:44,690  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6178) [1]
+2020-10-28 19:26:44,691  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6191) [1]
+2020-10-28 19:26:44,691  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6207) [1]
+2020-10-28 19:26:45,095 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2020-10-28 19:26:45,099 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2020-10-28 19:33:32,087  INFO FBGroundControl.MainForm - Saving config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:5344) [1]

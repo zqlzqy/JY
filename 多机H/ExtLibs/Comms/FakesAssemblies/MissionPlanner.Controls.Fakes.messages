@@ -1,0 +1,36 @@
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.ControlExt 生成存根: 类型已密封。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.ControlHelpers 生成存根: 类型已密封。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 System.CustomMessageBox 生成存根: 类型已密封。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.HUDT 生成存根: 类型对 exported or assembly(MissionPlanner.Controls.Fakes) 不可见。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.EventValueChanged 生成存根: 类型已密封。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.Properties.Resources 生成存根: 类型对 exported or assembly(MissionPlanner.Controls.Fakes) 不可见。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.PseudoOpacityHelper 生成存根: 类型已密封。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 <PrivateImplementationDetails>{B193EED8-F853-4D9A-8334-35A2DAD478F3} 生成存根: 类型不受支持，因为存在内部限制。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 <>f__AnonymousType0`2 生成存根: 类型已密封。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 AGaugeApp.AGauge+NeedleColorEnum 生成填充码: 类型是一个枚举。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 AGaugeApp.AGauge+ValueInRangeChangedDelegate 生成填充码: 类型是一个委托。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.BackstageView.BackstageView+<>c__DisplayClass5 生成填充码: 类型不受支持，因为存在内部限制。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.BackstageView.BackstageViewPage+ThemeManager 生成填充码: 类型是一个委托。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.ControlHelpers+<>c__DisplayClass2`1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.ControlHelpers+<>c__DisplayClass6`1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.Coords+CoordsSystems 生成填充码: 类型是一个枚举。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 System.CustomMessageBox+<>c__DisplayClass17 生成填充码: 类型不受支持，因为存在内部限制。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 System.CustomMessageBox+<>c__DisplayClass2 生成填充码: 类型不受支持，因为存在内部限制。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 System.CustomMessageBox+ThemeManager 生成填充码: 类型是一个委托。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.HUD+character 生成填充码: 类型对 exported or assembly(MissionPlanner.Controls.Fakes) 不可见。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.HUDT 生成填充码: 类型对 exported or assembly(MissionPlanner.Controls.Fakes) 不可见。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.IActivate 生成填充码: 类型是一个接口。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.IDeactivate 生成填充码: 类型是一个接口。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.EventValueChanged 生成填充码: 类型是一个委托。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.IDynamicParameterControl 生成填充码: 类型是一个接口。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.InputBox+<>c__DisplayClass2 生成填充码: 类型不受支持，因为存在内部限制。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.InputBox+ThemeManager 生成填充码: 类型是一个委托。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.MainSwitcher+<>c__DisplayClass2 生成填充码: 类型不受支持，因为存在内部限制。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.MainSwitcher+<>c__DisplayClass7 生成填充码: 类型不受支持，因为存在内部限制。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.MainSwitcher+ThemeManager 生成填充码: 类型是一个委托。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.ProgressReporterDialogue+<>c__DisplayClassa 生成填充码: 类型不受支持，因为存在内部限制。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.ProgressReporterDialogue+DoWorkEventHandler 生成填充码: 类型是一个委托。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.Properties.Resources 生成填充码: 类型对 exported or assembly(MissionPlanner.Controls.Fakes) 不可见。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 MissionPlanner.Controls.PseudoOpacityHelper 生成填充码: 类型对 exported or assembly(MissionPlanner.Controls.Fakes) 不可见。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 <PrivateImplementationDetails>{B193EED8-F853-4D9A-8334-35A2DAD478F3} 生成填充码: 类型不受支持，因为存在内部限制。
+E:\C#\MissionPlanner-master\ExtLibs\Comms\Fakes\MissionPlanner.Controls.fakes : warning : 无法为 <>f__AnonymousType0`2 生成填充码: 类型不受支持，因为存在内部限制。

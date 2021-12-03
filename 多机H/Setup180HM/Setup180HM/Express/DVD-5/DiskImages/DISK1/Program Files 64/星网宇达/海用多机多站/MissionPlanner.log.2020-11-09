@@ -1,0 +1,145 @@
+2020-11-09 15:55:11,293  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3855) [1]
+2020-11-09 15:55:11,347  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6228) [1]
+2020-11-09 15:55:11,348  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6241) [1]
+2020-11-09 15:55:11,348  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2020-11-09 15:55:11,593 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 15:55:11,597 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 15:56:04,379  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6228) [1]
+2020-11-09 15:56:04,381  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6241) [1]
+2020-11-09 15:56:04,381  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2020-11-09 15:56:45,803  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6228) [1]
+2020-11-09 15:56:45,803  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6241) [1]
+2020-11-09 15:56:45,803  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2020-11-09 15:56:59,433  INFO FBGroundControl.MainForm - Saving config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:5394) [1]
+2020-11-09 15:56:59,491 ERROR FBGroundControl.MainForm - System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]
+2020-11-09 16:13:42,562  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3855) [1]
+2020-11-09 16:13:42,596  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6228) [1]
+2020-11-09 16:13:42,597  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6241) [1]
+2020-11-09 16:13:42,597  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2020-11-09 16:13:42,689 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:13:42,693 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:14:00,040  INFO MissionPlanner.JYLinkInterface - Logplaybackfile set D:\180\h\2020-11-09 15-00-37.tlog (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:218) [1]
+2020-11-09 16:14:00,041  INFO FBGroundControl.Forms.DataPlayback - Open logfile D:\180\h\2020-11-09 15-00-37.tlog (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Forms\DataPlayback.cs:134) [1]
+2020-11-09 16:14:02,273  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 533 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:02,279  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 534 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:02,279  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 535 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:02,280  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 536 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:09,877  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 3023 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:09,878  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 3024 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:09,878  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 3025 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:09,878  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 3026 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:18,569  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 5447 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:18,569  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 5448 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:18,569  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 5449 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:18,569  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 5450 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:23,255 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:14:23,255 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:14:23,281 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:14:23,282 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:14:23,294 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:14:23,295 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:14:23,309 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:14:23,309 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:14:23,322 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:14:23,323 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:14:24,051 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:14:24,052 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:14:28,019  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 7839 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:28,019  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 7840 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:28,019  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 7841 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:28,019  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 7842 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:38,422  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 10587 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:38,422  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 10588 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:38,423  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 10589 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:38,423  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 10590 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:45,858  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 13077 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:45,859  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 13078 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:45,859  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 13079 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:45,859  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 13080 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:51,368  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 15485 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:51,368  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 15486 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:51,368  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 15487 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:51,368  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 15488 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:57,907  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 18307 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:57,908  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 18308 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:57,908  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 18309 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:14:57,908  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 18310 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:04,186  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 21067 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:04,186  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 21068 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:04,186  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 21069 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:04,186  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 21070 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:10,296  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 23963 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:10,296  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 23964 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:10,296  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 23965 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:10,296  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 23966 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:15,945  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 26469 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:15,945  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 26470 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:15,945  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 26471 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:15,945  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 26472 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:21,923  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 29201 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:21,923  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 29202 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:21,923  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 29203 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:21,923  INFO MissionPlanner.JYLinkInterface - logread - lost sync byte 0 pos 29204 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:5364) [FD Mainloop]
+2020-11-09 16:15:36,811  INFO FBGroundControl.MainForm - Saving config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:5394) [1]
+2020-11-09 16:46:18,314  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3855) [1]
+2020-11-09 16:46:18,396  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6228) [1]
+2020-11-09 16:46:18,397  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6241) [1]
+2020-11-09 16:46:18,397  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2020-11-09 16:46:18,640 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:46:18,644 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:46:38,496  INFO FBGroundControl.MainForm - Saving config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:5394) [1]
+2020-11-09 16:46:38,552 ERROR FBGroundControl.MainForm - System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]
+2020-11-09 16:54:56,804  INFO FBGroundControl.MainForm - Loading config (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:3855) [1]
+2020-11-09 16:54:56,893  INFO FBGroundControl.MainForm - Loading wp params (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6228) [1]
+2020-11-09 16:54:56,894  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6241) [1]
+2020-11-09 16:54:56,894  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\FBGroundControl\MainForm.cs:6257) [1]
+2020-11-09 16:54:57,110 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]
+2020-11-09 16:54:57,114 ERROR MissionPlanner.Controls.HUD - OpenTK.Graphics.GraphicsModeException: Invalid or unsupported GraphicsMode.
+   在 OpenTK.X11GLControl..ctor(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\X11GLControl.cs:行号 76
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2128 (f:\交付版开发\230\180多机H1023\180多机H\180多机H\多机H\ExtLibs\Controls\HUD.cs:2131) [1]

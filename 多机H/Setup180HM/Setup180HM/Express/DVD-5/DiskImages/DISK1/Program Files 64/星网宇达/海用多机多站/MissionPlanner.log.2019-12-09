@@ -1,0 +1,413 @@
+2019-12-09 12:05:25,221  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 12:05:25,309  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 12:05:25,310  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 12:05:25,310  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 12:05:25,662 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 12:05:25,666 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\舟山修改版1127\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\舟山修改版1127\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 13:30:47,379  INFO FBGroundControl.MainForm - Saving config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:5569) [1]
+2019-12-09 14:57:46,597  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 14:57:46,675  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 14:57:46,676  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 14:57:46,676  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 14:57:46,947 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 14:57:46,953 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 14:59:21,844  INFO FBGroundControl.MainForm - Saving config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:5569) [1]
+2019-12-09 15:10:18,596  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 15:10:18,775  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 15:10:18,777  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 15:10:18,777  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 15:10:19,140 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:10:19,145 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:13:15,949  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 15:13:16,003  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 15:13:16,003  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 15:13:16,003  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 15:13:16,427 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:13:16,432 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:14:06,593  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 15:14:06,646  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 15:14:06,647  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 15:14:06,647  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 15:14:07,138 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:14:07,142 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:16:18,671  INFO FBGroundControl.MainForm - Saving config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:5569) [1]
+2019-12-09 15:19:37,379  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 15:19:37,477  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 15:19:37,478  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 15:19:37,478  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 15:19:37,923 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:19:37,928 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:20:27,886  INFO FBGroundControl.MainForm - Saving config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:5569) [1]
+2019-12-09 15:20:41,286  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 15:20:41,345  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 15:20:41,346  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 15:20:41,346  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 15:20:41,841 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:20:41,846 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:25:49,136  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 15:25:49,251  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 15:25:49,252  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 15:25:49,252  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 15:25:49,676 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:25:49,682 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:30:00,766  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 15:30:00,824  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 15:30:00,825  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 15:30:00,825  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 15:30:01,219 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:30:01,225 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:35:37,721  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 15:35:37,828  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 15:35:37,828  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 15:35:37,828  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 15:35:38,178 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:35:38,184 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:40:25,306  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 15:40:25,397  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 15:40:25,398  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 15:40:25,398  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 15:40:25,892 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:40:25,897 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:47:45,958  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 15:47:46,075  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 15:47:46,076  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 15:47:46,076  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 15:47:46,476 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:47:46,481 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:48:46,680  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 15:48:46,731  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 15:48:46,731  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 15:48:46,732  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 15:48:47,023 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:48:47,027 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 15:50:10,439  INFO FBGroundControl.MainForm - Saving config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:5569) [1]
+2019-12-09 16:45:30,462  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 16:45:30,571  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 16:45:30,571  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 16:45:30,572  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 16:45:31,079 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 16:45:31,084 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 16:51:38,879  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 16:51:39,147  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 16:51:39,148  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 16:51:39,148  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 16:51:39,457 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 16:51:39,463 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 16:52:04,824  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:04,999  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM1 = 通信端口 (COM1) (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-12-09 16:52:05,002  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:05,148  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM2 =  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-12-09 16:52:05,149  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:05,294  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM3 =  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-12-09 16:52:05,295  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:05,391  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM4 =  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-12-09 16:52:05,392  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:05,482  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM5 =  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-12-09 16:52:05,482  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:05,583  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM21 =  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-12-09 16:52:06,004  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:06,004  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-09 16:52:06,081  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:06,082  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-09 16:52:06,082  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:06,082  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-09 16:52:06,200  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:06,201  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-09 16:52:06,201  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:06,201  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-09 16:52:06,441  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:06,441  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM3 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-09 16:52:06,442  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:06,442  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-09 16:52:06,518  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:06,518  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM4 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-09 16:52:06,519  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:06,519  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-09 16:52:06,545  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:06,545  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM5 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-09 16:52:06,546  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-12-09 16:52:06,546  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM21 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-12-09 16:52:11,281  INFO FBGroundControl.MainForm - MenuConnect Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7362) [1]
+2019-12-09 16:52:11,282  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7376) [1]
+2019-12-09 16:52:11,282  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7399) [1]
+2019-12-09 16:52:11,282  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7413) [1]
+2019-12-09 16:52:11,313  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1590) [1]
+2019-12-09 16:52:11,356  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-12-09 16:52:11,394  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-09 16:52:11,394  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-09 16:52:11,933  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-09 16:52:12,935  INFO MissionPlanner.JYLinkInterface - Open port with COM21 115200 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2019-12-09 16:52:13,978  INFO MissionPlanner.JYLinkInterface - 978 Start connect loop  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2019-12-09 16:52:13,985  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-09 16:52:15,095 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-12-09 16:52:15,134  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1892) [1]
+2019-12-09 16:52:15,242  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-12-09 16:52:15,298 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=2021760534 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [3]
+2019-12-09 16:52:15,298 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=2021760534 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [18]
+2019-12-09 16:52:15,298 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3810&utl=&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=2021760534 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [16]
+2019-12-09 16:52:15,455  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-09 16:52:15,457  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-09 16:52:15,746 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [18]
+2019-12-09 16:52:15,746 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [3]
+2019-12-09 16:52:15,754 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [16]
+2019-12-09 16:52:15,879  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-09 16:52:16,880  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-12-09 16:52:17,896  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-09 16:52:17,980  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1917) [1]
+2019-12-09 16:56:45,059  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 16:56:45,140  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 16:56:45,140  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 16:56:45,141  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 16:56:45,605 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 16:56:45,610 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 16:56:50,262  INFO FBGroundControl.MainForm - MenuConnect Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7362) [1]
+2019-12-09 16:56:50,263  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7376) [1]
+2019-12-09 16:56:50,263  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7399) [1]
+2019-12-09 16:56:50,263  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7413) [1]
+2019-12-09 16:56:50,270  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1590) [1]
+2019-12-09 16:56:50,317  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2019-12-09 16:56:50,328  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-09 16:56:50,348  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-09 16:56:50,898  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-09 16:56:51,900  INFO MissionPlanner.JYLinkInterface - Open port with COM21 115200 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2019-12-09 16:56:52,937  INFO MissionPlanner.JYLinkInterface - 937 Start connect loop  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2019-12-09 16:56:58,344  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-09 16:56:58,388  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1616) [1]
+2019-12-09 16:56:58,390  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1892) [1]
+2019-12-09 16:56:58,431  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2019-12-09 16:56:58,438  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-09 16:56:58,438  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-09 16:56:58,753  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-09 16:56:59,754  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-12-09 16:57:00,756  INFO MissionPlanner.JYLinkMainCtrl - 756 Start connect loop  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2019-12-09 16:57:01,990 ERROR MissionPlanner.JYLinkMainCtrl - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 639
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 682
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 518
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 431 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:468) [ProgressReporterDialogue Background thread]
+2019-12-09 16:57:04,194  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1917) [1]
+2019-12-09 16:57:14,606  INFO FBGroundControl.MainForm - MenuConnect Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7362) [1]
+2019-12-09 16:57:14,606  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7376) [1]
+2019-12-09 16:57:14,606  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7399) [1]
+2019-12-09 16:57:14,607  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7413) [1]
+2019-12-09 16:57:14,607  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1590) [1]
+2019-12-09 16:57:14,631  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [16]
+2019-12-09 16:57:14,847  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-09 16:57:14,849  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-09 16:57:15,052  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-09 16:57:16,052  INFO MissionPlanner.JYLinkInterface - Open port with COM21 115200 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2019-12-09 16:57:17,087  INFO MissionPlanner.JYLinkInterface - 87 Start connect loop  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2019-12-09 16:57:17,091  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-09 16:57:18,149 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-12-09 16:57:18,181  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1892) [1]
+2019-12-09 16:57:18,220  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [16]
+2019-12-09 16:57:18,318 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=366059950 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [4]
+2019-12-09 16:57:18,318 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3573&utl=&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=366059950 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [3]
+2019-12-09 16:57:18,318 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=366059950 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [15]
+2019-12-09 16:57:18,368  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-09 16:57:18,391  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-09 16:57:18,920  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-09 16:57:18,950 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [4]
+2019-12-09 16:57:18,950 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [3]
+2019-12-09 16:57:18,950 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [15]
+2019-12-09 16:57:19,921  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-12-09 16:57:20,935  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-09 16:57:20,942  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1917) [1]
+2019-12-09 17:01:09,317  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 17:01:09,372  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 17:01:09,373  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 17:01:09,373  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 17:01:09,921 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 17:01:09,928 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 17:01:31,468  INFO FBGroundControl.MainForm - MenuConnect Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7362) [1]
+2019-12-09 17:01:31,469  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7376) [1]
+2019-12-09 17:01:31,469  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7399) [1]
+2019-12-09 17:01:31,469  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7413) [1]
+2019-12-09 17:01:31,476  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1590) [1]
+2019-12-09 17:01:31,518  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [11]
+2019-12-09 17:01:31,545  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-09 17:01:31,546  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-09 17:01:32,117  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-09 17:01:33,119  INFO MissionPlanner.JYLinkInterface - Open port with COM21 115200 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2019-12-09 17:01:34,156  INFO MissionPlanner.JYLinkInterface - 156 Start connect loop  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2019-12-09 17:01:34,170  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-09 17:01:35,225 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-12-09 17:01:35,252  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1892) [1]
+2019-12-09 17:01:35,278  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [24]
+2019-12-09 17:01:35,367 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3773&utl=&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=1668325881 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [23]
+2019-12-09 17:01:35,367 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=1668325881 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [22]
+2019-12-09 17:01:35,367 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=1668325881 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [14]
+2019-12-09 17:01:35,481  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-09 17:01:35,481  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-09 17:01:35,847 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [14]
+2019-12-09 17:01:35,849 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [22]
+2019-12-09 17:01:35,853 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [23]
+2019-12-09 17:01:36,213  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-09 17:01:37,215  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-12-09 17:01:38,230  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-09 17:01:38,254  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1917) [1]
+2019-12-09 17:05:59,026  INFO FBGroundControl.MainForm - Saving config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:5569) [1]
+2019-12-09 17:06:42,472  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 17:06:42,569  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 17:06:42,570  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 17:06:42,570  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 17:06:43,204 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 17:06:43,208 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 17:06:47,970  INFO FBGroundControl.MainForm - MenuConnect Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7362) [1]
+2019-12-09 17:06:47,971  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7376) [1]
+2019-12-09 17:06:47,971  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7399) [1]
+2019-12-09 17:06:47,972  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7413) [1]
+2019-12-09 17:06:47,999  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1590) [1]
+2019-12-09 17:06:48,053  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2019-12-09 17:06:48,063  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-09 17:06:48,081  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-09 17:06:48,614  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-09 17:06:49,617  INFO MissionPlanner.JYLinkInterface - Open port with COM21 115200 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2019-12-09 17:06:50,660  INFO MissionPlanner.JYLinkInterface - 660 Start connect loop  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2019-12-09 17:06:50,684  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-09 17:06:51,879 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-12-09 17:06:51,907  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1892) [1]
+2019-12-09 17:06:51,963  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [16]
+2019-12-09 17:06:52,039  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-09 17:06:52,040  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-09 17:06:52,066 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3902&utl=&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=1780323746 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [14]
+2019-12-09 17:06:52,066 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=1780323746 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [15]
+2019-12-09 17:06:52,067 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=1780323746 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [3]
+2019-12-09 17:06:52,416 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [15]
+2019-12-09 17:06:52,416 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [14]
+2019-12-09 17:06:52,416 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [3]
+2019-12-09 17:06:52,729  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-09 17:06:53,730  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-12-09 17:06:54,744  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-09 17:06:54,801  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1917) [1]
+2019-12-09 17:12:46,036  INFO FBGroundControl.MainForm - Saving config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:5569) [1]
+2019-12-09 17:13:29,516  INFO FBGroundControl.MainForm - Loading config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:4104) [1]
+2019-12-09 17:13:29,712  INFO FBGroundControl.MainForm - Loading wp params (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6403) [1]
+2019-12-09 17:13:29,713  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6416) [1]
+2019-12-09 17:13:29,713  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:6432) [1]
+2019-12-09 17:13:30,338 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 17:13:30,343 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-12-09 17:13:35,408  INFO FBGroundControl.MainForm - MenuConnect Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7362) [1]
+2019-12-09 17:13:35,409  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7376) [1]
+2019-12-09 17:13:35,409  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7399) [1]
+2019-12-09 17:13:35,410  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:7413) [1]
+2019-12-09 17:13:35,418  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1590) [1]
+2019-12-09 17:13:35,464  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-12-09 17:13:35,476  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-09 17:13:35,477  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-09 17:13:35,790  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-09 17:13:36,793  INFO MissionPlanner.JYLinkInterface - Open port with COM21 115200 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2019-12-09 17:13:37,832  INFO MissionPlanner.JYLinkInterface - 832 Start connect loop  (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2019-12-09 17:13:37,854  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-09 17:13:38,911 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“F:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“F:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:行号 387 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2019-12-09 17:13:38,941  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1892) [1]
+2019-12-09 17:13:38,995  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [15]
+2019-12-09 17:13:39,047 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3512&utl=&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=1871038013 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [23]
+2019-12-09 17:13:39,049 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=1871038013 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [21]
+2019-12-09 17:13:39,049 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=8&z=1871038013 (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:285) [14]
+2019-12-09 17:13:39,113  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-12-09 17:13:39,113  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-12-09 17:13:39,460 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [21]
+2019-12-09 17:13:39,460 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [14]
+2019-12-09 17:13:39,460 DEBUG MissionPlanner.Utilities.Tracking - OK (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Utilities\Tracking.cs:298) [23]
+2019-12-09 17:13:39,696  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-12-09 17:13:40,697  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-12-09 17:13:41,712  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\230\230海军型\230无海图1203\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-12-09 17:13:41,800  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:1917) [1]
+2019-12-09 17:16:41,061  INFO FBGroundControl.MainForm - Saving config (f:\230\230海军型\230无海图1203\FBGroundControl\FBGroundControl\MainForm.cs:5569) [1]

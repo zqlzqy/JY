@@ -1,0 +1,1579 @@
+2010-08-10 17:49:16,280 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (j:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 17:49:16,295 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 g:\180H\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 g:\180H\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 j:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (j:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 17:49:16,385  INFO FBGroundControl.MainForm - Loading config (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:3907) [1]
+2010-08-10 17:49:16,439  INFO FBGroundControl.MainForm - Loading wp params (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6738) [1]
+2010-08-10 17:49:16,440  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6751) [1]
+2010-08-10 17:49:16,440  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6767) [1]
+2010-08-10 17:52:10,799  INFO FBGroundControl.MainForm - Saving config (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:5904) [1]
+2010-08-10 17:52:10,846 ERROR FBGroundControl.MainForm - System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() 位置 j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 0 (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:4313) [FD Mainloop]
+2010-08-10 17:52:10,936 ERROR FBGroundControl.MainForm - System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() 位置 j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 0 (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:4313) [FD Mainloop]
+2010-08-10 17:52:10,984 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=exception&an=FBGroundControl&av=1.0.0.0&sc=start&cd=&dp=&exd=%e5%9c%a8%e5%88%9b%e5%bb%ba%e7%aa%97%e5%8f%a3%e5%8f%a5%e6%9f%84%e4%b9%8b%e5%89%8d%ef%bc%8c%e4%b8%8d%e8%83%bd%e5%9c%a8%e6%8e%a7%e4%bb%b6%e4%b8%8a%e8%b0%83%e7%94%a8+Invoke+%e6%88%96+BeginInvoke%e3%80%82&exf=0&cd5=System.InvalidOperationException%3a+%e5%9c%a8%e5%88%9b%e5%bb%ba%e7%aa%97%e5%8f%a3%e5%8f%a5%e6%9f%84%e4%b9%8b%e5%89%8d%ef%bc%8c%e4%b8%8d%e8%83%bd%e5%9c%a8%e6%8e%a7%e4%bb%b6%e4%b8%8a%e8%b0%83%e7%94%a8+Invoke+%e6%88%96+BeginInvoke%e3%80%82%0d%0a+++%e5%9c%a8+System.Windows.Forms.Control.MarshaledInvoke(Control+caller&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=956456632 (j:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [4]
+2010-08-10 17:52:11,017 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=exception&an=FBGroundControl&av=1.0.0.0&cd=&dp=&exd=%e5%9c%a8%e5%88%9b%e5%bb%ba%e7%aa%97%e5%8f%a3%e5%8f%a5%e6%9f%84%e4%b9%8b%e5%89%8d%ef%bc%8c%e4%b8%8d%e8%83%bd%e5%9c%a8%e6%8e%a7%e4%bb%b6%e4%b8%8a%e8%b0%83%e7%94%a8+Invoke+%e6%88%96+BeginInvoke%e3%80%82&exf=0&cd5=System.InvalidOperationException%3a+%e5%9c%a8%e5%88%9b%e5%bb%ba%e7%aa%97%e5%8f%a3%e5%8f%a5%e6%9f%84%e4%b9%8b%e5%89%8d%ef%bc%8c%e4%b8%8d%e8%83%bd%e5%9c%a8%e6%8e%a7%e4%bb%b6%e4%b8%8a%e8%b0%83%e7%94%a8+Invoke+%e6%88%96+BeginInvoke%e3%80%82%0d%0a+++%e5%9c%a8+System.Windows.Forms.Control.MarshaledInvoke(Control+caller&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1375612669 (:0) [3]
+2010-08-10 17:52:57,419 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (j:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 17:52:57,432 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 g:\180H\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 g:\180H\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 j:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (j:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 17:52:57,513  INFO FBGroundControl.MainForm - Loading config (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:3907) [1]
+2010-08-10 17:52:57,584  INFO FBGroundControl.MainForm - Loading wp params (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6738) [1]
+2010-08-10 17:52:57,585  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6751) [1]
+2010-08-10 17:52:57,586  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6767) [1]
+2010-08-10 17:53:07,095  INFO FBGroundControl.MainForm - MenuConnect Start (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7702) [1]
+2010-08-10 17:53:07,097  INFO FBGroundControl.MainForm - Cleanup last logfiles (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7716) [1]
+2010-08-10 17:53:07,097  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7739) [1]
+2010-08-10 17:53:07,098  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7753) [1]
+2010-08-10 17:53:07,098  INFO MissionPlanner.Comms.SerialPort - COM2 RtsEnable True (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-10 17:53:08,775  INFO FBGroundControl.MainForm - About to do dtr if needed (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1575) [1]
+2010-08-10 17:53:08,865  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (j:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2010-08-10 17:53:08,882  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (j:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 17:53:08,883  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (j:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 17:53:09,314  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (j:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 17:53:10,316  INFO MissionPlanner.JYLinkInterface - Open port with COM3 115200 (j:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2010-08-10 17:53:10,317  INFO MissionPlanner.Comms.SerialPort - COM3 RtsEnable True (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2010-08-10 17:53:11,733  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (j:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 17:53:11,739  INFO FBGroundControl.MainForm - comport is closed. existing connect (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1601) [1]
+2010-08-10 17:53:11,742  INFO FBGroundControl.MainForm - About to do dtr if needed (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1729) [1]
+2010-08-10 17:53:11,775  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (j:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2010-08-10 17:53:11,793  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (j:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 17:53:11,794  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (j:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 17:53:12,222  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (j:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 17:53:13,224  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 115200 (j:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2010-08-10 17:53:14,286  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (j:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 17:53:14,435  INFO FBGroundControl.MainForm - comport is closed. existing connect (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1754) [1]
+2010-08-10 17:54:24,662 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (j:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 17:54:24,675 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 g:\180H\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 g:\180H\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 j:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (j:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 17:54:24,755  INFO FBGroundControl.MainForm - Loading config (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:3907) [1]
+2010-08-10 17:54:24,819  INFO FBGroundControl.MainForm - Loading wp params (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6738) [1]
+2010-08-10 17:54:24,820  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6751) [1]
+2010-08-10 17:54:24,820  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6767) [1]
+2010-08-10 17:54:36,365  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2010-08-10 17:54:36,675  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM1 = 通信端口 (COM1) (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2010-08-10 17:54:36,677  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2010-08-10 17:54:36,928  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM2 = 通信端口 (COM2) (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2010-08-10 17:54:36,929  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM3 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2010-08-10 17:54:37,191  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM3 = 通信端口 (COM3) (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2010-08-10 17:54:37,192  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM4 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2010-08-10 17:54:37,446  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM4 = 通信端口 (COM4) (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2010-08-10 17:54:37,447  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM5 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2010-08-10 17:54:37,712  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM5 = 通信端口 (COM5) (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2010-08-10 17:54:37,713  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM6 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2010-08-10 17:54:37,968  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM6 = 通信端口 (COM6) (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2010-08-10 17:54:37,969  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM7 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2010-08-10 17:54:38,221  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM7 =  (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2010-08-10 17:54:38,222  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2010-08-10 17:54:38,223  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2010-08-10 17:54:38,224  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2010-08-10 17:54:38,225  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2010-08-10 17:54:38,227  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2010-08-10 17:54:38,227  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2010-08-10 17:54:38,229  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM2 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2010-08-10 17:54:38,229  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM2 (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2010-08-10 17:54:40,755  INFO FBGroundControl.MainForm - MenuConnect Start (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7702) [1]
+2010-08-10 17:54:40,757  INFO FBGroundControl.MainForm - Cleanup last logfiles (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7716) [1]
+2010-08-10 17:54:40,757  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7739) [1]
+2010-08-10 17:54:40,758  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7753) [1]
+2010-08-10 17:54:40,758  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-10 17:55:20,004 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (j:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 17:55:20,017 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 g:\180H\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 g:\180H\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 j:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (j:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 17:55:20,097  INFO FBGroundControl.MainForm - Loading config (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:3907) [1]
+2010-08-10 17:55:20,145  INFO FBGroundControl.MainForm - Loading wp params (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6738) [1]
+2010-08-10 17:55:20,146  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6751) [1]
+2010-08-10 17:55:20,146  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6767) [1]
+2010-08-10 17:55:28,747  INFO FBGroundControl.MainForm - MenuConnect Start (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7702) [1]
+2010-08-10 17:55:28,749  INFO FBGroundControl.MainForm - Cleanup last logfiles (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7716) [1]
+2010-08-10 17:55:28,750  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7739) [1]
+2010-08-10 17:55:28,750  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (j:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7753) [1]
+2010-08-10 17:55:28,751  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (j:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-10 17:56:51,229 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 17:56:51,241 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 17:56:51,322  INFO FBGroundControl.MainForm - Loading config (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:3907) [1]
+2010-08-10 17:56:51,398  INFO FBGroundControl.MainForm - Loading wp params (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6738) [1]
+2010-08-10 17:56:51,399  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6751) [1]
+2010-08-10 17:56:51,400  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6767) [1]
+2010-08-10 17:57:06,028  INFO FBGroundControl.MainForm - MenuConnect Start (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7702) [1]
+2010-08-10 17:57:06,030  INFO FBGroundControl.MainForm - Cleanup last logfiles (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7716) [1]
+2010-08-10 17:57:06,031  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7739) [1]
+2010-08-10 17:57:06,031  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7753) [1]
+2010-08-10 17:57:06,032  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-10 17:57:06,894  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:06,995  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:07,286  INFO FBGroundControl.MainForm - About to do dtr if needed (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1575) [1]
+2010-08-10 17:57:07,375  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2010-08-10 17:57:07,389  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 17:57:07,390  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 17:57:07,593  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 17:57:08,595  INFO MissionPlanner.JYLinkInterface - Open port with COM3 115200 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2010-08-10 17:57:08,596  INFO MissionPlanner.Comms.SerialPort - COM3 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2010-08-10 17:57:08,865  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:09,603  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 17:57:09,608  INFO FBGroundControl.MainForm - comport is closed. existing connect (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1601) [1]
+2010-08-10 17:57:09,612  INFO FBGroundControl.MainForm - About to do dtr if needed (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1729) [1]
+2010-08-10 17:57:09,673  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [17]
+2010-08-10 17:57:09,689  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 17:57:09,690  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 17:57:09,893  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 17:57:10,818  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:10,894  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 115200 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2010-08-10 17:57:11,868  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:11,898  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 17:57:11,915  INFO FBGroundControl.MainForm - comport is closed. existing connect (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1754) [1]
+2010-08-10 17:57:13,876  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:19,884  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:21,896  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:22,827  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:23,876  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:24,033  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:24,866  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:25,813  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:26,953  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:27,886  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:31,874  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:32,967  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:34,793  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:35,828  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:36,761  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:37,864  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:37,933  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:40,766  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:49,768  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:50,939  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:52,785  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:55,958  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:57:59,836  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:01,860  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:04,036  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:05,763  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:07,812  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:09,887  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:09,967  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:14,763  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:20,961  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:21,879  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:22,800  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:24,880  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:26,913  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:29,765  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:31,812  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:31,859  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:38,787  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:38,842  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:39,809  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:42,763  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:43,989  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:44,815  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:45,860  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:47,931  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:58:53,858  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:01,938  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:02,008  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:02,919  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:05,812  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:06,901  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:07,950  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:09,866  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:11,788  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:12,055  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:15,768  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:19,897  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:21,837  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:24,763  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:29,861  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:34,867  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5754
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 17:59:37,815  INFO FBGroundControl.MainForm - Saving config (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:5904) [1]
+2010-08-10 17:59:37,930 ERROR FBGroundControl.MainForm - System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 0 (:0) [FD Mainloop]
+2010-08-10 18:10:24,933 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 18:10:24,947 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 18:10:25,028  INFO FBGroundControl.MainForm - Loading config (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:3907) [1]
+2010-08-10 18:10:25,079  INFO FBGroundControl.MainForm - Loading wp params (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6738) [1]
+2010-08-10 18:10:25,080  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6751) [1]
+2010-08-10 18:10:25,081  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6767) [1]
+2010-08-10 18:13:01,047  INFO FBGroundControl.MainForm - MenuConnect Start (:0) [1]
+2010-08-10 18:13:01,048  INFO FBGroundControl.MainForm - Cleanup last logfiles (:0) [1]
+2010-08-10 18:13:01,049  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (:0) [1]
+2010-08-10 18:13:01,049  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (:0) [1]
+2010-08-10 18:13:01,050  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-10 18:13:01,902  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:13:01,985  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:13:02,328  INFO FBGroundControl.MainForm - About to do dtr if needed (:0) [1]
+2010-08-10 18:13:02,383  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2010-08-10 18:13:02,399  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:13:02,400  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:13:02,602  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:13:03,605  INFO MissionPlanner.JYLinkInterface - Open port with COM3 115200 (:0) [ProgressReporterDialogue Background thread]
+2010-08-10 18:13:03,605  INFO MissionPlanner.Comms.SerialPort - COM3 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2010-08-10 18:13:03,913  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:13:04,609  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 18:13:04,618  INFO FBGroundControl.MainForm - comport is closed. existing connect (:0) [1]
+2010-08-10 18:13:04,620  INFO FBGroundControl.MainForm - About to do dtr if needed (:0) [1]
+2010-08-10 18:13:04,664  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [18]
+2010-08-10 18:13:04,697  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:13:04,698  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:13:04,901  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:13:05,904  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 115200 (:0) [ProgressReporterDialogue Background thread]
+2010-08-10 18:13:06,909  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 18:13:06,914  INFO FBGroundControl.MainForm - comport is closed. existing connect (:0) [1]
+2010-08-10 18:13:09,796  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:13:30,856  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:13:54,934  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:13:57,890  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:14:06,848  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:14:18,838  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:14:44,448  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:14:44,710  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:14:45,781  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:14:46,322  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:14:46,597  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:14:49,883  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:14:54,813  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:15:00,819  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:15:07,839  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:15:13,856  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:15:22,900  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:15:27,871  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:15:39,939  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:15:55,875  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:15:59,825  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:16:05,964  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:16:14,890  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:16:16,917  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:16:33,850  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:16:48,784  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:16:49,904  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:17:02,923  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:17:04,895  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:17:05,806  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:17:06,896  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:17:10,909  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:17:21,880  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:17:26,897  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:17:30,822  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:17:31,804  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:17:39,016  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:17:41,788  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:17:49,024  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:17:56,848  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:18:08,021  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:18:20,977  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:18:26,828  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:18:33,873  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:18:40,850  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:18:43,879  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:19:00,803  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:19:16,888  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:19:22,806  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:19:41,861  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:19:44,836  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:20:02,845  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:20:03,882  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:20:26,882  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:20:30,939  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:20:31,142  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:20:52,889  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:20:53,057  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:21:09,875  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:21:14,934  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:21:28,890  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:21:31,868  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:21:32,952  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:21:34,886  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:21:41,869  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:21:53,915  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:21:55,859  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:21:56,253  INFO FBGroundControl.MainForm - MenuConnect Start (:0) [1]
+2010-08-10 18:21:56,254  INFO FBGroundControl.MainForm - Cleanup last logfiles (:0) [1]
+2010-08-10 18:21:56,254  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (:0) [1]
+2010-08-10 18:21:56,255  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (:0) [1]
+2010-08-10 18:21:57,150  INFO FBGroundControl.MainForm - About to do dtr if needed (:0) [1]
+2010-08-10 18:21:57,269  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [15]
+2010-08-10 18:21:57,304  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:21:57,306  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:21:57,509  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:21:58,510  INFO MissionPlanner.JYLinkInterface - Open port with COM7 115200 (:0) [ProgressReporterDialogue Background thread]
+2010-08-10 18:21:58,510  INFO MissionPlanner.Comms.SerialPort - COM7 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2010-08-10 18:21:59,544  INFO MissionPlanner.JYLinkInterface - 544 Start connect loop  (:0) [ProgressReporterDialogue Background thread]
+2010-08-10 18:21:59,551  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 18:22:00,629 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“G:\青岛\多机H\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“G:\青岛\多机H\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() (:0) [1]
+2010-08-10 18:22:00,642  INFO FBGroundControl.MainForm - About to do dtr if needed (:0) [1]
+2010-08-10 18:22:00,784  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [26]
+2010-08-10 18:22:00,965  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:22:00,968  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:22:00,970  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:22:00,971 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=2075015287 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [15]
+2010-08-10 18:22:00,971 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=2075015287 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [24]
+2010-08-10 18:22:00,971 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3490&utl=&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=2075015287 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [21]
+2010-08-10 18:22:01,172  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:22:02,174  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 115200 (:0) [ProgressReporterDialogue Background thread]
+2010-08-10 18:22:03,197  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 18:22:03,201  INFO FBGroundControl.MainForm - comport is closed. existing connect (:0) [1]
+2010-08-10 18:22:21,925  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:22:28,861  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-10 18:22:33,094  INFO FBGroundControl.MainForm - Saving config (:0) [1]
+2010-08-10 18:22:33,168 ERROR FBGroundControl.MainForm - System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.DuojiDisplay(JYState JY)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]
+2010-08-10 18:22:33,176 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=exception&an=FBGroundControl&av=1.0.0.0&cd=&dp=&exd=%e6%97%a0%e6%b3%95%e8%ae%bf%e9%97%ae%e5%b7%b2%e9%87%8a%e6%94%be%e7%9a%84%e5%af%b9%e8%b1%a1%e3%80%82%0d%0a%e5%af%b9%e8%b1%a1%e5%90%8d%3a%e2%80%9cMainForm%e2%80%9d%e3%80%82&exf=0&cd5=System.ObjectDisposedException%3a+%e6%97%a0%e6%b3%95%e8%ae%bf%e9%97%ae%e5%b7%b2%e9%87%8a%e6%94%be%e7%9a%84%e5%af%b9%e8%b1%a1%e3%80%82%0d%0a%e5%af%b9%e8%b1%a1%e5%90%8d%3a%e2%80%9cMainForm%e2%80%9d%e3%80%82%0d%0a+++%e5%9c%a8+System.Windows.Forms.Control.MarshaledInvoke(Control+caller%2c+Delegate+met&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1157377434 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [26]
+2010-08-10 18:22:33,282 ERROR FBGroundControl.MainForm - System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]
+2010-08-10 18:22:33,329 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=exception&an=FBGroundControl&av=1.0.0.0&cd=&dp=&exd=%e5%9c%a8%e5%88%9b%e5%bb%ba%e7%aa%97%e5%8f%a3%e5%8f%a5%e6%9f%84%e4%b9%8b%e5%89%8d%ef%bc%8c%e4%b8%8d%e8%83%bd%e5%9c%a8%e6%8e%a7%e4%bb%b6%e4%b8%8a%e8%b0%83%e7%94%a8+Invoke+%e6%88%96+BeginInvoke%e3%80%82&exf=0&cd5=System.InvalidOperationException%3a+%e5%9c%a8%e5%88%9b%e5%bb%ba%e7%aa%97%e5%8f%a3%e5%8f%a5%e6%9f%84%e4%b9%8b%e5%89%8d%ef%bc%8c%e4%b8%8d%e8%83%bd%e5%9c%a8%e6%8e%a7%e4%bb%b6%e4%b8%8a%e8%b0%83%e7%94%a8+Invoke+%e6%88%96+BeginInvoke%e3%80%82%0d%0a+++%e5%9c%a8+System.Windows.Forms.Control.MarshaledInvoke(Control+caller&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=80090144 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [26]
+2010-08-10 18:22:33,418 ERROR FBGroundControl.MainForm - System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]
+2010-08-10 18:22:33,497 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=exception&an=FBGroundControl&av=1.0.0.0&cd=&dp=&exd=%e5%9c%a8%e5%88%9b%e5%bb%ba%e7%aa%97%e5%8f%a3%e5%8f%a5%e6%9f%84%e4%b9%8b%e5%89%8d%ef%bc%8c%e4%b8%8d%e8%83%bd%e5%9c%a8%e6%8e%a7%e4%bb%b6%e4%b8%8a%e8%b0%83%e7%94%a8+Invoke+%e6%88%96+BeginInvoke%e3%80%82&exf=0&cd5=System.InvalidOperationException%3a+%e5%9c%a8%e5%88%9b%e5%bb%ba%e7%aa%97%e5%8f%a3%e5%8f%a5%e6%9f%84%e4%b9%8b%e5%89%8d%ef%bc%8c%e4%b8%8d%e8%83%bd%e5%9c%a8%e6%8e%a7%e4%bb%b6%e4%b8%8a%e8%b0%83%e7%94%a8+Invoke+%e6%88%96+BeginInvoke%e3%80%82%0d%0a+++%e5%9c%a8+System.Windows.Forms.Control.MarshaledInvoke(Control+caller&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=798914610 (:0) [26]
+2010-08-10 18:24:06,153 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 18:24:06,166 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 18:24:06,261  INFO FBGroundControl.MainForm - Loading config (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:3907) [1]
+2010-08-10 18:24:06,393  INFO FBGroundControl.MainForm - Loading wp params (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6739) [1]
+2010-08-10 18:24:06,394  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6752) [1]
+2010-08-10 18:24:06,394  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6768) [1]
+2010-08-10 18:24:17,869  INFO FBGroundControl.MainForm - MenuConnect Start (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7703) [1]
+2010-08-10 18:24:17,870  INFO FBGroundControl.MainForm - Cleanup last logfiles (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7717) [1]
+2010-08-10 18:24:17,871  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7740) [1]
+2010-08-10 18:24:17,871  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7754) [1]
+2010-08-10 18:24:17,872  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-10 18:24:18,898  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:24:18,968  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:24:19,713  INFO FBGroundControl.MainForm - About to do dtr if needed (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1575) [1]
+2010-08-10 18:24:19,788  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2010-08-10 18:24:19,813  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:24:19,814  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:24:20,019  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:24:21,021  INFO MissionPlanner.JYLinkInterface - Open port with COM7 115200 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2010-08-10 18:24:21,022  INFO MissionPlanner.Comms.SerialPort - COM7 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2010-08-10 18:24:22,059  INFO MissionPlanner.JYLinkInterface - 59 Start connect loop  (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2010-08-10 18:24:22,066  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 18:24:23,217 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“G:\青岛\多机H\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“G:\青岛\多机H\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 g:\青岛\多机H\多机H\FBGroundControl\Utilities\Firmware.cs:行号 387 (g:\青岛\多机H\多机H\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2010-08-10 18:24:23,244  INFO FBGroundControl.MainForm - About to do dtr if needed (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1729) [1]
+2010-08-10 18:24:23,326  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2010-08-10 18:24:23,396  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:24:23,396  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:24:23,399 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1033646015 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [13]
+2010-08-10 18:24:23,399 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3528&utl=&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1033646015 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [18]
+2010-08-10 18:24:23,399 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1033646015 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [3]
+2010-08-10 18:24:23,601  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:24:24,602  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 115200 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2010-08-10 18:24:24,852  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:24:25,604  INFO MissionPlanner.JYLinkMainCtrl - 604 Start connect loop  (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2010-08-10 18:24:26,933 ERROR MissionPlanner.JYLinkMainCtrl - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 635
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 678
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 515
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 431 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:465) [ProgressReporterDialogue Background thread]
+2010-08-10 18:24:28,884  INFO FBGroundControl.MainForm - comport is closed. existing connect (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1754) [1]
+2010-08-10 18:24:35,899  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:24:55,881  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:25:00,958  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:25:17,885  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:25:33,953  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:25:35,054  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:26:09,798  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:26:18,965  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:27:00,068 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 18:27:00,081 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 18:27:00,167  INFO FBGroundControl.MainForm - Loading config (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:3907) [1]
+2010-08-10 18:27:00,224  INFO FBGroundControl.MainForm - Loading wp params (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6739) [1]
+2010-08-10 18:27:00,225  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6752) [1]
+2010-08-10 18:27:00,225  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6768) [1]
+2010-08-10 18:27:12,449  INFO FBGroundControl.MainForm - MenuConnect Start (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7703) [1]
+2010-08-10 18:27:12,451  INFO FBGroundControl.MainForm - Cleanup last logfiles (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7717) [1]
+2010-08-10 18:27:12,452  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7740) [1]
+2010-08-10 18:27:12,452  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7754) [1]
+2010-08-10 18:27:12,453  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-10 18:27:12,962  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:27:13,070  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:27:13,303  INFO FBGroundControl.MainForm - About to do dtr if needed (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1575) [1]
+2010-08-10 18:27:13,357  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [13]
+2010-08-10 18:27:13,412  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:27:13,413  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:27:13,618  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:27:14,620  INFO MissionPlanner.JYLinkInterface - Open port with COM7 115200 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2010-08-10 18:27:14,621  INFO MissionPlanner.Comms.SerialPort - COM7 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2010-08-10 18:27:15,656  INFO MissionPlanner.JYLinkInterface - 656 Start connect loop  (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2010-08-10 18:27:15,663  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 18:27:16,748 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“G:\青岛\多机H\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“G:\青岛\多机H\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 g:\青岛\多机H\多机H\FBGroundControl\Utilities\Firmware.cs:行号 387 (g:\青岛\多机H\多机H\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2010-08-10 18:27:16,782  INFO FBGroundControl.MainForm - About to do dtr if needed (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1729) [1]
+2010-08-10 18:27:16,925  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [13]
+2010-08-10 18:27:16,944  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:27:16,945  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:27:16,982 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=240983125 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [4]
+2010-08-10 18:27:16,982 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=240983125 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [17]
+2010-08-10 18:27:16,983 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3476&utl=&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=240983125 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [3]
+2010-08-10 18:27:17,170  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:27:18,172  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 115200 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2010-08-10 18:27:19,182  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 18:27:19,188  INFO FBGroundControl.MainForm - comport is closed. existing connect (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1754) [1]
+2010-08-10 18:27:31,983  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:27:43,006  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:27:54,914  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:27:59,915  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:28:02,921  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:28:23,931  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:28:33,866  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:28:38,334  INFO FBGroundControl.MainForm - Saving config (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:5905) [1]
+2010-08-10 18:28:38,464 ERROR FBGroundControl.MainForm - System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]
+2010-08-10 18:28:38,467 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=exception&an=FBGroundControl&av=1.0.0.0&cd=&dp=&exd=%e5%9c%a8%e5%88%9b%e5%bb%ba%e7%aa%97%e5%8f%a3%e5%8f%a5%e6%9f%84%e4%b9%8b%e5%89%8d%ef%bc%8c%e4%b8%8d%e8%83%bd%e5%9c%a8%e6%8e%a7%e4%bb%b6%e4%b8%8a%e8%b0%83%e7%94%a8+Invoke+%e6%88%96+BeginInvoke%e3%80%82&exf=0&cd5=System.InvalidOperationException%3a+%e5%9c%a8%e5%88%9b%e5%bb%ba%e7%aa%97%e5%8f%a3%e5%8f%a5%e6%9f%84%e4%b9%8b%e5%89%8d%ef%bc%8c%e4%b8%8d%e8%83%bd%e5%9c%a8%e6%8e%a7%e4%bb%b6%e4%b8%8a%e8%b0%83%e7%94%a8+Invoke+%e6%88%96+BeginInvoke%e3%80%82%0d%0a+++%e5%9c%a8+System.Windows.Forms.Control.MarshaledInvoke(Control+caller&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1727417224 (:0) [24]
+2010-08-10 18:29:01,503 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 18:29:01,517 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 18:29:01,624  INFO FBGroundControl.MainForm - Loading config (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:3907) [1]
+2010-08-10 18:29:01,708  INFO FBGroundControl.MainForm - Loading wp params (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6739) [1]
+2010-08-10 18:29:01,709  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6752) [1]
+2010-08-10 18:29:01,710  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6768) [1]
+2010-08-10 18:29:11,127  INFO FBGroundControl.MainForm - MenuConnect Start (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7703) [1]
+2010-08-10 18:29:11,128  INFO FBGroundControl.MainForm - Cleanup last logfiles (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7717) [1]
+2010-08-10 18:29:11,129  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7740) [1]
+2010-08-10 18:29:11,129  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7754) [1]
+2010-08-10 18:29:11,130  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-10 18:29:11,892  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:29:12,865  INFO FBGroundControl.MainForm - About to do dtr if needed (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1575) [1]
+2010-08-10 18:29:12,904  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [15]
+2010-08-10 18:29:12,916  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:29:12,918  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:29:13,477  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:29:14,480  INFO MissionPlanner.JYLinkInterface - Open port with COM7 115200 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2010-08-10 18:29:14,481  INFO MissionPlanner.Comms.SerialPort - COM7 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2010-08-10 18:29:14,860  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:29:15,522  INFO MissionPlanner.JYLinkInterface - 522 Start connect loop  (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2010-08-10 18:29:15,529  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 18:29:16,624 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“G:\青岛\多机H\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“G:\青岛\多机H\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 g:\青岛\多机H\多机H\FBGroundControl\Utilities\Firmware.cs:行号 387 (g:\青岛\多机H\多机H\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2010-08-10 18:29:16,645  INFO FBGroundControl.MainForm - About to do dtr if needed (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1729) [1]
+2010-08-10 18:29:16,721  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2010-08-10 18:29:16,761 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3777&utl=&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=368292282 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [3]
+2010-08-10 18:29:16,761 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=368292282 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [13]
+2010-08-10 18:29:16,762 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=368292282 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [15]
+2010-08-10 18:29:17,213  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:29:17,213  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:29:17,418  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:29:18,420  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 115200 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2010-08-10 18:29:19,437  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 18:29:19,478  INFO FBGroundControl.MainForm - comport is closed. existing connect (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1754) [1]
+2010-08-10 18:29:23,975  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:29:33,866  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:29:38,922  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:30:04,638  INFO FBGroundControl.MainForm - Saving config (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:5905) [1]
+2010-08-10 18:30:04,799 ERROR FBGroundControl.MainForm - System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]
+2010-08-10 18:30:04,801 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=exception&an=FBGroundControl&av=1.0.0.0&cd=&dp=&exd=%e5%9c%a8%e5%88%9b%e5%bb%ba%e7%aa%97%e5%8f%a3%e5%8f%a5%e6%9f%84%e4%b9%8b%e5%89%8d%ef%bc%8c%e4%b8%8d%e8%83%bd%e5%9c%a8%e6%8e%a7%e4%bb%b6%e4%b8%8a%e8%b0%83%e7%94%a8+Invoke+%e6%88%96+BeginInvoke%e3%80%82&exf=0&cd5=System.InvalidOperationException%3a+%e5%9c%a8%e5%88%9b%e5%bb%ba%e7%aa%97%e5%8f%a3%e5%8f%a5%e6%9f%84%e4%b9%8b%e5%89%8d%ef%bc%8c%e4%b8%8d%e8%83%bd%e5%9c%a8%e6%8e%a7%e4%bb%b6%e4%b8%8a%e8%b0%83%e7%94%a8+Invoke+%e6%88%96+BeginInvoke%e3%80%82%0d%0a+++%e5%9c%a8+System.Windows.Forms.Control.MarshaledInvoke(Control+caller&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=653244319 (:0) [3]
+2010-08-10 18:34:34,917 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 18:34:34,930 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 18:34:35,056  INFO FBGroundControl.MainForm - Loading config (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:3907) [1]
+2010-08-10 18:34:35,136  INFO FBGroundControl.MainForm - Loading wp params (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6739) [1]
+2010-08-10 18:34:35,137  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6752) [1]
+2010-08-10 18:34:35,137  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6768) [1]
+2010-08-10 18:34:44,547  INFO FBGroundControl.MainForm - MenuConnect Start (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7703) [1]
+2010-08-10 18:34:44,549  INFO FBGroundControl.MainForm - Cleanup last logfiles (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7717) [1]
+2010-08-10 18:34:44,549  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7740) [1]
+2010-08-10 18:34:44,550  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7754) [1]
+2010-08-10 18:34:44,551  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-10 18:34:45,759  INFO FBGroundControl.MainForm - About to do dtr if needed (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1575) [1]
+2010-08-10 18:34:45,814  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [16]
+2010-08-10 18:34:46,132  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:34:46,132  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:34:46,689  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:34:46,851  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:34:46,854  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:34:47,857  INFO MissionPlanner.JYLinkInterface - Open port with COM7 115200 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2010-08-10 18:34:47,858  INFO MissionPlanner.Comms.SerialPort - COM7 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2010-08-10 18:34:48,904  INFO MissionPlanner.JYLinkInterface - 904 Start connect loop  (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2010-08-10 18:34:48,911  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 18:34:50,254 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“G:\青岛\多机H\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“G:\青岛\多机H\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 g:\青岛\多机H\多机H\FBGroundControl\Utilities\Firmware.cs:行号 387 (g:\青岛\多机H\多机H\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2010-08-10 18:34:50,262  INFO FBGroundControl.MainForm - About to do dtr if needed (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1729) [1]
+2010-08-10 18:34:50,351  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2010-08-10 18:34:50,387 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=4500&utl=&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=584319948 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [16]
+2010-08-10 18:34:50,387 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=584319948 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [18]
+2010-08-10 18:34:50,388 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=584319948 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [15]
+2010-08-10 18:34:50,800  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:34:50,801  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:34:51,007  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:34:52,009  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 115200 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2010-08-10 18:34:53,011  INFO MissionPlanner.JYLinkMainCtrl - 11 Start connect loop  (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2010-08-10 18:34:54,235 ERROR MissionPlanner.JYLinkMainCtrl - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 635
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 678
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 515
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 431 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:465) [ProgressReporterDialogue Background thread]
+2010-08-10 18:34:56,295  INFO FBGroundControl.MainForm - comport is closed. existing connect (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1754) [1]
+2010-08-10 18:35:03,203  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:35:06,052  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:35:29,376  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:35:41,780  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:36:09,065  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:36:42,455  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:36:47,595  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:37:01,922  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:37:02,944  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:37:04,905  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:37:37,384  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:38:05,706  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:38:22,987  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:41:38,112 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 18:41:38,131 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (g:\青岛\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-10 18:41:38,238  INFO FBGroundControl.MainForm - Loading config (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:3907) [1]
+2010-08-10 18:41:38,330  INFO FBGroundControl.MainForm - Loading wp params (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6739) [1]
+2010-08-10 18:41:38,331  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6752) [1]
+2010-08-10 18:41:38,332  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:6768) [1]
+2010-08-10 18:41:49,416  INFO FBGroundControl.MainForm - MenuConnect Start (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7703) [1]
+2010-08-10 18:41:49,418  INFO FBGroundControl.MainForm - Cleanup last logfiles (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7717) [1]
+2010-08-10 18:41:49,418  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7740) [1]
+2010-08-10 18:41:49,419  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:7754) [1]
+2010-08-10 18:41:49,420  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-10 18:41:50,083  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:41:50,169  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:41:52,708  INFO FBGroundControl.MainForm - About to do dtr if needed (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1575) [1]
+2010-08-10 18:41:52,819  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2010-08-10 18:41:52,836  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:41:52,837  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:41:53,041  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:41:54,043  INFO MissionPlanner.JYLinkInterface - Open port with COM7 115200 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:386) [ProgressReporterDialogue Background thread]
+2010-08-10 18:41:54,044  INFO MissionPlanner.Comms.SerialPort - COM7 RtsEnable True (g:\青岛\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [ProgressReporterDialogue Background thread]
+2010-08-10 18:41:55,080  INFO MissionPlanner.JYLinkInterface - 80 Start connect loop  (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2010-08-10 18:41:55,087  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2010-08-10 18:41:56,261 ERROR MissionPlanner.Utilities.Firmware - System.IO.FileNotFoundException: 未能找到文件“G:\青岛\多机H\多机H\FBGroundControl\bin\Debug\fwversions.xml”。
+文件名:“G:\青岛\多机H\多机H\FBGroundControl\bin\Debug\fwversions.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 MissionPlanner.Utilities.Firmware.LoadSoftwares() 位置 g:\青岛\多机H\多机H\FBGroundControl\Utilities\Firmware.cs:行号 387 (g:\青岛\多机H\多机H\FBGroundControl\Utilities\Firmware.cs:395) [1]
+2010-08-10 18:41:56,267  INFO FBGroundControl.MainForm - About to do dtr if needed (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1729) [1]
+2010-08-10 18:41:56,360  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2010-08-10 18:41:56,376  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2010-08-10 18:41:56,376  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2010-08-10 18:41:56,400 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Baud&el=115200&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1364387121 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [4]
+2010-08-10 18:41:56,401 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=event&an=FBGroundControl&av=1.0.0.0&cd=&dp=&ec=Connect&ea=Connect&el=JYPlane&ev=0&sc=start&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1364387121 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [14]
+2010-08-10 18:41:56,401 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=00000000-0000-0000-0000-000000000000&t=timing&an=FBGroundControl&av=1.0.0.0&cd=&dp=&utc=Connect&utv=Connect+Time&utt=3552&utl=&ul=zh-CN&sd=32-bits&sr=1440x900&cd1=Microsoft+Windows+NT+6.1.7601+Service+Pack+1&cd4=4&z=1364387121 (g:\青岛\多机H\多机H\ExtLibs\Utilities\Tracking.cs:285) [13]
+2010-08-10 18:41:56,661  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (g:\青岛\多机H\多机H\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2010-08-10 18:41:57,662  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 115200 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2010-08-10 18:41:58,664  INFO MissionPlanner.JYLinkMainCtrl - 664 Start connect loop  (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2010-08-10 18:41:59,908 ERROR MissionPlanner.JYLinkMainCtrl - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 635
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 678
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 515
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 431 (g:\青岛\多机H\多机H\FBGroundControl\Jylink\JYLinkMainCtrl.cs:465) [ProgressReporterDialogue Background thread]
+2010-08-10 18:42:03,419  INFO FBGroundControl.MainForm - comport is closed. existing connect (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:1754) [1]
+2010-08-10 18:43:17,335  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]
+2010-08-10 18:43:17,389  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 5755
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:行号 2352 (g:\青岛\多机H\多机H\FBGroundControl\MainForm.cs:2385) [1]

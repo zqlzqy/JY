@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <alt>200</alt>
+    <roll>35</roll>
+    <pitch>10</pitch>
+    <speed>90</speed>
+    <rpm>2</rpm>
+    <air_speed>18</air_speed>
+    <num>30</num>
+  </Table1>
+</NewDataSet>

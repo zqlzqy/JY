@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <xbCtrl_serialName>COM4</xbCtrl_serialName>
+    <xbCtrl_baudRate>115200</xbCtrl_baudRate>
+  </Table1>
+</NewDataSet>

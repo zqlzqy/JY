@@ -1,0 +1,360 @@
+2019-02-22 10:14:12,830  INFO FBGroundControl.MainForm - Loading config (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:3988) [1]
+2019-02-22 10:14:12,936  INFO FBGroundControl.MainForm - Loading wp params (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6255) [1]
+2019-02-22 10:14:12,937  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6268) [1]
+2019-02-22 10:14:12,937  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6284) [1]
+2019-02-22 10:14:13,271 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-02-22 10:14:13,275 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-02-22 10:14:30,602  INFO FBGroundControl.MainForm - MenuConnect Start (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7227) [1]
+2019-02-22 10:14:30,603  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7241) [1]
+2019-02-22 10:14:30,603  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7272) [1]
+2019-02-22 10:14:30,604  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7290) [1]
+2019-02-22 10:14:30,604  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7304) [1]
+2019-02-22 10:14:35,222  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1500) [1]
+2019-02-22 10:14:35,401  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-02-22 10:14:35,450  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-02-22 10:14:35,450  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-02-22 10:14:35,654  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-02-22 10:14:36,656  INFO MissionPlanner.JYLinkInterface - Open port with COM3 19200 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:388) [ProgressReporterDialogue Background thread]
+2019-02-22 10:14:36,801 ERROR MissionPlanner.JYLinkInterface - System.IO.IOException: 端口“COM3”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 390 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:513) [ProgressReporterDialogue Background thread]
+2019-02-22 10:14:37,969  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-02-22 10:14:38,113  WARN FBGroundControl.MainForm - System.ArgumentNullException: 值不能为 null。
+参数名: PortName
+   在 System.IO.Ports.SerialPort.set_PortName(String value)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.set_PortName(String )
+   在 FBGroundControl.MainForm.doConnectTC(JYLinkTeleCtrl telecontrol_comPort, String portname, String baud) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:行号 1638 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1757) [1]
+2019-02-22 10:14:40,068  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1802) [1]
+2019-02-22 10:14:40,114  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-02-22 10:14:40,317  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-02-22 10:14:40,318  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-02-22 10:14:40,521  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-02-22 10:14:41,522  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM2 9600 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-02-22 10:14:41,583 ERROR MissionPlanner.JYLinkMainCtrl - System.IO.IOException: 端口“COM2”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 385 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:468) [ProgressReporterDialogue Background thread]
+2019-02-22 10:14:42,587  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1827) [1]
+2019-02-22 10:14:51,626  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:14:51,894  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM1 = 通信端口 (COM1) (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-02-22 10:14:52,433  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:14:52,434  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:14:52,822  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:14:52,822  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:14:53,435  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:14:53,436  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:14:53,870  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:14:53,870  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:14:55,320  INFO FBGroundControl.MainForm - MenuConnect Start (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7227) [1]
+2019-02-22 10:14:55,320  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7241) [1]
+2019-02-22 10:14:55,320  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7272) [1]
+2019-02-22 10:14:55,320  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7290) [1]
+2019-02-22 10:14:55,320  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7304) [1]
+2019-02-22 10:14:56,222  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1500) [1]
+2019-02-22 10:14:56,244  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-02-22 10:14:56,252  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-02-22 10:14:56,270  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-02-22 10:14:56,476  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-02-22 10:14:57,476  INFO MissionPlanner.JYLinkInterface - Open port with COM1 19200 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:388) [ProgressReporterDialogue Background thread]
+2019-02-22 10:14:58,479  INFO MissionPlanner.JYLinkInterface - 479 Start connect loop  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:428) [ProgressReporterDialogue Background thread]
+2019-02-22 10:14:59,831 ERROR MissionPlanner.JYLinkInterface - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 1067
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 1149
+   在 MissionPlanner.JYLinkInterface.getHeartBeat() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 549
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 458 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:513) [ProgressReporterDialogue Background thread]
+2019-02-22 10:15:00,694  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-02-22 10:15:00,770  WARN FBGroundControl.MainForm - System.ArgumentNullException: 值不能为 null。
+参数名: PortName
+   在 System.IO.Ports.SerialPort.set_PortName(String value)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.set_PortName(String )
+   在 FBGroundControl.MainForm.doConnectTC(JYLinkTeleCtrl telecontrol_comPort, String portname, String baud) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:行号 1638 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1757) [1]
+2019-02-22 10:15:02,200  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1802) [1]
+2019-02-22 10:15:02,242  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-02-22 10:15:02,457  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-02-22 10:15:02,458  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-02-22 10:15:02,673  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-02-22 10:15:03,673  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-02-22 10:15:04,675  INFO MissionPlanner.JYLinkMainCtrl - 675 Start connect loop  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2019-02-22 10:15:05,924 ERROR MissionPlanner.JYLinkMainCtrl - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 639
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 682
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 518
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 431 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:468) [ProgressReporterDialogue Background thread]
+2019-02-22 10:15:06,591  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1827) [1]
+2019-02-22 10:15:12,078  INFO FBGroundControl.MainForm - Saving config (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:5411) [1]
+2019-02-22 10:36:40,421  INFO FBGroundControl.MainForm - Loading config (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:3988) [1]
+2019-02-22 10:36:40,485  INFO FBGroundControl.MainForm - Loading wp params (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6258) [1]
+2019-02-22 10:36:40,487  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6271) [1]
+2019-02-22 10:36:40,488  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6287) [1]
+2019-02-22 10:36:40,993 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-02-22 10:36:40,997 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-02-22 10:36:50,321 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:50,379 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:51,215 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:51,225 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:51,255 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:51,288 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:51,863 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:51,873 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:51,883 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:51,963 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:51,972 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:51,984 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:52,386 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:52,420 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:52,431 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:52,443 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:52,476 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:52,509 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:52,603 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:36:52,697 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:39:21,763  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:21,846  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM1 = 通信端口 (COM1) (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-02-22 10:39:22,009  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:22,010  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:22,010  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:22,010  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:22,158  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:22,158  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:22,158  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:22,159  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:22,473  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:22,473  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:22,634  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:22,635  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:22,635  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:22,635  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:23,022  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:23,022  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:23,022  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:23,022  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:23,371  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:23,371  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:23,537  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:23,538  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:23,538  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:23,538  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:24,254  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:24,254  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:24,255  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 10:39:24,255  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 10:39:37,782  INFO FBGroundControl.MainForm - MenuConnect Start (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7230) [1]
+2019-02-22 10:39:37,782  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7244) [1]
+2019-02-22 10:39:37,783  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7275) [1]
+2019-02-22 10:39:37,783  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7293) [1]
+2019-02-22 10:39:37,783  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7307) [1]
+2019-02-22 10:39:38,701  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1500) [1]
+2019-02-22 10:39:38,796  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-02-22 10:39:38,805  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-02-22 10:39:38,805  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-02-22 10:39:39,013  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-02-22 10:39:40,014  INFO MissionPlanner.JYLinkInterface - Open port with COM1 19200 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-02-22 10:39:41,017  INFO MissionPlanner.JYLinkInterface - 17 Start connect loop  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:424) [ProgressReporterDialogue Background thread]
+2019-02-22 10:39:42,270 ERROR MissionPlanner.JYLinkInterface - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkInterface.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4283
+   在 MissionPlanner.JYLinkInterface.readPacket() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 4369
+   在 MissionPlanner.JYLinkInterface.getHeartBeat() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 579
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 456 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:543) [ProgressReporterDialogue Background thread]
+2019-02-22 10:39:43,012  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-02-22 10:39:43,052  WARN FBGroundControl.MainForm - System.ArgumentNullException: 值不能为 null。
+参数名: PortName
+   在 System.IO.Ports.SerialPort.set_PortName(String value)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.set_PortName(String )
+   在 FBGroundControl.MainForm.doConnectTC(JYLinkTeleCtrl telecontrol_comPort, String portname, String baud) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:行号 1638 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1757) [1]
+2019-02-22 10:39:44,276  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1802) [1]
+2019-02-22 10:39:44,303  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-02-22 10:39:44,312  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-02-22 10:39:44,313  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-02-22 10:39:44,519  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-02-22 10:39:45,520  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-02-22 10:39:46,522  INFO MissionPlanner.JYLinkMainCtrl - 522 Start connect loop  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2019-02-22 10:39:47,750 ERROR MissionPlanner.JYLinkMainCtrl - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 639
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 682
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 518
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 431 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:468) [ProgressReporterDialogue Background thread]
+2019-02-22 10:39:48,245  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1827) [1]
+2019-02-22 10:40:27,395 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:40:27,407 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:40:27,417 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:40:27,450 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:40:27,543 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:40:27,556 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:40:27,647 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:40:27,656 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:40:27,689 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:40:27,700 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:2571) [1]
+2019-02-22 10:41:04,990  INFO FBGroundControl.MainForm - Saving config (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:5411) [1]
+2019-02-22 11:07:48,476  INFO FBGroundControl.MainForm - Loading config (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:4014) [1]
+2019-02-22 11:07:48,563  INFO FBGroundControl.MainForm - Loading wp params (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6284) [1]
+2019-02-22 11:07:48,564  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6297) [1]
+2019-02-22 11:07:48,564  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6313) [1]
+2019-02-22 11:07:48,948 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-02-22 11:07:48,954 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-02-22 11:07:56,283  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 11:07:56,371  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM1 = 通信端口 (COM1) (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-02-22 11:07:59,690  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 11:07:59,691  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 11:08:00,086  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 11:08:00,086  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 11:08:02,242  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 11:08:02,243  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 11:08:02,403  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 11:08:02,404  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 11:08:02,404  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 11:08:02,404  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 11:08:02,790  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 11:08:02,790  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 11:08:02,790  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-02-22 11:08:02,791  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM1 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-02-22 11:08:14,058  INFO FBGroundControl.MainForm - MenuConnect Start (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7256) [1]
+2019-02-22 11:08:14,059  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7270) [1]
+2019-02-22 11:08:14,059  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7293) [1]
+2019-02-22 11:08:14,059  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7307) [1]
+2019-02-22 11:08:14,066  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-02-22 11:08:14,100  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2019-02-22 11:08:14,110  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-02-22 11:08:14,128  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-02-22 11:08:14,433  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-02-22 11:08:15,436  INFO MissionPlanner.JYLinkInterface - Open port with COM1 19200 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-02-22 11:08:15,500 ERROR MissionPlanner.JYLinkInterface - System.UnauthorizedAccessException: 对端口“COM1”的访问被拒绝。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 384 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:543) [ProgressReporterDialogue Background thread]
+2019-02-22 11:08:16,511  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1552) [1]
+2019-02-22 11:08:16,515  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1828) [1]
+2019-02-22 11:08:16,560  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2019-02-22 11:08:16,769  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-02-22 11:08:16,769  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-02-22 11:08:17,092  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-02-22 11:08:18,093  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-02-22 11:08:18,118 ERROR MissionPlanner.JYLinkMainCtrl - System.UnauthorizedAccessException: 对端口“COM1”的访问被拒绝。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 385 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:468) [ProgressReporterDialogue Background thread]
+2019-02-22 11:08:19,149  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1853) [1]
+2019-02-22 11:08:38,048  INFO FBGroundControl.MainForm - Saving config (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:5437) [1]
+2019-02-22 11:08:55,463  INFO FBGroundControl.MainForm - Loading config (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:4014) [1]
+2019-02-22 11:08:55,556  INFO FBGroundControl.MainForm - Loading wp params (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6284) [1]
+2019-02-22 11:08:55,557  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6297) [1]
+2019-02-22 11:08:55,557  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6313) [1]
+2019-02-22 11:08:55,809 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-02-22 11:08:55,813 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-02-22 11:09:10,438  INFO FBGroundControl.MainForm - Saving config (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:5437) [1]
+2019-02-22 11:24:07,351  INFO FBGroundControl.MainForm - Loading config (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:4014) [1]
+2019-02-22 11:24:07,405  INFO FBGroundControl.MainForm - Loading wp params (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6284) [1]
+2019-02-22 11:24:07,407  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6297) [1]
+2019-02-22 11:24:07,407  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6313) [1]
+2019-02-22 11:24:07,805 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-02-22 11:24:07,808 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-02-22 11:24:13,319  INFO FBGroundControl.MainForm - MenuConnect Start (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7256) [1]
+2019-02-22 11:24:13,319  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7270) [1]
+2019-02-22 11:24:13,319  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7293) [1]
+2019-02-22 11:24:13,320  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7307) [1]
+2019-02-22 11:24:14,353  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-02-22 11:24:14,428  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-02-22 11:24:14,438  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-02-22 11:24:14,439  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-02-22 11:24:14,645  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-02-22 11:24:15,647  INFO MissionPlanner.JYLinkInterface - Open port with COM1 19200 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-02-22 11:24:15,724 ERROR MissionPlanner.JYLinkInterface - System.UnauthorizedAccessException: 对端口“COM1”的访问被拒绝。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 384 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:543) [ProgressReporterDialogue Background thread]
+2019-02-22 11:24:22,463  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1552) [1]
+2019-02-22 11:24:22,465  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1828) [1]
+2019-02-22 11:24:22,501  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2019-02-22 11:24:22,708  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-02-22 11:24:22,709  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-02-22 11:24:22,921  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-02-22 11:24:23,926  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-02-22 11:24:23,966 ERROR MissionPlanner.JYLinkMainCtrl - System.UnauthorizedAccessException: 对端口“COM1”的访问被拒绝。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 385 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:468) [ProgressReporterDialogue Background thread]
+2019-02-22 11:24:24,749  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1853) [1]
+2019-02-22 11:24:26,512  INFO FBGroundControl.MainForm - Saving config (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:5437) [1]
+2019-02-22 11:25:43,140  INFO FBGroundControl.MainForm - Loading config (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:4014) [1]
+2019-02-22 11:25:43,242  INFO FBGroundControl.MainForm - Loading wp params (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6284) [1]
+2019-02-22 11:25:43,266  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6297) [1]
+2019-02-22 11:25:43,266  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:6313) [1]
+2019-02-22 11:25:43,562 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-02-22 11:25:43,567 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-02-22 11:25:47,270  INFO FBGroundControl.MainForm - MenuConnect Start (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7256) [1]
+2019-02-22 11:25:47,270  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7270) [1]
+2019-02-22 11:25:47,271  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7293) [1]
+2019-02-22 11:25:47,271  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:7307) [1]
+2019-02-22 11:25:47,276  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1526) [1]
+2019-02-22 11:25:47,314  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-02-22 11:25:47,324  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-02-22 11:25:47,325  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-02-22 11:25:47,534  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-02-22 11:25:48,537  INFO MissionPlanner.JYLinkInterface - Open port with COM1 19200 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-02-22 11:25:48,596 ERROR MissionPlanner.JYLinkInterface - System.UnauthorizedAccessException: 对端口“COM1”的访问被拒绝。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 384 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:543) [ProgressReporterDialogue Background thread]
+2019-02-22 11:25:49,301  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1552) [1]
+2019-02-22 11:25:49,303  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1828) [1]
+2019-02-22 11:25:49,330  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2019-02-22 11:25:49,538  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-02-22 11:25:49,539  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-02-22 11:25:49,750  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-02-22 11:25:50,759  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-02-22 11:25:50,821 ERROR MissionPlanner.JYLinkMainCtrl - System.UnauthorizedAccessException: 对端口“COM1”的访问被拒绝。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 385 (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:468) [ProgressReporterDialogue Background thread]
+2019-02-22 11:25:53,320  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:1853) [1]
+2019-02-22 11:25:54,592  INFO FBGroundControl.MainForm - Saving config (f:\海军型地面站软件\单天线模式\FBGroundControl\FBGroundControl\FBGroundControl\MainForm.cs:5437) [1]

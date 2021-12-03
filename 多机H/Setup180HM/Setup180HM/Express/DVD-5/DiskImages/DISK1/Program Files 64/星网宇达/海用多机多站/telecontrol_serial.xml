@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <telecontrol_serialName>COM4</telecontrol_serialName>
+    <telecontrol_baudRate>115200</telecontrol_baudRate>
+  </Table1>
+</NewDataSet>

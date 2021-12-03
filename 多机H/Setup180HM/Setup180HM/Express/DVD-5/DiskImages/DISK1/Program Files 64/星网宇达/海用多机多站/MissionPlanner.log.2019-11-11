@@ -1,0 +1,10 @@
+2019-11-11 12:58:17,416  INFO FBGroundControl.MainForm - Loading config (e:\海军型\180H舟山测试\FBGroundControl\FBGroundControl\MainForm.cs:4081) [1]
+2019-11-11 12:58:17,448  INFO FBGroundControl.MainForm - Loading wp params (e:\海军型\180H舟山测试\FBGroundControl\FBGroundControl\MainForm.cs:6397) [1]
+2019-11-11 12:58:17,449  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (e:\海军型\180H舟山测试\FBGroundControl\FBGroundControl\MainForm.cs:6410) [1]
+2019-11-11 12:58:17,449  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (e:\海军型\180H舟山测试\FBGroundControl\FBGroundControl\MainForm.cs:6426) [1]
+2019-11-11 12:58:17,508 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (e:\海军型\180H舟山测试\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-11-11 12:58:17,515 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 e:\海军型\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 e:\海军型\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 e:\海军型\180H舟山测试\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (e:\海军型\180H舟山测试\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-11-11 13:41:26,747  INFO FBGroundControl.MainForm - Saving config (e:\海军型\180H舟山测试\FBGroundControl\FBGroundControl\MainForm.cs:5546) [1]

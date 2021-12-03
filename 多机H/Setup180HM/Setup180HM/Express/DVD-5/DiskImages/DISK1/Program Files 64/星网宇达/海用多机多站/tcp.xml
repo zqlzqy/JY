@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <TCPIP>127.0.0.1</TCPIP>
+    <TCPPort>5555</TCPPort>
+  </Table1>
+</NewDataSet>

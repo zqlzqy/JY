@@ -1,0 +1,1133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9BB5E7BE-B5BB-4225-BB96-F3F550C9E1B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FBGroundControl</RootNamespace>
+    <AssemblyName>FBGroundControl</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>2</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.7.4137.9283, Culture=neutral, PublicKeyToken=a4292a325f69b123, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\BouncyCastle.1.7.0\lib\Net20\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v15.2" />
+    <Reference Include="DevExpress.Data.v15.2" />
+    <Reference Include="DevExpress.Printing.v15.2.Core" />
+    <Reference Include="DevExpress.Utils.v15.2" />
+    <Reference Include="DevExpress.XtraBars.v15.2" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core" />
+    <Reference Include="DevExpress.XtraEditors.v15.2" />
+    <Reference Include="DevExpress.XtraGrid.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DirectShowLib-2005">
+      <HintPath>..\ExtLibs\DirectShowLib-2005.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Data">
+      <HintPath>..\packages\DotSpatial.Data.1.6.0.0\lib\net40-Client\DotSpatial.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Projections">
+      <HintPath>..\packages\DotSpatial.Projections.1.6.0.0\lib\net40-Client\DotSpatial.Projections.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms">
+      <HintPath>..\ExtLibs\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\packages\DotNetZip.1.9.2\lib\net20\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLibs\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX">
+      <HintPath>..\DLLs\Microsoft.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.DirectInput">
+      <HintPath>..\DLLs\Microsoft.DirectX.DirectInput.dll</HintPath>
+    </Reference>
+    <Reference Include="netDxf">
+      <HintPath>..\ExtLibs\netDxf.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLibs\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjNet">
+      <HintPath>..\packages\ProjNet.1.2\lib\net20\ProjNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Reactive.Core">
+      <HintPath>..\packages\Rx-Core.2.2.4\lib\net45\System.Reactive.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces">
+      <HintPath>..\packages\Rx-Interfaces.2.2.4\lib\net45\System.Reactive.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>..\packages\Rx-Linq.2.2.4\lib\net45\System.Reactive.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.PlatformServices">
+      <HintPath>..\packages\Rx-PlatformServices.2.2.4\lib\net45\System.Reactive.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\DLLs\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph, Version=5.1.2.878, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLibs\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arduino\ArduinoSTK.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arduino\ArduinoSTKv2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arduino\BoardDetect.cs" />
+    <Compile Include="Arduino\IArduinoComms.cs" />
+    <Compile Include="chao\models\AircraftModel.cs" />
+    <Compile Include="chao\views\FlyToPointForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chao\views\FlyToPointForm.designer.cs">
+      <DependentUpon>FlyToPointForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chao\views\IDSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chao\views\IDSetForm.designer.cs">
+      <DependentUpon>IDSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chao\views\PickPointForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chao\views\PickPointForm.designer.cs">
+      <DependentUpon>PickPointForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chao\views\StatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chao\views\StatusForm.designer.cs">
+      <DependentUpon>StatusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common.cs" />
+    <Compile Include="Comms\CommsSerialScan.cs" />
+    <Compile Include="Comms\MAVLinkSerialPort.cs" />
+    <Compile Include="Controls\MavlinkCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MavlinkCheckBoxBitMask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MavlinkComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MavlinkNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MAVLinkParamChanged.cs" />
+    <Compile Include="CurrentState.cs" />
+    <Compile Include="Forms\CommandsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CommandsFrm.Designer.cs">
+      <DependentUpon>CommandsFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CommondOfSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CommondOfSet.Designer.cs">
+      <DependentUpon>CommondOfSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CommunicationSetFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CommunicationSetFrm.Designer.cs">
+      <DependentUpon>CommunicationSetFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigAccelerometerCalibration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfigAccelerometerCalibration.designer.cs">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\SteerTrimView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\SteerTrimView.designer.cs">
+      <DependentUpon>SteerTrimView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\LimitView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\LimitView.designer.cs">
+      <DependentUpon>LimitView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\LoiterView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\LoiterView.designer.cs">
+      <DependentUpon>LoiterView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\GuideView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\GuideView.designer.cs">
+      <DependentUpon>GuideView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\TakeOffView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\TakeOffView.designer.cs">
+      <DependentUpon>TakeOffView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\GuideCtrlView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\GuideCtrlView.designer.cs">
+      <DependentUpon>GuideCtrlView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\OverLoadLoopView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\OverLoadLoopView.designer.cs">
+      <DependentUpon>OverLoadLoopView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\AttitudeLoopView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\AttitudeLoopView.designer.cs">
+      <DependentUpon>AttitudeLoopView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\ConfigFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfigurationView\ConfigFrm.designer.cs">
+      <DependentUpon>ConfigFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataPlayback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataPlayback.Designer.cs">
+      <DependentUpon>DataPlayback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataRecordSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataRecordSet.Designer.cs">
+      <DependentUpon>DataRecordSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FirmwareWrite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FirmwareWrite.Designer.cs">
+      <DependentUpon>FirmwareWrite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HudFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HudFrm.Designer.cs">
+      <DependentUpon>HudFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManyMachineSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManyMachineSet.Designer.cs">
+      <DependentUpon>ManyMachineSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MapFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MapFrm.Designer.cs">
+      <DependentUpon>MapFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MapSourceSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MapSourceSet.Designer.cs">
+      <DependentUpon>MapSourceSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlanImage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\PlanImage.Designer.cs">
+      <DependentUpon>PlanImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PreCheckView\CtrlPolarityView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\PreCheckView\CtrlPolarityView.designer.cs">
+      <DependentUpon>CtrlPolarityView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PreCheckView\ECUView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\PreCheckView\ECUView.designer.cs">
+      <DependentUpon>ECUView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PreCheckView\LinkTestView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\PreCheckView\LinkTestView.designer.cs">
+      <DependentUpon>LinkTestView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PreCheckView\SteerTestView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\PreCheckView\SteerTestView.designer.cs">
+      <DependentUpon>SteerTestView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RouteLoadFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RouteLoadFrm.Designer.cs">
+      <DependentUpon>RouteLoadFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SatelliteStarStatusView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SatelliteStarStatusView.designer.cs">
+      <DependentUpon>SatelliteStarStatusView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SendCommandLogFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SendCommandLogFrm.Designer.cs">
+      <DependentUpon>SendCommandLogFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SensorView\AirSpeedBAltView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SensorView\AirSpeedBAltView.designer.cs">
+      <DependentUpon>AirSpeedBAltView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SensorView\SensorFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SensorView\SensorFrm.designer.cs">
+      <DependentUpon>SensorFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TelemetryFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TelemetryFrm.designer.cs">
+      <DependentUpon>TelemetryFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TelemetryListFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TelemetryListFrm.Designer.cs">
+      <DependentUpon>TelemetryListFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TelemetryMgr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\TelemetryMgr.designer.cs">
+      <DependentUpon>TelemetryMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TelemetryMgrFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TelemetryMgrFrm.Designer.cs">
+      <DependentUpon>TelemetryMgrFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TestSetFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TestSetFrm.designer.cs">
+      <DependentUpon>TestSetFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ViewSetFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ViewSetFrm.Designer.cs">
+      <DependentUpon>ViewSetFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WpsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WpsFrm.Designer.cs">
+      <DependentUpon>WpsFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jylink\JYLinkInterface.cs" />
+    <Compile Include="Jylink\JYList.cs" />
+    <Compile Include="Jylink\JYState.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GPI\COMInterface.cs" />
+    <Compile Include="HIL\Aircraft.cs" />
+    <Compile Include="HIL\Hil.cs" />
+    <Compile Include="HIL\Matrix3.cs" />
+    <Compile Include="HIL\Point3d.cs" />
+    <Compile Include="HIL\Quaternion.cs" />
+    <Compile Include="HIL\Utils.cs" />
+    <Compile Include="HIL\Vector3.cs" />
+    <Compile Include="HIL\Vector3d.cs" />
+    <Compile Include="HIL\Wind.cs" />
+    <Compile Include="Icon\Icon.cs" />
+    <Compile Include="Icon\Polygon.cs" />
+    <Compile Include="L10N.cs" />
+    <Compile Include="Maps\Custom.cs" />
+    <Compile Include="Maps\Earthbuilder.cs" />
+    <Compile Include="Maps\Mapbox.cs" />
+    <Compile Include="Maps\MapboxNoFly.cs" />
+    <Compile Include="Maps\MyImageCache.cs" />
+    <Compile Include="Maps\Statkart_Topo2.cs" />
+    <Compile Include="Maps\WMSProvider.cs" />
+    <Compile Include="OpenGLtest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OpenGLtest2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings.Designer.cs" />
+    <Compile Include="Strings.zh-Hans.Designer.cs" />
+    <Compile Include="Utilities\Crypto.cs" />
+    <Compile Include="Utilities\Firmware.cs" />
+    <Compile Include="Utilities\GimbalPoint.cs" />
+    <Compile Include="Utilities\GMapMarkerAirport.cs" />
+    <Compile Include="Utilities\GMapMarkerOverlapCount.cs" />
+    <Compile Include="Utilities\GMapMarkerPhoto.cs" />
+    <Compile Include="Utilities\GMapMarkerPOI.cs" />
+    <Compile Include="Utilities\GMapMarkerRallyPt.cs" />
+    <Compile Include="Utilities\Grid.cs" />
+    <Compile Include="Utilities\ImageProjection.cs" />
+    <Compile Include="Utilities\ParameterMetaDataConstants.cs" />
+    <Compile Include="Utilities\ParameterMetaDataParser.cs" />
+    <Compile Include="Utilities\ParameterMetaDataRepository.cs" />
+    <Compile Include="Utilities\ParameterMetaDataRepositoryAPM.cs" />
+    <Compile Include="Utilities\ParameterMetaDataRepositoryPX4.cs" />
+    <Compile Include="Utilities\ParamFile.cs" />
+    <Compile Include="Utilities\POI.cs" />
+    <Compile Include="Utilities\Settings.cs" />
+    <Compile Include="Utilities\TerrainFollow.cs" />
+    <Compile Include="Utilities\ThemeManager.cs" />
+    <Compile Include="Utilities\VersionDetection.cs" />
+    <Compile Include="view\ViewSet.cs" />
+    <Compile Include="Waypoints\Spline2.cs" />
+    <EmbeddedResource Include="chao\views\FlyToPointForm.resx">
+      <DependentUpon>FlyToPointForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chao\views\IDSetForm.resx">
+      <DependentUpon>IDSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chao\views\PickPointForm.resx">
+      <DependentUpon>PickPointForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chao\views\StatusForm.resx">
+      <DependentUpon>StatusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MavlinkCheckBoxBitMask.resx">
+      <DependentUpon>MavlinkCheckBoxBitMask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CommandsFrm.resx">
+      <DependentUpon>CommandsFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CommondOfSet.resx">
+      <DependentUpon>CommondOfSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CommunicationSetFrm.resx">
+      <DependentUpon>CommunicationSetFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigAccelerometerCalibration.de-DE.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigAccelerometerCalibration.es-ES.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigAccelerometerCalibration.fr.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigAccelerometerCalibration.id-ID.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigAccelerometerCalibration.it-IT.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigAccelerometerCalibration.ko-KR.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigAccelerometerCalibration.pl.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigAccelerometerCalibration.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigAccelerometerCalibration.zh-Hans.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigAccelerometerCalibration.zh-Hant.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigAccelerometerCalibration.zh-TW.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigurationView\SteerTrimView.resx">
+      <DependentUpon>SteerTrimView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigurationView\LimitView.resx">
+      <DependentUpon>LimitView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigurationView\LoiterView.resx">
+      <DependentUpon>LoiterView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigurationView\GuideView.resx">
+      <DependentUpon>GuideView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigurationView\TakeOffView.resx">
+      <DependentUpon>TakeOffView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigurationView\GuideCtrlView.resx">
+      <DependentUpon>GuideCtrlView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigurationView\OverLoadLoopView.resx">
+      <DependentUpon>OverLoadLoopView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigurationView\AttitudeLoopView.resx">
+      <DependentUpon>AttitudeLoopView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigurationView\ConfigFrm.resx">
+      <DependentUpon>ConfigFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataPlayback.resx">
+      <DependentUpon>DataPlayback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataRecordSet.resx">
+      <DependentUpon>DataRecordSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FirmwareWrite.resx">
+      <DependentUpon>FirmwareWrite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HudFrm.resx">
+      <DependentUpon>HudFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManyMachineSet.resx">
+      <DependentUpon>ManyMachineSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MapFrm.resx">
+      <DependentUpon>MapFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MapSourceSet.resx">
+      <DependentUpon>MapSourceSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlanImage.resx">
+      <DependentUpon>PlanImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PreCheckView\CtrlPolarityView.resx">
+      <DependentUpon>CtrlPolarityView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PreCheckView\ECUView.resx">
+      <DependentUpon>ECUView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PreCheckView\LinkTestView.resx">
+      <DependentUpon>LinkTestView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PreCheckView\SteerTestView.resx">
+      <DependentUpon>SteerTestView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RouteLoadFrm.resx">
+      <DependentUpon>RouteLoadFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SatelliteStarStatusView.resx">
+      <DependentUpon>SatelliteStarStatusView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SendCommandLogFrm.resx">
+      <DependentUpon>SendCommandLogFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SensorView\AirSpeedBAltView.resx">
+      <DependentUpon>AirSpeedBAltView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SensorView\SensorFrm.resx">
+      <DependentUpon>SensorFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TelemetryFrm.resx">
+      <DependentUpon>TelemetryFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TelemetryListFrm.resx">
+      <DependentUpon>TelemetryListFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TelemetryMgr.resx">
+      <DependentUpon>TelemetryMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TelemetryMgrFrm.resx">
+      <DependentUpon>TelemetryMgrFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TestSetFrm.resx">
+      <DependentUpon>TestSetFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ViewSetFrm.resx">
+      <DependentUpon>ViewSetFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WpsFrm.resx">
+      <DependentUpon>WpsFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenGLtest.resx">
+      <DependentUpon>OpenGLtest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenGLtest2.resx">
+      <DependentUpon>OpenGLtest2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Strings.resx">
+      <LastGenOutput>Strings1.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.zh-Hans.resx">
+      <LastGenOutput>Strings.zh-Hans1.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="Properties\DataSources\MissionPlanner.CurrentState.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\Welcome_to_Michael_Oborne.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExtLibs\BSE.Windows.Forms\BSE.Windows.Forms.csproj">
+      <Project>{9ca367b8-0b98-49d1-84fb-735e612e3ba9}</Project>
+      <Name>BSE.Windows.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtLibs\Comms\MissionPlanner.Comms.csproj">
+      <Project>{825e7a10-390c-4a2b-b3a8-491d14966912}</Project>
+      <Name>MissionPlanner.Comms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtLibs\Controls\MissionPlanner.Controls.csproj">
+      <Project>{c8b88795-6d01-494d-83ad-6944bd4c5023}</Project>
+      <Name>MissionPlanner.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtLibs\GeoUtility\GeoUtility.csproj">
+      <Project>{7f7994ce-823f-4a04-bbea-d0a3808ff56d}</Project>
+      <Name>GeoUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtLibs\GLControl\OpenTK.GLControl.csproj">
+      <Project>{a625be88-0000-0000-0000-000000000000}</Project>
+      <Name>OpenTK.GLControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtLibs\GMap.NET.Core\GMap.NET.Core.csproj">
+      <Project>{d0c39d9d-bed0-418b-9a5e-713176caf40c}</Project>
+      <Name>GMap.NET.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtLibs\JYLink\JYLink.csproj">
+      <Project>{3e40867f-dc19-4c33-abb5-952d5cfba34f}</Project>
+      <Name>JYLink</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtLibs\KMLib\KMLib.csproj">
+      <Project>{29976ba4-a04d-4a80-a866-098c879c2fde}</Project>
+      <Name>KMLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtLibs\LibVLC.NET\LibVLC.NET.csproj">
+      <Project>{bb06dff7-4f41-4b9d-a3c3-3b6d2b8702b6}</Project>
+      <Name>LibVLC.NET</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtLibs\Mavlink\MAVLink.csproj">
+      <Project>{20296734-5f3c-4593-a0d5-dd20b440b13a}</Project>
+      <Name>MAVLink</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtLibs\px4uploader\px4uploader.csproj">
+      <Project>{664fc484-2a94-4b0d-808f-a71f88e06b11}</Project>
+      <Name>px4uploader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtLibs\SharpKml\SharpKml.csproj">
+      <Project>{53f12a60-e9cc-44bc-8366-1ae3ab2b547d}</Project>
+      <Name>SharpKml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtLibs\Utilities\MissionPlanner.Utilities.csproj">
+      <Project>{1378a66c-38e4-46f5-a05f-dc04ef7d4d16}</Project>
+      <Name>MissionPlanner.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\unsignal.png" />
+    <None Include="bin\Debug\images\graySuccess.png" />
+    <Content Include="images\accel_back.png" />
+    <Content Include="images\accel_down.png" />
+    <Content Include="images\accel_front.png" />
+    <Content Include="images\accel_left.png" />
+    <Content Include="images\accel_right.png" />
+    <Content Include="images\accel_up.png" />
+    <Content Include="images\guagebg.jpg" />
+    <Content Include="images\RemoteConnection.png" />
+    <Content Include="images\RemoteUnConnection.png" />
+    <Content Include="images\signal.png" />
+    <Content Include="mavcmd.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ParameterFactMetaData.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ParameterMetaDataBackup.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\01_01.png" />
+    <Content Include="Resources\quad_c1.png" />
+    <Content Include="Resources\quad_c2.png" />
+    <Content Include="Resources\quad_c3.png" />
+    <Content Include="Resources\quad_c4.png" />
+    <Content Include="Resources\quad_c5.png" />
+    <Content Include="Resources\关闭.png" />
+    <Content Include="Resources\应用图标_窗口面板最小化 .png" />
+    <None Include="Resources\FW icons Y61.png" />
+    <None Include="Resources\y61.png" />
+    <None Include="Resources\x81.png" />
+    <None Include="Resources\wizardicon11.png" />
+    <None Include="Resources\wizardicon2.png" />
+    <None Include="Resources\up1.png" />
+    <None Include="Resources\frames-051.png" />
+    <None Include="Resources\splashdark1.jpg" />
+    <None Include="Resources\AC-0004-11-21.jpg" />
+    <None Include="Resources\Shutter1.png" />
+    <None Include="Resources\selectvehicle1.png" />
+    <None Include="Resources\rover-111.png" />
+    <None Include="Resources\rover-101.png" />
+    <None Include="Resources\car1.png" />
+    <None Include="Resources\redsinglecopter21.png" />
+    <None Include="Resources\frames-041.png" />
+    <None Include="Resources\quad21.png" />
+    <None Include="Resources\quadhover_141.png" />
+    <None Include="Resources\quadhover_121.png" />
+    <None Include="Resources\quadhover_111.png" />
+    <None Include="Resources\quadhover_061.png" />
+    <None Include="Resources\quadhover_051.png" />
+    <None Include="Resources\quadhover_031.png" />
+    <None Include="Resources\quadhover_011.png" />
+    <None Include="Resources\quadframesnormal_141.png" />
+    <None Include="Resources\quadframesnormal_121.png" />
+    <None Include="Resources\quadframesnormal_111.png" />
+    <None Include="Resources\quadframesnormal_061.png" />
+    <None Include="Resources\quadframesnormal_051.png" />
+    <None Include="Resources\quadframesnormal_031.png" />
+    <None Include="Resources\quadframesnormal_011.png" />
+    <None Include="Resources\frames-031.png" />
+    <None Include="Resources\PX4FLOW11.jpg" />
+    <None Include="Resources\px41.jpg" />
+    <None Include="Resources\PlusFramesGreen_061.png" />
+    <None Include="Resources\PlusFramesGreen_041.png" />
+    <None Include="Resources\PlusFramesGreen_021.png" />
+    <None Include="Resources\PlusFrames_061.png" />
+    <None Include="Resources\PlusFrames_041.png" />
+    <None Include="Resources\PlusFrames_021.png" />
+    <None Include="Resources\planetracker1.png" />
+    <None Include="Resources\planebackground1.png" />
+    <None Include="Resources\pixhawk1.jpg" />
+    <None Include="Resources\Parachute1.png" />
+    <None Include="Resources\BR-0016-01-3T1.jpg" />
+    <None Include="Resources\octox1.png" />
+    <None Include="Resources\new frames-061.png" />
+    <None Include="Resources\new frames-051.png" />
+    <None Include="Resources\new-3DR-041.png" />
+    <None Include="Resources\missionplannerlogodark1.png" />
+    <None Include="Resources\missionplannerlogo1.png" />
+    <None Include="Resources\MinimOSD1.jpg" />
+    <None Include="Resources\marker_071.png" />
+    <None Include="Resources\marker_061.png" />
+    <None Include="Resources\marker_051.png" />
+    <None Include="Resources\marker_041.png" />
+    <None Include="Resources\marker_031.png" />
+    <None Include="Resources\marker_021.png" />
+    <None Include="Resources\marker_011.png" />
+    <None Include="Resources\maggps1.png" />
+    <None Include="Resources\light_tuningconfig_icon1.png" />
+    <None Include="Resources\light_terminal_icon1.png" />
+    <None Include="Resources\light_simulation_icon1.png" />
+    <None Include="Resources\light_initialsetup_icon1.png" />
+    <None Include="Resources\light_help_icon1.png" />
+    <None Include="Resources\light_flightplan_icon1.png" />
+    <None Include="Resources\light_flightdata_icon1.png" />
+    <None Include="Resources\light_disconnect_icon1.png" />
+    <None Include="Resources\light_connect_icon1.png" />
+    <None Include="Resources\light_061.png" />
+    <None Include="Resources\light_051.png" />
+    <None Include="Resources\light_031.png" />
+    <None Include="Resources\light_011.png" />
+    <None Include="Resources\iconWarning481.png" />
+    <None Include="Resources\iconWarning321.png" />
+    <None Include="Resources\new frames-121.png" />
+    <None Include="Resources\new frames-111.png" />
+    <None Include="Resources\new frames-131.png" />
+    <None Include="Resources\new frames-101.png" />
+    <None Include="Resources\Hframelight1.png" />
+    <None Include="Resources\Hframe1.png" />
+    <None Include="Resources\frames-071.png" />
+    <None Include="Resources\heli1.png" />
+    <None Include="Resources\FW icons 2013+logos-161.png" />
+    <None Include="Resources\FW icons 2013+logos-151.png" />
+    <None Include="Resources\FW icons 2013+logos-141.png" />
+    <None Include="Resources\FW icons 2013+logos-131.png" />
+    <None Include="Resources\FW icons 2013+logos-121.png" />
+    <None Include="Resources\FW icons 2013+logos-111.png" />
+    <None Include="Resources\FW icons 2013+logos-101.png" />
+    <None Include="Resources\FW icons 2013+logos-091.png" />
+    <None Include="Resources\FW icons 2013+logos-081.png" />
+    <None Include="Resources\FW icons 2013+logos-071.png" />
+    <None Include="Resources\FW icons 2013+logos-061.png" />
+    <None Include="Resources\FW icons 2013+logos-051.png" />
+    <None Include="Resources\FW icons 2013+logos-041.png" />
+    <None Include="Resources\FW icons 2013+logos-031.png" />
+    <None Include="Resources\FW icons 2013+logos-021.png" />
+    <None Include="Resources\FW icons 2013+logos-0121.png" />
+    <None Include="Resources\FW icons 2013+logos-0111.png" />
+    <None Include="Resources\FW icons 2013+logos-013.png" />
+    <None Include="Resources\frames-h1.png" />
+    <None Include="Resources\frames_x1.png" />
+    <None Include="Resources\frames_plus1.png" />
+    <None Include="Resources\frames-061.png" />
+    <None Include="Resources\down1.png" />
+    <None Include="Resources\donate1.png" />
+    <None Include="Resources\dark_tuningconfig_icon1.png" />
+    <None Include="Resources\dark_terminal_icon1.png" />
+    <None Include="Resources\dark_simulation_icon1.png" />
+    <None Include="Resources\dark_initialsetup_icon1.png" />
+    <None Include="Resources\dark_help_icon1.png" />
+    <None Include="Resources\dark_flightplan_icon1.png" />
+    <None Include="Resources\dark_flightdata_icon1.png" />
+    <None Include="Resources\dark_disconnect_icon1.png" />
+    <None Include="Resources\dark_connect_icon1.png" />
+    <None Include="Resources\BR-HMC5883-01-21.jpg" />
+    <None Include="Resources\cameraGimalYaw1.png" />
+    <None Include="Resources\cameraGimalRoll11.png" />
+    <None Include="Resources\cameraGimalPitch11.png" />
+    <None Include="Resources\camera-icon-G1.png" />
+    <None Include="Resources\camera-icon1.png" />
+    <None Include="Resources\calibration071.jpg" />
+    <None Include="Resources\calibration061.jpg" />
+    <None Include="Resources\calibration051.jpg" />
+    <None Include="Resources\calibration041.jpg" />
+    <None Include="Resources\calibration031.jpg" />
+    <None Include="Resources\calibration021.jpg" />
+    <None Include="Resources\calibration011.jpg" />
+    <None Include="Resources\BT-hc061.jpg" />
+    <None Include="Resources\BR-APMPWRDEAN-21.jpg" />
+    <None Include="Resources\bgdark1.jpg" />
+    <None Include="Resources\bg1.jpg" />
+    <None Include="Resources\09028-011.jpg" />
+    <None Include="Resources\apmp61.jpg" />
+    <None Include="Resources\apmp51.jpg" />
+    <None Include="Resources\apmp41.jpg" />
+    <None Include="Resources\apmp31.jpg" />
+    <None Include="Resources\apmp21.jpg" />
+    <None Include="Resources\apmp11.jpg" />
+    <None Include="Resources\apm2.51.jpg" />
+    <None Include="Resources\apm21.jpg" />
+    <None Include="Resources\apm11.jpg" />
+    <None Include="Resources\APM_rover-firmware1.png" />
+    <None Include="Resources\APM_airframes-081.png" />
+    <None Include="Resources\APM_airframes-071.png" />
+    <None Include="Resources\APM_airframes_0021.png" />
+    <None Include="Resources\APM_airframes_0011.png" />
+    <None Include="Resources\Antenna Tracker-011.png" />
+    <None Include="Resources\BR-0004-03-21.jpg" />
+    <None Include="Resources\01_061.png" />
+    <None Include="Resources\01_051.png" />
+    <None Include="Resources\01_031.png" />
+    <None Include="Resources\01_011.png" />
+    <Content Include="Resources\01_03.png" />
+    <Content Include="Resources\01_05.png" />
+    <Content Include="Resources\01_06.png" />
+    <Content Include="Resources\09028-01.jpg" />
+    <Content Include="Resources\AC-0004-11-2.jpg" />
+    <Content Include="Resources\Antenna Tracker-01.png" />
+    <Content Include="Resources\apm1.jpg" />
+    <Content Include="Resources\apm2.5.jpg" />
+    <Content Include="Resources\apm2.jpg" />
+    <Content Include="Resources\apmp1.jpg" />
+    <Content Include="Resources\apmp2.jpg" />
+    <Content Include="Resources\apmp3.jpg" />
+    <Content Include="Resources\apmp4.jpg" />
+    <Content Include="Resources\apmp5.jpg" />
+    <Content Include="Resources\apmp6.jpg" />
+    <Content Include="Resources\APM_airframes-07.png" />
+    <Content Include="Resources\APM_airframes-08.png" />
+    <Content Include="Resources\APM_airframes_001.png" />
+    <Content Include="Resources\APM_airframes_002.png" />
+    <Content Include="Resources\APM_rover-firmware.png" />
+    <Content Include="Resources\aw.png" />
+    <Content Include="Resources\bg.jpg" />
+    <Content Include="Resources\bgdark.jpg" />
+    <Content Include="Resources\BR-0004-03-2.jpg" />
+    <Content Include="Resources\BR-0016-01-3T.jpg" />
+    <Content Include="Resources\BR-APMPWRDEAN-2.jpg" />
+    <Content Include="Resources\BR-HMC5883-01-2.jpg" />
+    <Content Include="Resources\BT-hc06.jpg" />
+    <Content Include="Resources\calibration01.jpg" />
+    <Content Include="Resources\calibration02.jpg" />
+    <Content Include="Resources\calibration03.jpg" />
+    <Content Include="Resources\calibration04.jpg" />
+    <Content Include="Resources\calibration05.jpg" />
+    <Content Include="Resources\calibration06.jpg" />
+    <Content Include="Resources\calibration07.jpg" />
+    <Content Include="Resources\camera-icon-G.png" />
+    <Content Include="Resources\camera-icon.png" />
+    <Content Include="Resources\cameraGimalPitch1.png" />
+    <Content Include="Resources\cameraGimalRoll1.png" />
+    <Content Include="Resources\cameraGimalYaw.png" />
+    <Content Include="Resources\car.png" />
+    <Content Include="Resources\configuration.png" />
+    <Content Include="Resources\connect.png" />
+    <Content Include="Resources\dark_connect_icon.png" />
+    <Content Include="Resources\dark_disconnect_icon.png" />
+    <Content Include="Resources\dark_flightdata_icon.png" />
+    <Content Include="Resources\dark_flightplan_icon.png" />
+    <Content Include="Resources\dark_help_icon.png" />
+    <Content Include="Resources\dark_initialsetup_icon.png" />
+    <Content Include="Resources\dark_simulation_icon.png" />
+    <Content Include="Resources\dark_terminal_icon.png" />
+    <Content Include="Resources\dark_tuningconfig_icon.png" />
+    <Content Include="Resources\data.png" />
+    <Content Include="Resources\disconnect.png" />
+    <Content Include="Resources\donate.png" />
+    <Content Include="Resources\down.png" />
+    <Content Include="Resources\firmware.png" />
+    <Content Include="Resources\flightdata.png" />
+    <Content Include="Resources\flightplanner.png" />
+    <Content Include="Resources\frames-01.png" />
+    <Content Include="Resources\frames-02.png" />
+    <Content Include="Resources\frames-03.png" />
+    <Content Include="Resources\frames-04.png" />
+    <Content Include="Resources\frames-05.png" />
+    <Content Include="Resources\frames-06.png" />
+    <Content Include="Resources\frames-07.png" />
+    <Content Include="Resources\frames-08.png" />
+    <Content Include="Resources\frames-h.png" />
+    <Content Include="Resources\frames_plus.png" />
+    <Content Include="Resources\frames_x.png" />
+    <Content Include="Resources\FW icons 2013+logos-01.png" />
+    <Content Include="Resources\FW icons 2013+logos-011.png" />
+    <Content Include="Resources\FW icons 2013+logos-012.png" />
+    <Content Include="Resources\FW icons 2013+logos-02.png" />
+    <Content Include="Resources\FW icons 2013+logos-03.png" />
+    <Content Include="Resources\FW icons 2013+logos-04.png" />
+    <Content Include="Resources\FW icons 2013+logos-05.png" />
+    <Content Include="Resources\FW icons 2013+logos-06.png" />
+    <Content Include="Resources\FW icons 2013+logos-07.png" />
+    <Content Include="Resources\FW icons 2013+logos-08.png" />
+    <Content Include="Resources\FW icons 2013+logos-09.png" />
+    <Content Include="Resources\FW icons 2013+logos-10.png" />
+    <Content Include="Resources\FW icons 2013+logos-11.png" />
+    <Content Include="Resources\FW icons 2013+logos-12.png" />
+    <Content Include="Resources\FW icons 2013+logos-13.png" />
+    <Content Include="Resources\FW icons 2013+logos-14.png" />
+    <Content Include="Resources\FW icons 2013+logos-15.png" />
+    <Content Include="Resources\FW icons 2013+logos-16.png" />
+    <Content Include="Resources\FW icons Y6.png" />
+    <Content Include="Resources\guagebg.jpg" />
+    <Content Include="Resources\hardwareconfig.png" />
+    <Content Include="Resources\hardwareconfig02.png" />
+    <Content Include="Resources\heli.png" />
+    <Content Include="Resources\help.png" />
+    <Content Include="Resources\helpwizard.png" />
+    <Content Include="Resources\Hframe.png" />
+    <Content Include="Resources\Hframelight.png" />
+    <Content Include="Resources\iconWarning32.png" />
+    <Content Include="Resources\iconWarning48.png" />
+    <Content Include="Resources\IRIS_FW_ICON.png" />
+    <Content Include="Resources\light_01.png" />
+    <Content Include="Resources\light_03.png" />
+    <Content Include="Resources\light_05.png" />
+    <Content Include="Resources\light_06.png" />
+    <Content Include="Resources\light_connect_icon.png" />
+    <Content Include="Resources\light_disconnect_icon.png" />
+    <Content Include="Resources\light_flightdata_icon.png" />
+    <Content Include="Resources\light_flightplan_icon.png" />
+    <Content Include="Resources\light_help_icon.png" />
+    <Content Include="Resources\light_initialsetup_icon.png" />
+    <Content Include="Resources\light_simulation_icon.png" />
+    <Content Include="Resources\light_terminal_icon.png" />
+    <Content Include="Resources\light_tuningconfig_icon.png" />
+    <Content Include="Resources\maggps.png" />
+    <Content Include="Resources\marker_01.png" />
+    <Content Include="Resources\marker_02.png" />
+    <Content Include="Resources\marker_03.png" />
+    <Content Include="Resources\marker_04.png" />
+    <Content Include="Resources\marker_05.png" />
+    <Content Include="Resources\marker_06.png" />
+    <Content Include="Resources\marker_07.png" />
+    <Content Include="Resources\MAVCmd.txt" />
+    <Content Include="Resources\MAVCmd.zh-Hans.txt" />
+    <Content Include="Resources\MAVCmd.zh-TW.txt" />
+    <Content Include="Resources\MAVParam.txt" />
+    <Content Include="Resources\MAVParam.zh-Hans.txt" />
+    <Content Include="Resources\MAVParam.zh-TW.txt" />
+    <Content Include="Resources\MinimOSD.jpg" />
+    <Content Include="Resources\missionplannerlogo.png" />
+    <Content Include="Resources\missionplannerlogodark.png" />
+    <Content Include="Resources\new frames-01.png" />
+    <Content Include="Resources\new frames-05.png" />
+    <Content Include="Resources\new frames-05X.png" />
+    <Content Include="Resources\new frames-06.png" />
+    <Content Include="Resources\new frames-09.png" />
+    <Content Include="Resources\new frames-10.png" />
+    <Content Include="Resources\new frames-11.png" />
+    <Content Include="Resources\new frames-12.png" />
+    <Content Include="Resources\new frames-13.png" />
+    <Content Include="Resources\new frames-14.png" />
+    <Content Include="Resources\new-3DR-04.png" />
+    <Content Include="Resources\octox.png" />
+    <Content Include="Resources\Parachute.png" />
+    <Content Include="Resources\pixhawk.jpg" />
+    <Content Include="Resources\plane2.png" />
+    <Content Include="Resources\planebackground.png" />
+    <Content Include="Resources\planetracker.png" />
+    <Content Include="Resources\planner.png" />
+    <Content Include="Resources\PlusFramesGreen_02.png" />
+    <Content Include="Resources\PlusFramesGreen_04.png" />
+    <Content Include="Resources\PlusFramesGreen_06.png" />
+    <Content Include="Resources\PlusFrames_02.png" />
+    <Content Include="Resources\PlusFrames_04.png" />
+    <Content Include="Resources\PlusFrames_06.png" />
+    <Content Include="Resources\px4.jpg" />
+    <Content Include="Resources\PX4FLOW1.jpg" />
+    <Content Include="Resources\quad2.png" />
+    <Content Include="Resources\quadframeslight_01.jpg" />
+    <Content Include="Resources\quadframeslight_03.jpg" />
+    <Content Include="Resources\quadframeslight_05.jpg" />
+    <Content Include="Resources\quadframeslight_07.jpg" />
+    <Content Include="Resources\quadframeslight_13.jpg" />
+    <Content Include="Resources\quadframeslight_15.jpg" />
+    <Content Include="Resources\quadframeslight_16.png" />
+    <Content Include="Resources\quadframesnormal_01.png" />
+    <Content Include="Resources\quadframesnormal_03.png" />
+    <Content Include="Resources\quadframesnormal_05.png" />
+    <Content Include="Resources\quadframesnormal_06.png" />
+    <Content Include="Resources\quadframesnormal_11.png" />
+    <Content Include="Resources\quadframesnormal_12.png" />
+    <Content Include="Resources\quadframesnormal_14.png" />
+    <Content Include="Resources\quadframes_01.jpg" />
+    <Content Include="Resources\quadframes_03.jpg" />
+    <Content Include="Resources\quadframes_05.jpg" />
+    <Content Include="Resources\quadframes_07.jpg" />
+    <Content Include="Resources\quadframes_13.jpg" />
+    <Content Include="Resources\quadframes_15.jpg" />
+    <Content Include="Resources\quadframes_16.png" />
+    <Content Include="Resources\quadhover_01.png" />
+    <Content Include="Resources\quadhover_03.png" />
+    <Content Include="Resources\quadhover_05.png" />
+    <Content Include="Resources\quadhover_06.png" />
+    <Content Include="Resources\quadhover_11.png" />
+    <Content Include="Resources\quadhover_12.png" />
+    <Content Include="Resources\quadhover_14.png" />
+    <Content Include="Resources\redsinglecopter2.png" />
+    <Content Include="Resources\rover-10.png" />
+    <Content Include="Resources\rover-11.png" />
+    <Content Include="Resources\rover.png" />
+    <Content Include="Resources\selectvehicle.png" />
+    <Content Include="Resources\Shutter.png" />
+    <Content Include="Resources\simulation.png" />
+    <Content Include="Resources\softwareconfig.png" />
+    <Content Include="Resources\splash.jpg" />
+    <Content Include="Resources\splashdark.jpg" />
+    <Content Include="Resources\terminal.png" />
+    <Content Include="Resources\up.png" />
+    <Content Include="Resources\wizardicon.png" />
+    <Content Include="Resources\wizardicon1.png" />
+    <Content Include="Resources\x8.png" />
+    <Content Include="Resources\y6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Temp\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。启用“NuGet 程序包还原”可下载这些程序包。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

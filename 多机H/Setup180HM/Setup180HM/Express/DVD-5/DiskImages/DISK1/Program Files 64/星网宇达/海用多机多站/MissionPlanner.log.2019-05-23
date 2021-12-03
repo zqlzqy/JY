@@ -1,0 +1,1117 @@
+2019-05-23 10:20:28,182  INFO FBGroundControl.MainForm - Loading config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:4073) [1]
+2019-05-23 10:20:28,243  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6369) [1]
+2019-05-23 10:20:28,243  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6382) [1]
+2019-05-23 10:20:28,244  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6398) [1]
+2019-05-23 10:20:28,572 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 10:20:28,578 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 10:20:33,746  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM1 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-05-23 10:20:33,941  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM1 = 通信端口 (COM1) (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-05-23 10:20:33,942  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM27 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-05-23 10:20:34,036  INFO MissionPlanner.Comms.SerialPort - done GetNiceName COM27 =  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:211) [1]
+2019-05-23 10:20:34,253  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM27 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-05-23 10:20:34,256  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM27 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-05-23 10:20:34,257  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM27 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-05-23 10:20:34,257  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM27 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-05-23 10:20:34,803  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM27 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-05-23 10:20:34,803  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM27 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-05-23 10:20:34,804  INFO MissionPlanner.Comms.SerialPort - start GetNiceName COM27 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:195) [1]
+2019-05-23 10:20:34,804  INFO MissionPlanner.Comms.SerialPort - done GetNiceName cache COM27 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:200) [1]
+2019-05-23 10:20:35,645  INFO FBGroundControl.MainForm - MenuConnect Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7341) [1]
+2019-05-23 10:20:35,646  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7355) [1]
+2019-05-23 10:20:35,646  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7378) [1]
+2019-05-23 10:20:35,646  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7392) [1]
+2019-05-23 10:20:37,926  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1559) [1]
+2019-05-23 10:21:00,716  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2019-05-23 10:21:00,725  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 10:21:00,748  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 10:21:01,081  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 10:21:02,084  INFO MissionPlanner.JYLinkInterface - Open port with COM3 115200 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-05-23 10:21:02,163 ERROR MissionPlanner.JYLinkInterface - System.IO.IOException: 端口“COM3”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 384 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:543) [ProgressReporterDialogue Background thread]
+2019-05-23 10:21:02,951  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1585) [1]
+2019-05-23 10:21:02,952  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1861) [1]
+2019-05-23 10:21:02,979  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-05-23 10:21:03,038  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 10:21:03,038  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 10:21:03,351  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 10:21:04,353  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-05-23 10:21:05,373  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-05-23 10:21:05,379  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1886) [1]
+2019-05-23 10:27:18,008  INFO FBGroundControl.MainForm - Loading config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:4073) [1]
+2019-05-23 10:27:18,046  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6369) [1]
+2019-05-23 10:27:18,048  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6382) [1]
+2019-05-23 10:27:18,048  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6398) [1]
+2019-05-23 10:27:18,514 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 10:27:18,518 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 10:27:22,565  INFO FBGroundControl.MainForm - MenuConnect Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7341) [1]
+2019-05-23 10:27:22,566  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7355) [1]
+2019-05-23 10:27:22,566  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7378) [1]
+2019-05-23 10:27:22,567  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7392) [1]
+2019-05-23 10:27:22,647  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1559) [1]
+2019-05-23 10:27:22,687  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2019-05-23 10:27:22,706  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 10:27:22,707  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 10:27:22,959  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 10:27:23,962  INFO MissionPlanner.JYLinkInterface - Open port with COM3 115200 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-05-23 10:27:24,027 ERROR MissionPlanner.JYLinkInterface - System.IO.IOException: 端口“COM3”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 384 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:543) [ProgressReporterDialogue Background thread]
+2019-05-23 10:27:24,881  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1585) [1]
+2019-05-23 10:27:24,883  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1861) [1]
+2019-05-23 10:27:24,911  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [13]
+2019-05-23 10:27:24,939  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 10:27:24,939  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 10:27:25,252  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 10:27:26,253  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-05-23 10:27:27,270  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-05-23 10:27:27,276  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1886) [1]
+2019-05-23 10:32:10,729  INFO FBGroundControl.MainForm - Loading config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:4073) [1]
+2019-05-23 10:32:10,773  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6369) [1]
+2019-05-23 10:32:10,774  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6382) [1]
+2019-05-23 10:32:10,774  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6398) [1]
+2019-05-23 10:32:11,073 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 10:32:11,077 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 10:32:16,927  INFO FBGroundControl.MainForm - MenuConnect Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7341) [1]
+2019-05-23 10:32:16,928  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7355) [1]
+2019-05-23 10:32:16,928  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7378) [1]
+2019-05-23 10:32:16,929  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7392) [1]
+2019-05-23 10:32:17,090  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1559) [1]
+2019-05-23 10:32:17,125  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [14]
+2019-05-23 10:32:17,141  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 10:32:17,164  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 10:32:17,432  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 10:32:18,434  INFO MissionPlanner.JYLinkInterface - Open port with COM3 115200 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-05-23 10:32:18,477 ERROR MissionPlanner.JYLinkInterface - System.IO.IOException: 端口“COM3”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 384 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:543) [ProgressReporterDialogue Background thread]
+2019-05-23 10:32:19,441  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1585) [1]
+2019-05-23 10:32:19,443  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1861) [1]
+2019-05-23 10:32:19,474  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [13]
+2019-05-23 10:32:19,536  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 10:32:19,536  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 10:32:19,834  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 10:32:20,835  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-05-23 10:32:21,850  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-05-23 10:32:21,862  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1886) [1]
+2019-05-23 10:54:22,010  INFO FBGroundControl.MainForm - Loading config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:4073) [1]
+2019-05-23 10:54:22,094  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6369) [1]
+2019-05-23 10:54:22,095  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6382) [1]
+2019-05-23 10:54:22,095  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6398) [1]
+2019-05-23 10:54:22,414 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 10:54:22,418 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 10:54:25,568  INFO FBGroundControl.MainForm - MenuConnect Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7341) [1]
+2019-05-23 10:54:25,569  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7355) [1]
+2019-05-23 10:54:25,569  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7378) [1]
+2019-05-23 10:54:25,569  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7392) [1]
+2019-05-23 10:54:25,788  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1559) [1]
+2019-05-23 10:54:25,830  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [23]
+2019-05-23 10:54:25,846  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 10:54:25,847  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 11:06:35,448  INFO FBGroundControl.MainForm - Loading config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:4073) [1]
+2019-05-23 11:06:35,531  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6369) [1]
+2019-05-23 11:06:35,532  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6382) [1]
+2019-05-23 11:06:35,532  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6398) [1]
+2019-05-23 11:06:35,780 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 11:06:35,784 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 11:06:39,185  INFO FBGroundControl.MainForm - MenuConnect Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7341) [1]
+2019-05-23 11:06:39,186  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7355) [1]
+2019-05-23 11:06:39,186  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7378) [1]
+2019-05-23 11:06:39,186  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7392) [1]
+2019-05-23 11:06:39,270  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1559) [1]
+2019-05-23 11:06:39,311  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2019-05-23 11:06:39,331  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 11:06:39,342  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 11:06:41,846  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 11:06:42,848  INFO MissionPlanner.JYLinkInterface - Open port with COM3 115200 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-05-23 11:06:42,904 ERROR MissionPlanner.JYLinkInterface - System.IO.IOException: 端口“COM3”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 384 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:543) [ProgressReporterDialogue Background thread]
+2019-05-23 11:06:43,794  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1585) [1]
+2019-05-23 11:06:43,796  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1861) [1]
+2019-05-23 11:06:43,824  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [3]
+2019-05-23 11:06:43,885  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 11:06:43,885  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 11:06:44,161  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 11:06:45,163  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-05-23 11:06:46,181  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-05-23 11:06:46,236  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1886) [1]
+2019-05-23 11:11:49,768  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:11:49,782  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:11:49,840  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:11:49,871  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:11:49,939  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:11:49,954  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:11:49,988  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:11:50,058  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:11:50,080  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:11:50,093  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:11:50,114  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:11:50,128  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:13:59,119  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:13:59,136  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:14:01,862  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:14:01,882  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:14:01,958  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:15:11,105  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:15:11,736  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:15:16,695  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:15:16,735  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:15:16,758  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:18:21,562  INFO FBGroundControl.MainForm - Loading config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:4073) [1]
+2019-05-23 11:18:21,610  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6369) [1]
+2019-05-23 11:18:21,611  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6382) [1]
+2019-05-23 11:18:21,611  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6398) [1]
+2019-05-23 11:18:21,948 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 11:18:21,952 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 11:20:24,503  INFO FBGroundControl.MainForm - MenuConnect Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7341) [1]
+2019-05-23 11:20:24,503  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7355) [1]
+2019-05-23 11:20:24,504  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7378) [1]
+2019-05-23 11:20:24,504  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7392) [1]
+2019-05-23 11:20:24,581  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1559) [1]
+2019-05-23 11:20:24,874  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [21]
+2019-05-23 11:20:24,888  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 11:20:24,889  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 11:20:25,209  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 11:20:26,212  INFO MissionPlanner.JYLinkInterface - Open port with COM3 115200 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-05-23 11:20:26,272 ERROR MissionPlanner.JYLinkInterface - System.IO.IOException: 端口“COM3”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 384 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:543) [ProgressReporterDialogue Background thread]
+2019-05-23 11:20:27,001  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1585) [1]
+2019-05-23 11:20:27,002  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1861) [1]
+2019-05-23 11:20:27,031  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [20]
+2019-05-23 11:20:27,252  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 11:20:27,272  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 11:20:27,532  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 11:20:28,533  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-05-23 11:20:29,535  INFO MissionPlanner.JYLinkMainCtrl - 535 Start connect loop  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:418) [ProgressReporterDialogue Background thread]
+2019-05-23 11:20:30,787 ERROR MissionPlanner.JYLinkMainCtrl - System.TimeoutException: 操作已超时。
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   在 System.IO.Ports.SerialStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 System.IO.Ports.SerialPort.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MissionPlanner.Comms.SerialPort.MissionPlanner.Comms.ICommsSerial.Read(Byte[] , Int32 , Int32 )
+   在 MissionPlanner.JYLinkMainCtrl.ReadWithTimeout(ICommsSerial BaseStream, Byte[] buffer, Int32 offset, Int32 count) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 639
+   在 MissionPlanner.JYLinkMainCtrl.readPacket() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 682
+   在 MissionPlanner.JYLinkMainCtrl.getHeartBeat() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 518
+   在 MissionPlanner.JYLinkMainCtrl.OpenMC(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:行号 431 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:468) [ProgressReporterDialogue Background thread]
+2019-05-23 11:20:31,413  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1886) [1]
+2019-05-23 11:20:42,903  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 11:20:42,917  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 11:22:00,843  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 11:22:00,861  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 11:22:00,927  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 11:22:45,147  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:22:45,603  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:22:45,826  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:22:47,324  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:22:48,027  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:22:48,464  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:22:48,898  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:22:51,919  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:22:58,311  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:23:15,475  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:23:16,322  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:23:30,279  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:23:35,953  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:23:40,373  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:23:52,098  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:23:59,734  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:24:16,701  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:24:21,493  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:24:36,376  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:24:44,504  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:24:45,743  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:24:57,200  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:25:09,946  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:31:51,193  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:31:51,208  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:31:53,784  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:32:07,173  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:33:03,793  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:33:12,027  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:33:13,732  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:33:23,279  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:33:30,703  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:33:39,710  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:33:48,286  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:34:02,293  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:34:34,290  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:34:34,514  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:34:35,146  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:35:01,882  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:35:08,195  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:35:13,123  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:35:13,956  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:35:16,907  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:35:21,815  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:35:28,332  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:35:31,476  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:35:36,089  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:35:43,408  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:35:55,561  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:35:55,834  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:36:07,302  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:36:17,383  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:36:23,939  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:36:53,282  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:36:53,296  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:37:01,361  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:37:08,091  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:37:08,104  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:37:13,624  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:37:20,341  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:37:24,510  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:37:26,085  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:37:33,286  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:37:39,361  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:37:46,363  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:37:47,448  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:37:55,323  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:38:02,223  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:38:02,238  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:38:22,092  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:38:31,483  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:38:32,376  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:38:35,164  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:38:39,137  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:38:42,298  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:38:52,317  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:00,995  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:02,494  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:08,931  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:12,529  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:14,297  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:17,896  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:21,705  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:22,557  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:26,394  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:31,289  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:31,302  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:35,109  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:38,889  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:42,881  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:43,506  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:48,476  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:50,912  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:54,962  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:58,546  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:39:59,407  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:40:05,361  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:40:10,903  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:40:14,734  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:40:17,357  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:40:26,490  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:40:39,688  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:40:44,707  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:40:53,177  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:41:09,356  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:41:14,246  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:41:24,491  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:41:27,881  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:41:28,095  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:42:00,533  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:42:04,696  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:42:11,889  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:42:15,081  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:42:16,542  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:42:23,090  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:42:23,103  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:42:27,125  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:42:32,724  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:51:36,479  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:52:46,899  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:53:59,772  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:54:14,861  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:54:14,876  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:57:05,952  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:57:51,733  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:57:51,745  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:31,905  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:31,920  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:34,080  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:34,099  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:34,527  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:34,542  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:34,780  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:35,210  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:35,225  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:35,450  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:35,477  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:36,563  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:43,905  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:48,107  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:58:58,689  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:59:23,678  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:59:23,694  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:59:27,699  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:59:37,318  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:59:42,908  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:59:53,977  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 11:59:58,158  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:00:00,483  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:00:16,341  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:00:24,748  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:00:30,487  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:01:16,282  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:01:17,391  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:01:23,026  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:01:27,131  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:01:35,337  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:01:37,359  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:01:38,886  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:01:46,110  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:01:49,712  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:01:56,880  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:02:29,272  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:02:29,285  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:02:34,916  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:02:48,316  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:02:48,953  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:02:53,713  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:03:03,372  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:03:08,022  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:04:30,144  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:04:30,159  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:04:37,687  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:04:58,301  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:05:07,899  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:05:21,284  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:05:26,581  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:05:39,606  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:05:39,621  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:05:46,644  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:06:09,424  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:06:12,874  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:06:27,469  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:06:58,549  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:07:07,721  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:07:22,060  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:07:22,073  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:07:30,472  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 12:07:42,301  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:01:26,575  INFO FBGroundControl.MainForm - Loading config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:4073) [1]
+2019-05-23 14:01:26,631  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6369) [1]
+2019-05-23 14:01:26,631  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6382) [1]
+2019-05-23 14:01:26,631  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6398) [1]
+2019-05-23 14:01:26,950 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 14:01:26,954 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 14:01:30,375  INFO FBGroundControl.MainForm - MenuConnect Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7341) [1]
+2019-05-23 14:01:30,376  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7355) [1]
+2019-05-23 14:01:30,376  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7378) [1]
+2019-05-23 14:01:30,376  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7392) [1]
+2019-05-23 14:01:30,462  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1559) [1]
+2019-05-23 14:01:30,502  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [4]
+2019-05-23 14:01:30,526  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 14:01:30,527  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 14:01:30,791  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 14:01:31,799  INFO MissionPlanner.JYLinkInterface - Open port with COM3 115200 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-05-23 14:01:31,836 ERROR MissionPlanner.JYLinkInterface - System.IO.IOException: 端口“COM3”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 384 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:543) [ProgressReporterDialogue Background thread]
+2019-05-23 14:01:33,173  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1585) [1]
+2019-05-23 14:01:33,175  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1861) [1]
+2019-05-23 14:01:33,202  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [16]
+2019-05-23 14:01:33,262  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 14:01:33,263  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 14:01:33,661  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 14:01:34,662  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-05-23 14:01:35,680  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-05-23 14:01:35,745  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1886) [1]
+2019-05-23 14:02:59,359  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 14:02:59,375  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 14:03:23,860  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 14:03:24,815  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 14:03:56,229  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 14:04:09,030  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 14:05:36,682  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:05:36,695  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:06:11,244  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:10:38,940  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:10:38,952  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:10:42,338  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:10:42,582  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:10:42,598  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:11:17,102  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:11:43,569  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:12:48,786  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:12:48,807  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:12:49,296  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:13:00,278  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:13:25,763  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:13:47,679  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:13:54,970  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:14:16,612  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:15:24,204  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:15:29,080  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:15:47,997  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:16:10,850  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:16:26,847  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:16:31,265  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:16:46,708  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:17:01,934  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:17:14,175  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:17:29,694  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:17:37,278  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:17:45,074  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:18:09,869  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:18:13,530  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:18:49,546  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:19:17,387  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:19:19,310  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:20:13,154  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:20:41,334  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:20:56,965  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:21:01,896  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:21:16,353  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:21:38,701  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:21:59,999  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:22:01,316  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:22:29,765  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2019-05-23 14:22:44,839  INFO FBGroundControl.MainForm - We are disconnecting (:0) [1]
+2019-05-23 14:22:44,840  INFO MissionPlanner.Comms.SerialPort - COM3 DtrEnable False (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:23) [1]
+2019-05-23 14:22:44,841  INFO MissionPlanner.Comms.SerialPort - COM1 DtrEnable False (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:23) [1]
+2019-05-23 14:22:44,842  INFO MissionPlanner.Comms.SerialPort - COM1 DtrEnable False (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:23) [1]
+2019-05-23 14:25:19,401  INFO FBGroundControl.MainForm - Loading config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:4073) [1]
+2019-05-23 14:25:19,462  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6369) [1]
+2019-05-23 14:25:19,463  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6382) [1]
+2019-05-23 14:25:19,463  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6398) [1]
+2019-05-23 14:25:19,736 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 14:25:19,740 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 14:26:21,538  INFO FBGroundControl.MainForm - Saving config (:0) [1]
+2019-05-23 14:26:34,330  INFO FBGroundControl.MainForm - Loading config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:4073) [1]
+2019-05-23 14:26:34,409  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6369) [1]
+2019-05-23 14:26:34,409  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6382) [1]
+2019-05-23 14:26:34,410  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6398) [1]
+2019-05-23 14:26:34,752 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 14:26:34,756 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 14:26:39,444  INFO FBGroundControl.MainForm - MenuConnect Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7341) [1]
+2019-05-23 14:26:39,445  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7355) [1]
+2019-05-23 14:26:39,445  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7378) [1]
+2019-05-23 14:26:39,445  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7392) [1]
+2019-05-23 14:26:39,523  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1559) [1]
+2019-05-23 14:26:39,667  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [18]
+2019-05-23 14:26:39,687  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 14:26:39,688  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 14:26:39,954  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 14:26:40,126  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 14:26:40,154  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 14:26:40,983  INFO MissionPlanner.JYLinkInterface - Open port with COM3 115200 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-05-23 14:26:41,020 ERROR MissionPlanner.JYLinkInterface - System.IO.IOException: 端口“COM3”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 384 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:543) [ProgressReporterDialogue Background thread]
+2019-05-23 14:26:41,631  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1585) [1]
+2019-05-23 14:26:41,633  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1861) [1]
+2019-05-23 14:26:41,659  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [18]
+2019-05-23 14:26:41,893  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 14:26:41,912  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 14:26:42,245  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 14:26:43,246  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-05-23 14:26:44,263  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-05-23 14:26:44,273  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1886) [1]
+2019-05-23 14:26:47,590  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 14:26:48,773  INFO FBGroundControl.MainForm - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2343 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 14:27:20,350  INFO FBGroundControl.MainForm - Saving config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:5518) [1]
+2019-05-23 14:40:47,749  INFO FBGroundControl.MainForm - Loading config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:4073) [1]
+2019-05-23 14:44:36,690  INFO FBGroundControl.MainForm - Loading config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:4073) [1]
+2019-05-23 14:44:36,758  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6369) [1]
+2019-05-23 14:44:36,765  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6382) [1]
+2019-05-23 14:44:36,765  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6398) [1]
+2019-05-23 14:44:37,079 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 14:44:37,085 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 14:44:48,850 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:48,875 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:50,153 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:50,247 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:50,336 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:50,347 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:51,444 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:51,536 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:51,553 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:51,596 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:51,607 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:51,619 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:53,622 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:53,656 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:53,711 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:53,723 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:53,746 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:53,757 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:53,931 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:53,962 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:56,726 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:56,740 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:56,836 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:56,846 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:56,857 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:56,899 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:56,953 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:56,964 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:56,973 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:44:56,981 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:15,638  INFO FBGroundControl.MainForm - MenuConnect Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7341) [1]
+2019-05-23 14:46:15,639  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7355) [1]
+2019-05-23 14:46:15,639  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7378) [1]
+2019-05-23 14:46:15,639  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7392) [1]
+2019-05-23 14:46:15,723  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1559) [1]
+2019-05-23 14:46:15,866  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [16]
+2019-05-23 14:46:15,883  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 14:46:15,884  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 14:46:16,220  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 14:46:16,289 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:16,314 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:16,339 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:16,372 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:16,399 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:16,454 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:16,477 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:16,502 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:16,525 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:16,549 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:17,221  INFO MissionPlanner.JYLinkInterface - Open port with COM3 115200 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-05-23 14:46:17,269 ERROR MissionPlanner.JYLinkInterface - System.IO.IOException: 端口“COM3”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 384 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:543) [ProgressReporterDialogue Background thread]
+2019-05-23 14:46:18,147  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1585) [1]
+2019-05-23 14:46:18,149  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1861) [1]
+2019-05-23 14:46:18,175  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [22]
+2019-05-23 14:46:18,379  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 14:46:18,379  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 14:46:18,698  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 14:46:19,699  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-05-23 14:46:20,719  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-05-23 14:46:20,831  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1886) [1]
+2019-05-23 14:46:25,443 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:25,465 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:25,481 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:25,497 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:25,513 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:30,795 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:30,808 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:30,821 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:30,837 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:46:30,851 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:17,809 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:17,828 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:17,846 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:17,865 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:17,883 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,665 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,676 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,687 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,710 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,722 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,733 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,751 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,761 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,774 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,787 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,798 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,810 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,898 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,909 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,927 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,938 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,948 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,960 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:46,973 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,000 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,010 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,021 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,033 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,043 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,052 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,062 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,146 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,157 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,169 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,182 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,197 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,209 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,224 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,236 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,260 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,272 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,284 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,294 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,305 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,315 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,324 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:47,333 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:49,437 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:49,450 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:49,462 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:49,475 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:49,486 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:49,497 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:49,507 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:49,860 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:49,871 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:49,882 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:49,893 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:49,902 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:49,913 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:50,547 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:50,558 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:50,573 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:50,587 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:50,601 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:52,294 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:52,305 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:52,317 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:52,327 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:52,341 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:52,351 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:52,372 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:52,383 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:52,395 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:52,406 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:52,418 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:52,434 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,427 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,441 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,454 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,465 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,475 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,485 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,497 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,517 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,527 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,535 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,545 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,555 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,567 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:53,578 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,559 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,577 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,594 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,606 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,618 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,631 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,643 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,654 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,674 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,685 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,695 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,704 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,713 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,723 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,732 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:54,741 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:47:56,605  INFO FBGroundControl.MainForm - Saving config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:5518) [1]
+2019-05-23 14:50:23,162  INFO FBGroundControl.MainForm - Loading config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:4073) [1]
+2019-05-23 14:50:23,208  INFO FBGroundControl.MainForm - Loading wp params (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6369) [1]
+2019-05-23 14:50:23,209  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6382) [1]
+2019-05-23 14:50:23,210  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:6398) [1]
+2019-05-23 14:50:23,512 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 14:50:23,517 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:行号 2127 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\HUD.cs:2130) [1]
+2019-05-23 14:50:32,054 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:32,163 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:32,680 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:32,690 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:32,775 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:32,807 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:33,103 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:33,198 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:33,211 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:33,276 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:33,311 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:33,371 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:33,715 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:33,741 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:33,790 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:33,931 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:33,977 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:34,033 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:34,044 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:34,161 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:34,187 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:34,218 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:34,253 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:34,388 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:34,422 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:34,465 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:34,500 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:34,509 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:34,527 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:34,539 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:36,667 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:36,679 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:36,690 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:36,703 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:38,114 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:38,166 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:38,178 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:38,903 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:38,913 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:39,365 DEBUG FBGroundControl.MainForm - 未将对象引用设置到对象的实例。 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2632) [1]
+2019-05-23 14:50:39,910  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5368
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2484 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 14:50:49,352  INFO FBGroundControl.MainForm - MenuConnect Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7341) [1]
+2019-05-23 14:50:49,353  INFO FBGroundControl.MainForm - Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7355) [1]
+2019-05-23 14:50:49,353  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7378) [1]
+2019-05-23 14:50:49,353  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:7392) [1]
+2019-05-23 14:50:49,438  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1559) [1]
+2019-05-23 14:50:49,477  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [11]
+2019-05-23 14:50:49,494  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 14:50:49,495  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 14:50:49,744  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 14:50:50,136  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5368
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2484 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 14:50:50,187  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 5368
+   在 FBGroundControl.MainForm.writeKML() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:行号 2484 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:2517) [1]
+2019-05-23 14:50:50,746  INFO MissionPlanner.JYLinkInterface - Open port with COM3 115200 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:382) [ProgressReporterDialogue Background thread]
+2019-05-23 14:50:50,813 ERROR MissionPlanner.JYLinkInterface - System.IO.IOException: 端口“COM3”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 MissionPlanner.Comms.SerialPort.Open() 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Comms\CommsSerialPort.cs:行号 88
+   在 MissionPlanner.JYLinkInterface.OpenBg(Object PRsender, Boolean getparams, ProgressWorkerEventArgs progressWorkerEventArgs) 位置 f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:行号 384 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkInterface.cs:543) [ProgressReporterDialogue Background thread]
+2019-05-23 14:50:51,387  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1585) [1]
+2019-05-23 14:50:51,389  INFO FBGroundControl.MainForm - About to do dtr if needed (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1861) [1]
+2019-05-23 14:50:51,414  INFO MissionPlanner.Controls.ProgressReporterDialogue - RunBackgroundOperation (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:62) [12]
+2019-05-23 14:50:51,619  INFO MissionPlanner.Controls.ProgressReporterDialogue - Focus ctl  (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:86) [ProgressReporterDialogue Background thread]
+2019-05-23 14:50:51,619  INFO MissionPlanner.Controls.ProgressReporterDialogue - in focus invoke (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:92) [1]
+2019-05-23 14:50:51,867  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:106) [ProgressReporterDialogue Background thread]
+2019-05-23 14:50:52,868  INFO MissionPlanner.JYLinkMainCtrl - Open port with COM1 9600 (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\Jylink\JYLinkMainCtrl.cs:383) [ProgressReporterDialogue Background thread]
+2019-05-23 14:50:53,882  INFO MissionPlanner.Controls.ProgressReporterDialogue - DoWork Done (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\ExtLibs\Controls\ProgressReporterDialogue.cs:111) [ProgressReporterDialogue Background thread]
+2019-05-23 14:50:53,892  INFO FBGroundControl.MainForm - comport is closed. existing connect (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:1886) [1]
+2019-05-23 14:51:26,844  INFO FBGroundControl.MainForm - Saving config (f:\150H\无微波源—海军411\FBGroundControl海军\FBGroundControl\FBGroundControl\MainForm.cs:5518) [1]

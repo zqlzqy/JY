@@ -1,0 +1,811 @@
+2010-08-09 15:53:51,587 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-09 15:53:51,604 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-09 15:53:51,687  INFO FBGroundControl.MainForm - Loading config (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:3894) [1]
+2010-08-09 15:53:51,745  INFO FBGroundControl.MainForm - Loading wp params (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6725) [1]
+2010-08-09 15:53:51,746  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6738) [1]
+2010-08-09 15:53:51,746  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6754) [1]
+2010-08-09 15:54:12,329  INFO FBGroundControl.MainForm - MenuConnect Start (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7689) [1]
+2010-08-09 15:54:12,330  INFO FBGroundControl.MainForm - Cleanup last logfiles (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7703) [1]
+2010-08-09 15:54:12,331  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7726) [1]
+2010-08-09 15:54:12,331  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7740) [1]
+2010-08-09 15:54:12,332  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (d:\130多机H0809\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-09 15:54:14,024  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:54:14,174  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:55:10,136  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:55:10,210  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:55:16,506  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:55:21,990  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:55:22,101  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:55:41,842  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:55:41,880  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:55:42,109  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:55:42,256  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:55:49,057  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:55:49,176  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:56:13,985  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:56:14,090  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:57:31,914 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-09 15:57:31,927 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-09 15:57:32,010  INFO FBGroundControl.MainForm - Loading config (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:3894) [1]
+2010-08-09 15:57:32,062  INFO FBGroundControl.MainForm - Loading wp params (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6725) [1]
+2010-08-09 15:57:32,063  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6738) [1]
+2010-08-09 15:57:32,063  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6754) [1]
+2010-08-09 15:58:42,659  INFO FBGroundControl.MainForm - MenuConnect Start (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7689) [1]
+2010-08-09 15:58:42,660  INFO FBGroundControl.MainForm - Cleanup last logfiles (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7703) [1]
+2010-08-09 15:58:42,661  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7726) [1]
+2010-08-09 15:58:42,661  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7740) [1]
+2010-08-09 15:58:42,662  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (d:\130多机H0809\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-09 15:58:43,994  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:58:44,057  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 15:59:58,743 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-09 15:59:58,759 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-09 15:59:58,837  INFO FBGroundControl.MainForm - Loading config (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:3894) [1]
+2010-08-09 15:59:58,883  INFO FBGroundControl.MainForm - Loading wp params (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6725) [1]
+2010-08-09 15:59:58,883  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6738) [1]
+2010-08-09 15:59:58,883  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6754) [1]
+2010-08-09 16:00:06,839  INFO FBGroundControl.MainForm - MenuConnect Start (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7689) [1]
+2010-08-09 16:00:06,839  INFO FBGroundControl.MainForm - Cleanup last logfiles (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7703) [1]
+2010-08-09 16:00:06,839  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7726) [1]
+2010-08-09 16:00:06,839  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7740) [1]
+2010-08-09 16:00:06,839  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (d:\130多机H0809\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-09 16:00:17,120 ERROR MissionPlanner.Comms.SerialPort - System.Management.ManagementException: 应用程序调用一个已为另一线程整理的接口。  ---> System.Runtime.InteropServices.COMException: 应用程序调用一个已为另一线程整理的接口。 (异常来自 HRESULT:0x8001010E (RPC_E_WRONG_THREAD))
+   在 System.Runtime.InteropServices.Marshal.InternalGetObjectForIUnknown(IntPtr pUnk)
+   在 System.Runtime.InteropServices.Marshal.GetObjectForIUnknown(IntPtr pUnk)
+   在 System.Management.ManagementScope.GetIWbemServices()
+   在 System.Management.ManagementObjectSearcher.Get()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Management.ManagementException.ThrowWithExtendedInfo(Exception e)
+   在 System.Management.ManagementObjectSearcher.Get()
+   在 MissionPlanner.Comms.SerialPort.ispx4(String port) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:行号 272 (d:\130多机H0809\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:284) [1]
+2010-08-09 16:00:18,056  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:00:18,212  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:00:35,029  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:00:35,122  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:01:26,041  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:01:26,166  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:01:26,478  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:01:26,759  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:01:34,995  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:01:35,058  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:38,534  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:38,784  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:38,987  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:39,190  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:39,392  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:39,564  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:39,751  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:39,860  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:40,172  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:40,453  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:40,718  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:41,108  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:41,623  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:41,857  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:42,138  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:02:54,166  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:03:11,216  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-09 16:03:11,466  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-09 16:03:27,596  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-09 16:03:30,014  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist)
+   在 FBGroundControl.MainForm.writeKML() (:0) [1]
+2010-08-09 16:11:58,525 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-09 16:11:58,541 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-09 16:11:58,634  INFO FBGroundControl.MainForm - Loading config (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:3894) [1]
+2010-08-09 16:11:58,681  INFO FBGroundControl.MainForm - Loading wp params (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6725) [1]
+2010-08-09 16:11:58,681  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6738) [1]
+2010-08-09 16:11:58,681  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6754) [1]
+2010-08-09 16:12:10,989  INFO FBGroundControl.MainForm - MenuConnect Start (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7689) [1]
+2010-08-09 16:12:10,989  INFO FBGroundControl.MainForm - Cleanup last logfiles (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7703) [1]
+2010-08-09 16:12:10,989  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7726) [1]
+2010-08-09 16:12:10,989  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7740) [1]
+2010-08-09 16:12:10,989  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (d:\130多机H0809\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-09 16:13:40,623 ERROR MissionPlanner.Controls.HUD - Expected failure on max/linux due to opengl support (d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-09 16:13:40,639 ERROR MissionPlanner.Controls.HUD - System.PlatformNotSupportedException: 此平台上不支持操作。
+   在 OpenTK.GLControlFactory.CreateGLControl(GraphicsMode mode, Control control) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\GLControl\GLControlFactory.cs:行号 49
+   在 OpenTK.GLControl.OnHandleCreated(EventArgs e) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\GLControl\GLControl.cs:行号 163
+   在 MissionPlanner.Controls.HUD.OnHandleCreated(EventArgs e) 位置 d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:行号 2129 (d:\130多机H0809\多机H\多机H\ExtLibs\Controls\HUD.cs:2132) [1]
+2010-08-09 16:13:40,717  INFO FBGroundControl.MainForm - Loading config (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:3894) [1]
+2010-08-09 16:13:40,795  INFO FBGroundControl.MainForm - Loading wp params (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6725) [1]
+2010-08-09 16:13:40,795  INFO FBGroundControl.MainForm - param WP_RADIUS 100 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6738) [1]
+2010-08-09 16:13:40,795  INFO FBGroundControl.MainForm - param LOITER_RADIUS  (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:6754) [1]
+2010-08-09 16:13:56,691  INFO FBGroundControl.MainForm - MenuConnect Start (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7689) [1]
+2010-08-09 16:13:56,691  INFO FBGroundControl.MainForm - Cleanup last logfiles (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7703) [1]
+2010-08-09 16:13:56,691  INFO FBGroundControl.MainForm - MenuConnect mainCtrl Start (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7726) [1]
+2010-08-09 16:13:56,691  INFO FBGroundControl.MainForm - mainCtrl_ Cleanup last logfiles (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:7740) [1]
+2010-08-09 16:13:56,691  INFO MissionPlanner.Comms.SerialPort - COM1 RtsEnable True (d:\130多机H0809\多机H\多机H\ExtLibs\Comms\CommsSerialPort.cs:24) [1]
+2010-08-09 16:14:18,001  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:14:18,172  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:14:20,996  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:14:21,994  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:14:23,648  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:14:27,236  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:14:59,138  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:15:30,057  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:15:35,096  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:15:38,154  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:15:41,024  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:15:50,150  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:16:02,006  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:16:33,113  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:16:48,073  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:16:57,979  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:07,242  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:10,081  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:16,040  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:16,165  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:17,272  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:17,491  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:18,052  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:18,099  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:19,113  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:19,222  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:20,002  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:20,205  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:21,016  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:21,188  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:22,108  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:22,249  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:22,982  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:23,076  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:23,965  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:24,012  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:24,932  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:25,088  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:26,024  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:26,164  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:27,022  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:27,069  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:28,068  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:29,128  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:29,206  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:30,033  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:30,267  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:31,032  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:31,172  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:32,061  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:32,264  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:33,060  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:33,200  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:34,011  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:34,105  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:35,056  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:35,306  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:36,055  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:36,336  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:37,006  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:37,100  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:37,974  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:38,005  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:38,972  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:39,128  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:40,080  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:40,173  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:41,078  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:41,125  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:42,076  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:42,139  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:43,075  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:43,309  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:44,011  INFO FBGroundControl.MainForm - System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FBGroundControl.MainForm.RegenerateWPRoute(List`1 fullpointlist) 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 5741
+   在 FBGroundControl.MainForm.writeKML() 位置 g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:行号 2339 (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:2372) [1]
+2010-08-09 16:17:44,011  INFO FBGroundControl.MainForm - Saving config (g:\180H\多机H\多机H\FBGroundControl\MainForm.cs:5891) [1]
+2010-08-09 16:17:44,167 ERROR FBGroundControl.MainForm - System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FBGroundControl.MainForm.mainloop() (:0) [FD Mainloop]

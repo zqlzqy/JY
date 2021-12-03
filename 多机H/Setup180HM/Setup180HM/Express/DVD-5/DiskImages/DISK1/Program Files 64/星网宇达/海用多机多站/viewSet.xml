@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <menu>True</menu>
+    <headStatus>True</headStatus>
+    <head>True</head>
+    <mainStatus>True</mainStatus>
+    <commond>True</commond>
+    <map>True</map>
+  </Table1>
+</NewDataSet>
