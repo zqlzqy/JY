@@ -293,7 +293,7 @@ namespace FBGroundControl
         //实时数据：数据列表
         public TelemetryListFrm _telemetryListFrm = null;
 
-        private AircraftModel mainPlaneModel;
+        private AircraftModel mainPlaneModel;//靶机模型
 
         private ComponentResourceManager rm = new ComponentResourceManager(typeof(MapFrm));
        
